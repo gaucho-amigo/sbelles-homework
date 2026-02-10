@@ -1,0 +1,1561 @@
+week_start_date,airport_code,airport_name,spend,impressions,placements,format,audience_segment
+2023-01-02,ATL,Hartsfield–Jackson Atlanta International Airport,12606.51,677039,5,Baggage Claim Display,Traveling Moms
+2023-01-02,LAX,Los Angeles International Airport,18374.93,1176978,9,Concourse Wrap,General Travelers
+2023-01-02,ORD,Chicago O'Hare International Airport,16239.29,780303,6,Concourse Wrap,General Travelers
+2023-01-02,DFW,Dallas/Fort Worth International Airport,10408.65,514160,8,Baggage Claim Display,Frequent Flyers
+2023-01-02,DEN,Denver International Airport,16044.2,910487,10,Baggage Claim Display,Traveling Moms
+2023-01-02,JFK,John F. Kennedy International Airport,18132.57,815293,5,Concourse Wrap,Frequent Flyers
+2023-01-02,SFO,San Francisco International Airport,14779.29,637627,4,Jet Bridge,Family Leisure Travelers
+2023-01-02,SEA,Seattle–Tacoma International Airport,13175.56,534001,11,Baggage Claim Display,General Travelers
+2023-01-02,LAS,Harry Reid International Airport,15437.12,893089,7,Jet Bridge,General Travelers
+2023-01-02,MCO,Orlando International Airport,15565.77,930412,5,Baggage Claim Display,Traveling Moms
+2023-01-02,CLT,Charlotte Douglas International Airport,17809.74,1030184,7,Jet Bridge,Frequent Flyers
+2023-01-02,MIA,Miami International Airport,13454.61,739700,4,Digital Board,Frequent Flyers
+2023-01-02,PHX,Phoenix Sky Harbor International Airport,14742.94,627044,5,Concourse Wrap,Frequent Flyers
+2023-01-02,IAH,George Bush Intercontinental Airport,17869.2,854046,8,Baggage Claim Display,Family Leisure Travelers
+2023-01-02,BOS,Logan International Airport,13933.63,697914,8,Jet Bridge,General Travelers
+2023-01-02,MSP,Minneapolis–Saint Paul International Airport,17268.03,755986,5,Digital Board,General Travelers
+2023-01-02,DTW,Detroit Metropolitan Airport,20976.36,1040667,6,Jet Bridge,Frequent Flyers
+2023-01-02,PHL,Philadelphia International Airport,14510.79,641791,6,Baggage Claim Display,General Travelers
+2023-01-02,LGA,LaGuardia Airport,18333.95,936847,8,Digital Board,Frequent Flyers
+2023-01-02,BWI,Baltimore/Washington International Airport,13716.78,832911,3,Digital Board,Traveling Moms
+2023-01-09,ATL,Hartsfield–Jackson Atlanta International Airport,17028.67,694292,3,Baggage Claim Display,General Travelers
+2023-01-09,LAX,Los Angeles International Airport,13482.87,824607,5,Concourse Wrap,Traveling Moms
+2023-01-09,ORD,Chicago O'Hare International Airport,19300.85,905413,10,Digital Board,Traveling Moms
+2023-01-09,DFW,Dallas/Fort Worth International Airport,15121.65,607529,6,Baggage Claim Display,General Travelers
+2023-01-09,DEN,Denver International Airport,14365.33,821753,10,Digital Board,Family Leisure Travelers
+2023-01-09,JFK,John F. Kennedy International Airport,19733.47,904579,7,Jet Bridge,Family Leisure Travelers
+2023-01-09,SFO,San Francisco International Airport,15218.21,947764,6,Digital Board,Frequent Flyers
+2023-01-09,SEA,Seattle–Tacoma International Airport,17680.71,1050658,6,Jet Bridge,Frequent Flyers
+2023-01-09,LAS,Harry Reid International Airport,15561.41,884532,8,Baggage Claim Display,Frequent Flyers
+2023-01-09,MCO,Orlando International Airport,10929.83,460729,7,Baggage Claim Display,General Travelers
+2023-01-09,CLT,Charlotte Douglas International Airport,15660.05,654452,9,Concourse Wrap,Family Leisure Travelers
+2023-01-09,MIA,Miami International Airport,17014.85,869669,5,Jet Bridge,Family Leisure Travelers
+2023-01-09,PHX,Phoenix Sky Harbor International Airport,12862.75,646394,7,Baggage Claim Display,Family Leisure Travelers
+2023-01-09,IAH,George Bush Intercontinental Airport,14867.16,596150,8,Concourse Wrap,Traveling Moms
+2023-01-09,BOS,Logan International Airport,15623.04,834279,9,Concourse Wrap,Frequent Flyers
+2023-01-09,MSP,Minneapolis–Saint Paul International Airport,18893.29,1180304,3,Digital Board,Frequent Flyers
+2023-01-09,DTW,Detroit Metropolitan Airport,17131.47,1102723,10,Baggage Claim Display,General Travelers
+2023-01-09,PHL,Philadelphia International Airport,18104.85,780560,5,Digital Board,General Travelers
+2023-01-09,LGA,LaGuardia Airport,15121.41,743841,7,Concourse Wrap,Frequent Flyers
+2023-01-09,BWI,Baltimore/Washington International Airport,19002.29,855261,10,Digital Board,General Travelers
+2023-01-16,ATL,Hartsfield–Jackson Atlanta International Airport,13330.28,777334,10,Jet Bridge,Frequent Flyers
+2023-01-16,LAX,Los Angeles International Airport,16856.88,813889,10,Digital Board,Traveling Moms
+2023-01-16,ORD,Chicago O'Hare International Airport,15684.27,771812,7,Jet Bridge,Family Leisure Travelers
+2023-01-16,DFW,Dallas/Fort Worth International Airport,12748.59,566258,3,Jet Bridge,Family Leisure Travelers
+2023-01-16,DEN,Denver International Airport,19957.49,1131861,6,Digital Board,General Travelers
+2023-01-16,JFK,John F. Kennedy International Airport,21090.93,967234,5,Digital Board,Family Leisure Travelers
+2023-01-16,SFO,San Francisco International Airport,12675.66,804964,10,Concourse Wrap,Frequent Flyers
+2023-01-16,SEA,Seattle–Tacoma International Airport,15349.07,764705,10,Jet Bridge,General Travelers
+2023-01-16,LAS,Harry Reid International Airport,16501.16,680863,6,Digital Board,Family Leisure Travelers
+2023-01-16,MCO,Orlando International Airport,20230.11,1204513,11,Digital Board,Traveling Moms
+2023-01-16,CLT,Charlotte Douglas International Airport,15814.27,728950,11,Baggage Claim Display,Family Leisure Travelers
+2023-01-16,MIA,Miami International Airport,18786.86,1125754,11,Concourse Wrap,Frequent Flyers
+2023-01-16,PHX,Phoenix Sky Harbor International Airport,16501.36,985850,3,Jet Bridge,Family Leisure Travelers
+2023-01-16,IAH,George Bush Intercontinental Airport,16691.04,756359,6,Concourse Wrap,Frequent Flyers
+2023-01-16,BOS,Logan International Airport,16533.34,952086,9,Digital Board,General Travelers
+2023-01-16,MSP,Minneapolis–Saint Paul International Airport,18419.62,813236,5,Concourse Wrap,Traveling Moms
+2023-01-16,DTW,Detroit Metropolitan Airport,15304.19,939765,9,Concourse Wrap,Traveling Moms
+2023-01-16,PHL,Philadelphia International Airport,14454.41,820507,8,Digital Board,Frequent Flyers
+2023-01-16,LGA,LaGuardia Airport,13914.06,888236,7,Digital Board,Frequent Flyers
+2023-01-16,BWI,Baltimore/Washington International Airport,17231.59,786703,8,Jet Bridge,General Travelers
+2023-01-23,ATL,Hartsfield–Jackson Atlanta International Airport,18780.1,1180712,5,Digital Board,General Travelers
+2023-01-23,LAX,Los Angeles International Airport,14957.27,732473,7,Concourse Wrap,Family Leisure Travelers
+2023-01-23,ORD,Chicago O'Hare International Airport,16868.88,1054003,10,Concourse Wrap,General Travelers
+2023-01-23,DFW,Dallas/Fort Worth International Airport,11653.09,656048,10,Concourse Wrap,Traveling Moms
+2023-01-23,DEN,Denver International Airport,20069.46,1173482,8,Baggage Claim Display,Family Leisure Travelers
+2023-01-23,JFK,John F. Kennedy International Airport,17545.57,787942,8,Digital Board,General Travelers
+2023-01-23,SFO,San Francisco International Airport,16512.72,825431,9,Jet Bridge,Family Leisure Travelers
+2023-01-23,SEA,Seattle–Tacoma International Airport,16538.33,682361,11,Concourse Wrap,Family Leisure Travelers
+2023-01-23,LAS,Harry Reid International Airport,16343.58,988507,3,Jet Bridge,Frequent Flyers
+2023-01-23,MCO,Orlando International Airport,16538.75,852595,7,Baggage Claim Display,Frequent Flyers
+2023-01-23,CLT,Charlotte Douglas International Airport,14472.84,850409,6,Jet Bridge,General Travelers
+2023-01-23,MIA,Miami International Airport,13538.58,587493,10,Baggage Claim Display,Frequent Flyers
+2023-01-23,PHX,Phoenix Sky Harbor International Airport,15636.63,1011647,6,Digital Board,Frequent Flyers
+2023-01-23,IAH,George Bush Intercontinental Airport,14453.34,797561,11,Concourse Wrap,Traveling Moms
+2023-01-23,BOS,Logan International Airport,20500.51,893043,3,Baggage Claim Display,General Travelers
+2023-01-23,MSP,Minneapolis–Saint Paul International Airport,11163.59,479143,10,Jet Bridge,Frequent Flyers
+2023-01-23,DTW,Detroit Metropolitan Airport,15654.55,993718,5,Jet Bridge,Traveling Moms
+2023-01-23,PHL,Philadelphia International Airport,16586.16,680055,8,Digital Board,Traveling Moms
+2023-01-23,LGA,LaGuardia Airport,17710.4,989365,6,Jet Bridge,Traveling Moms
+2023-01-23,BWI,Baltimore/Washington International Airport,19317.88,817624,9,Baggage Claim Display,Frequent Flyers
+2023-01-30,ATL,Hartsfield–Jackson Atlanta International Airport,11501.49,582469,4,Baggage Claim Display,Traveling Moms
+2023-01-30,LAX,Los Angeles International Airport,15755.24,727542,6,Baggage Claim Display,Frequent Flyers
+2023-01-30,ORD,Chicago O'Hare International Airport,15541.49,797949,11,Digital Board,Family Leisure Travelers
+2023-01-30,DFW,Dallas/Fort Worth International Airport,15181.9,855452,5,Jet Bridge,Family Leisure Travelers
+2023-01-30,DEN,Denver International Airport,14171.13,608362,6,Concourse Wrap,General Travelers
+2023-01-30,JFK,John F. Kennedy International Airport,18208.39,731052,6,Baggage Claim Display,Family Leisure Travelers
+2023-01-30,SFO,San Francisco International Airport,18164.71,902422,9,Jet Bridge,Traveling Moms
+2023-01-30,SEA,Seattle–Tacoma International Airport,15168.22,943049,8,Concourse Wrap,General Travelers
+2023-01-30,LAS,Harry Reid International Airport,19463.79,972688,8,Concourse Wrap,General Travelers
+2023-01-30,MCO,Orlando International Airport,12740.96,544825,6,Jet Bridge,Traveling Moms
+2023-01-30,CLT,Charlotte Douglas International Airport,18893.85,796673,4,Baggage Claim Display,General Travelers
+2023-01-30,MIA,Miami International Airport,14361.25,872708,10,Jet Bridge,General Travelers
+2023-01-30,PHX,Phoenix Sky Harbor International Airport,14145.9,606556,8,Digital Board,Traveling Moms
+2023-01-30,IAH,George Bush Intercontinental Airport,20179.85,1104064,8,Digital Board,General Travelers
+2023-01-30,BOS,Logan International Airport,20089.9,1028315,10,Concourse Wrap,Frequent Flyers
+2023-01-30,MSP,Minneapolis–Saint Paul International Airport,18195.87,821048,6,Jet Bridge,Frequent Flyers
+2023-01-30,DTW,Detroit Metropolitan Airport,15300.71,780957,11,Baggage Claim Display,General Travelers
+2023-01-30,PHL,Philadelphia International Airport,15277.41,945130,5,Concourse Wrap,Frequent Flyers
+2023-01-30,LGA,LaGuardia Airport,18866.92,1041204,9,Baggage Claim Display,Family Leisure Travelers
+2023-01-30,BWI,Baltimore/Washington International Airport,16527.42,708031,11,Concourse Wrap,Frequent Flyers
+2023-02-06,ATL,Hartsfield–Jackson Atlanta International Airport,14359.51,695309,6,Jet Bridge,General Travelers
+2023-02-06,LAX,Los Angeles International Airport,14837.35,833377,8,Concourse Wrap,Frequent Flyers
+2023-02-06,ORD,Chicago O'Hare International Airport,14468.87,872495,4,Jet Bridge,Frequent Flyers
+2023-02-06,DFW,Dallas/Fort Worth International Airport,13408.74,559277,11,Concourse Wrap,Traveling Moms
+2023-02-06,DEN,Denver International Airport,16563.51,1042198,3,Baggage Claim Display,Traveling Moms
+2023-02-06,JFK,John F. Kennedy International Airport,13531.89,690372,3,Baggage Claim Display,Frequent Flyers
+2023-02-06,SFO,San Francisco International Airport,16922.09,701453,7,Jet Bridge,Traveling Moms
+2023-02-06,SEA,Seattle–Tacoma International Airport,12811.42,753840,8,Jet Bridge,Traveling Moms
+2023-02-06,LAS,Harry Reid International Airport,12189.77,784329,4,Digital Board,Frequent Flyers
+2023-02-06,MCO,Orlando International Airport,17992.48,1054547,10,Concourse Wrap,Traveling Moms
+2023-02-06,CLT,Charlotte Douglas International Airport,21000.85,1012625,7,Digital Board,Family Leisure Travelers
+2023-02-06,MIA,Miami International Airport,18088.08,857563,5,Baggage Claim Display,Frequent Flyers
+2023-02-06,PHX,Phoenix Sky Harbor International Airport,14436.1,732251,4,Concourse Wrap,Frequent Flyers
+2023-02-06,IAH,George Bush Intercontinental Airport,17721.35,988785,10,Digital Board,Traveling Moms
+2023-02-06,BOS,Logan International Airport,17852.47,810049,4,Baggage Claim Display,General Travelers
+2023-02-06,MSP,Minneapolis–Saint Paul International Airport,15233.9,665584,3,Jet Bridge,Family Leisure Travelers
+2023-02-06,DTW,Detroit Metropolitan Airport,14860.92,710072,11,Jet Bridge,Traveling Moms
+2023-02-06,PHL,Philadelphia International Airport,10671.21,576395,7,Jet Bridge,General Travelers
+2023-02-06,LGA,LaGuardia Airport,16805.96,675112,10,Jet Bridge,Traveling Moms
+2023-02-06,BWI,Baltimore/Washington International Airport,15004.02,692862,9,Digital Board,General Travelers
+2023-02-13,ATL,Hartsfield–Jackson Atlanta International Airport,11583.96,599199,8,Baggage Claim Display,Traveling Moms
+2023-02-13,LAX,Los Angeles International Airport,12828.8,545034,11,Digital Board,Traveling Moms
+2023-02-13,ORD,Chicago O'Hare International Airport,17659.9,706608,10,Concourse Wrap,Family Leisure Travelers
+2023-02-13,DFW,Dallas/Fort Worth International Airport,14904.53,868412,4,Baggage Claim Display,Family Leisure Travelers
+2023-02-13,DEN,Denver International Airport,17641.32,782815,6,Baggage Claim Display,General Travelers
+2023-02-13,JFK,John F. Kennedy International Airport,14846.84,718183,6,Baggage Claim Display,Traveling Moms
+2023-02-13,SFO,San Francisco International Airport,14164.05,782489,11,Jet Bridge,Family Leisure Travelers
+2023-02-13,SEA,Seattle–Tacoma International Airport,17097.89,954997,5,Concourse Wrap,Frequent Flyers
+2023-02-13,LAS,Harry Reid International Airport,17233.24,1022474,4,Digital Board,Traveling Moms
+2023-02-13,MCO,Orlando International Airport,15864.52,848684,10,Jet Bridge,Frequent Flyers
+2023-02-13,CLT,Charlotte Douglas International Airport,10901.65,469637,4,Digital Board,Traveling Moms
+2023-02-13,MIA,Miami International Airport,12679.44,523031,10,Concourse Wrap,General Travelers
+2023-02-13,PHX,Phoenix Sky Harbor International Airport,16195.98,737516,11,Digital Board,Frequent Flyers
+2023-02-13,IAH,George Bush Intercontinental Airport,13325.45,859838,3,Baggage Claim Display,Traveling Moms
+2023-02-13,BOS,Logan International Airport,17407.38,980510,11,Jet Bridge,Frequent Flyers
+2023-02-13,MSP,Minneapolis–Saint Paul International Airport,15555.88,799465,6,Digital Board,General Travelers
+2023-02-13,DTW,Detroit Metropolitan Airport,14275.7,857018,4,Concourse Wrap,Traveling Moms
+2023-02-13,PHL,Philadelphia International Airport,15808.17,739261,8,Concourse Wrap,General Travelers
+2023-02-13,LGA,LaGuardia Airport,14101.55,898603,9,Digital Board,Frequent Flyers
+2023-02-13,BWI,Baltimore/Washington International Airport,18518.14,741148,10,Concourse Wrap,General Travelers
+2023-02-20,ATL,Hartsfield–Jackson Atlanta International Airport,12472.22,607790,9,Digital Board,General Travelers
+2023-02-20,LAX,Los Angeles International Airport,11452.68,519142,11,Baggage Claim Display,Family Leisure Travelers
+2023-02-20,ORD,Chicago O'Hare International Airport,13429.34,606432,11,Concourse Wrap,General Travelers
+2023-02-20,DFW,Dallas/Fort Worth International Airport,14836.52,693141,9,Digital Board,General Travelers
+2023-02-20,DEN,Denver International Airport,15534.58,628768,8,Concourse Wrap,Traveling Moms
+2023-02-20,JFK,John F. Kennedy International Airport,20106.28,1094374,8,Digital Board,Traveling Moms
+2023-02-20,SFO,San Francisco International Airport,12472.33,574567,9,Digital Board,Family Leisure Travelers
+2023-02-20,SEA,Seattle–Tacoma International Airport,12594.63,572466,4,Baggage Claim Display,General Travelers
+2023-02-20,LAS,Harry Reid International Airport,15603.4,804934,5,Concourse Wrap,General Travelers
+2023-02-20,MCO,Orlando International Airport,15379.39,883717,6,Digital Board,Traveling Moms
+2023-02-20,CLT,Charlotte Douglas International Airport,19262.45,933221,3,Concourse Wrap,General Travelers
+2023-02-20,MIA,Miami International Airport,12629.29,541685,8,Digital Board,Frequent Flyers
+2023-02-20,PHX,Phoenix Sky Harbor International Airport,13121.03,760359,11,Concourse Wrap,General Travelers
+2023-02-20,IAH,George Bush Intercontinental Airport,17220.22,841903,9,Digital Board,Frequent Flyers
+2023-02-20,BOS,Logan International Airport,13225.22,791038,11,Jet Bridge,Traveling Moms
+2023-02-20,MSP,Minneapolis–Saint Paul International Airport,14229.84,610053,7,Concourse Wrap,General Travelers
+2023-02-20,DTW,Detroit Metropolitan Airport,11530.4,563692,9,Baggage Claim Display,Traveling Moms
+2023-02-20,PHL,Philadelphia International Airport,19863.85,884043,5,Digital Board,General Travelers
+2023-02-20,LGA,LaGuardia Airport,17211.49,998939,9,Baggage Claim Display,General Travelers
+2023-02-20,BWI,Baltimore/Washington International Airport,12885.17,800195,8,Concourse Wrap,Frequent Flyers
+2023-02-27,ATL,Hartsfield–Jackson Atlanta International Airport,20000.61,876736,9,Concourse Wrap,Family Leisure Travelers
+2023-02-27,LAX,Los Angeles International Airport,12157.04,513732,11,Concourse Wrap,General Travelers
+2023-02-27,ORD,Chicago O'Hare International Airport,17073.46,765777,3,Concourse Wrap,Frequent Flyers
+2023-02-27,DFW,Dallas/Fort Worth International Airport,14706.27,872972,7,Concourse Wrap,General Travelers
+2023-02-27,DEN,Denver International Airport,16328.52,1002821,6,Concourse Wrap,Traveling Moms
+2023-02-27,JFK,John F. Kennedy International Airport,18840.75,835760,5,Concourse Wrap,Frequent Flyers
+2023-02-27,SFO,San Francisco International Airport,16756.04,738131,9,Concourse Wrap,General Travelers
+2023-02-27,SEA,Seattle–Tacoma International Airport,19720.14,1129539,3,Jet Bridge,Family Leisure Travelers
+2023-02-27,LAS,Harry Reid International Airport,17279.96,879732,7,Concourse Wrap,General Travelers
+2023-02-27,MCO,Orlando International Airport,10641.58,621294,11,Concourse Wrap,General Travelers
+2023-02-27,CLT,Charlotte Douglas International Airport,17669.11,1139641,3,Concourse Wrap,Traveling Moms
+2023-02-27,MIA,Miami International Airport,16570.52,1062091,8,Digital Board,Family Leisure Travelers
+2023-02-27,PHX,Phoenix Sky Harbor International Airport,15001.64,805427,4,Digital Board,Frequent Flyers
+2023-02-27,IAH,George Bush Intercontinental Airport,14828.38,608111,7,Digital Board,Frequent Flyers
+2023-02-27,BOS,Logan International Airport,16524.23,734715,11,Concourse Wrap,Traveling Moms
+2023-02-27,MSP,Minneapolis–Saint Paul International Airport,19469.49,1019805,7,Jet Bridge,General Travelers
+2023-02-27,DTW,Detroit Metropolitan Airport,17246.59,1112686,3,Concourse Wrap,Traveling Moms
+2023-02-27,PHL,Philadelphia International Airport,19436.61,893938,7,Jet Bridge,Family Leisure Travelers
+2023-02-27,LGA,LaGuardia Airport,13571.79,543059,4,Digital Board,Traveling Moms
+2023-02-27,BWI,Baltimore/Washington International Airport,17432.24,811965,10,Baggage Claim Display,General Travelers
+2023-03-06,ATL,Hartsfield–Jackson Atlanta International Airport,17778.06,1072705,11,Baggage Claim Display,Family Leisure Travelers
+2023-03-06,LAX,Los Angeles International Airport,22169.62,1143978,4,Concourse Wrap,Family Leisure Travelers
+2023-03-06,ORD,Chicago O'Hare International Airport,19918.04,1033855,3,Concourse Wrap,General Travelers
+2023-03-06,DFW,Dallas/Fort Worth International Airport,18355.86,927589,3,Baggage Claim Display,Family Leisure Travelers
+2023-03-06,DEN,Denver International Airport,18549.9,989646,4,Jet Bridge,General Travelers
+2023-03-06,JFK,John F. Kennedy International Airport,22375.52,1257933,10,Jet Bridge,Frequent Flyers
+2023-03-06,SFO,San Francisco International Airport,20097.85,983272,4,Jet Bridge,General Travelers
+2023-03-06,SEA,Seattle–Tacoma International Airport,14028.22,866865,5,Baggage Claim Display,Frequent Flyers
+2023-03-06,LAS,Harry Reid International Airport,17199.27,787467,6,Concourse Wrap,General Travelers
+2023-03-06,MCO,Orlando International Airport,19532.56,1181671,11,Concourse Wrap,Family Leisure Travelers
+2023-03-06,CLT,Charlotte Douglas International Airport,25202.92,1378098,11,Baggage Claim Display,Traveling Moms
+2023-03-06,MIA,Miami International Airport,23212.47,1384649,10,Baggage Claim Display,Traveling Moms
+2023-03-06,PHX,Phoenix Sky Harbor International Airport,18134.47,879450,3,Digital Board,Frequent Flyers
+2023-03-06,IAH,George Bush Intercontinental Airport,21041.5,1254555,7,Baggage Claim Display,General Travelers
+2023-03-06,BOS,Logan International Airport,18223.71,1136227,11,Baggage Claim Display,Frequent Flyers
+2023-03-06,MSP,Minneapolis–Saint Paul International Airport,14695.92,619266,8,Jet Bridge,General Travelers
+2023-03-06,DTW,Detroit Metropolitan Airport,21178.9,1158743,6,Jet Bridge,Frequent Flyers
+2023-03-06,PHL,Philadelphia International Airport,23319.74,952283,6,Concourse Wrap,Traveling Moms
+2023-03-06,LGA,LaGuardia Airport,18095.23,759328,5,Concourse Wrap,General Travelers
+2023-03-06,BWI,Baltimore/Washington International Airport,20357.06,1147982,7,Baggage Claim Display,Family Leisure Travelers
+2023-03-13,ATL,Hartsfield–Jackson Atlanta International Airport,18864.79,1172195,7,Baggage Claim Display,Traveling Moms
+2023-03-13,LAX,Los Angeles International Airport,13619.03,717229,7,Concourse Wrap,Family Leisure Travelers
+2023-03-13,ORD,Chicago O'Hare International Airport,19072.72,945765,10,Concourse Wrap,General Travelers
+2023-03-13,DFW,Dallas/Fort Worth International Airport,19773.98,1045382,8,Concourse Wrap,General Travelers
+2023-03-13,DEN,Denver International Airport,25358.57,1316140,10,Jet Bridge,Traveling Moms
+2023-03-13,JFK,John F. Kennedy International Airport,17457.62,942632,7,Digital Board,Traveling Moms
+2023-03-13,SFO,San Francisco International Airport,15785.15,856405,10,Jet Bridge,General Travelers
+2023-03-13,SEA,Seattle–Tacoma International Airport,23696.44,1474105,6,Baggage Claim Display,Traveling Moms
+2023-03-13,LAS,Harry Reid International Airport,20511.79,1045098,5,Digital Board,Family Leisure Travelers
+2023-03-13,MCO,Orlando International Airport,23813.68,1251093,6,Jet Bridge,Family Leisure Travelers
+2023-03-13,CLT,Charlotte Douglas International Airport,19279.31,816043,7,Jet Bridge,Frequent Flyers
+2023-03-13,MIA,Miami International Airport,16710.64,1049388,10,Digital Board,General Travelers
+2023-03-13,PHX,Phoenix Sky Harbor International Airport,24018.37,1282036,4,Baggage Claim Display,Traveling Moms
+2023-03-13,IAH,George Bush Intercontinental Airport,24840.15,1028481,3,Concourse Wrap,General Travelers
+2023-03-13,BOS,Logan International Airport,20627.25,1145543,7,Concourse Wrap,Traveling Moms
+2023-03-13,MSP,Minneapolis–Saint Paul International Airport,21525.95,1194935,5,Jet Bridge,Family Leisure Travelers
+2023-03-13,DTW,Detroit Metropolitan Airport,17602.32,957679,11,Jet Bridge,Traveling Moms
+2023-03-13,PHL,Philadelphia International Airport,20838.61,917790,5,Concourse Wrap,Traveling Moms
+2023-03-13,LGA,LaGuardia Airport,19021.29,922446,3,Digital Board,Family Leisure Travelers
+2023-03-13,BWI,Baltimore/Washington International Airport,24884.16,1242081,6,Baggage Claim Display,Family Leisure Travelers
+2023-03-20,ATL,Hartsfield–Jackson Atlanta International Airport,20080.18,904896,6,Digital Board,Family Leisure Travelers
+2023-03-20,LAX,Los Angeles International Airport,17036.79,752603,8,Jet Bridge,General Travelers
+2023-03-20,ORD,Chicago O'Hare International Airport,19100.5,932040,5,Jet Bridge,Traveling Moms
+2023-03-20,DFW,Dallas/Fort Worth International Airport,20679.08,1119610,5,Jet Bridge,Family Leisure Travelers
+2023-03-20,DEN,Denver International Airport,25816.25,1571093,5,Concourse Wrap,Family Leisure Travelers
+2023-03-20,JFK,John F. Kennedy International Airport,15535.33,684185,10,Concourse Wrap,Traveling Moms
+2023-03-20,SFO,San Francisco International Airport,16538.51,1014951,5,Jet Bridge,Traveling Moms
+2023-03-20,SEA,Seattle–Tacoma International Airport,16527.7,695472,8,Concourse Wrap,Traveling Moms
+2023-03-20,LAS,Harry Reid International Airport,19406.28,833459,6,Jet Bridge,Frequent Flyers
+2023-03-20,MCO,Orlando International Airport,15932.31,714245,6,Jet Bridge,Traveling Moms
+2023-03-20,CLT,Charlotte Douglas International Airport,18063.17,726683,4,Concourse Wrap,Family Leisure Travelers
+2023-03-20,MIA,Miami International Airport,21222.64,1053850,6,Jet Bridge,Frequent Flyers
+2023-03-20,PHX,Phoenix Sky Harbor International Airport,22005.65,920994,5,Concourse Wrap,Family Leisure Travelers
+2023-03-20,IAH,George Bush Intercontinental Airport,20067.05,900947,11,Baggage Claim Display,Family Leisure Travelers
+2023-03-20,BOS,Logan International Airport,19686.72,864732,6,Concourse Wrap,Traveling Moms
+2023-03-20,MSP,Minneapolis–Saint Paul International Airport,15816.61,721985,3,Concourse Wrap,Family Leisure Travelers
+2023-03-20,DTW,Detroit Metropolitan Airport,21185.42,1212074,9,Baggage Claim Display,Traveling Moms
+2023-03-20,PHL,Philadelphia International Airport,18271.43,815124,8,Digital Board,Traveling Moms
+2023-03-20,LGA,LaGuardia Airport,17127.02,879240,11,Jet Bridge,General Travelers
+2023-03-20,BWI,Baltimore/Washington International Airport,22952.31,1082272,11,Digital Board,Family Leisure Travelers
+2023-03-27,ATL,Hartsfield–Jackson Atlanta International Airport,25123.96,1391252,7,Jet Bridge,Frequent Flyers
+2023-03-27,LAX,Los Angeles International Airport,19943.34,1145793,10,Jet Bridge,Family Leisure Travelers
+2023-03-27,ORD,Chicago O'Hare International Airport,19900.74,894774,10,Jet Bridge,General Travelers
+2023-03-27,DFW,Dallas/Fort Worth International Airport,15884.26,741879,3,Digital Board,Frequent Flyers
+2023-03-27,DEN,Denver International Airport,18263.83,1140155,9,Baggage Claim Display,General Travelers
+2023-03-27,JFK,John F. Kennedy International Airport,13920.64,664394,10,Concourse Wrap,Frequent Flyers
+2023-03-27,SFO,San Francisco International Airport,17728.86,950493,11,Jet Bridge,Frequent Flyers
+2023-03-27,SEA,Seattle–Tacoma International Airport,14874.23,760351,4,Digital Board,Traveling Moms
+2023-03-27,LAS,Harry Reid International Airport,21112.91,1124185,8,Jet Bridge,Traveling Moms
+2023-03-27,MCO,Orlando International Airport,25331.82,1401278,5,Concourse Wrap,Family Leisure Travelers
+2023-03-27,CLT,Charlotte Douglas International Airport,23971.2,1109517,3,Digital Board,General Travelers
+2023-03-27,MIA,Miami International Airport,23564.39,1508417,10,Baggage Claim Display,Traveling Moms
+2023-03-27,PHX,Phoenix Sky Harbor International Airport,16679.61,825993,5,Concourse Wrap,Frequent Flyers
+2023-03-27,IAH,George Bush Intercontinental Airport,21476.33,1330211,7,Jet Bridge,Traveling Moms
+2023-03-27,BOS,Logan International Airport,25679.27,1078943,11,Concourse Wrap,Frequent Flyers
+2023-03-27,MSP,Minneapolis–Saint Paul International Airport,18479.35,758930,8,Concourse Wrap,Traveling Moms
+2023-03-27,DTW,Detroit Metropolitan Airport,16005.13,974310,10,Jet Bridge,Traveling Moms
+2023-03-27,PHL,Philadelphia International Airport,18519.09,894440,11,Digital Board,Frequent Flyers
+2023-03-27,LGA,LaGuardia Airport,20515.6,885762,10,Baggage Claim Display,Traveling Moms
+2023-03-27,BWI,Baltimore/Washington International Airport,18015.11,828529,6,Digital Board,Frequent Flyers
+2023-04-03,ATL,Hartsfield–Jackson Atlanta International Airport,17172.27,1037985,4,Concourse Wrap,Frequent Flyers
+2023-04-03,LAX,Los Angeles International Airport,16858.39,844235,6,Baggage Claim Display,General Travelers
+2023-04-03,ORD,Chicago O'Hare International Airport,21754.37,1023300,11,Digital Board,General Travelers
+2023-04-03,DFW,Dallas/Fort Worth International Airport,16295.03,803751,8,Digital Board,Family Leisure Travelers
+2023-04-03,DEN,Denver International Airport,21727.54,958017,7,Jet Bridge,Family Leisure Travelers
+2023-04-03,JFK,John F. Kennedy International Airport,20366.58,918137,8,Concourse Wrap,Frequent Flyers
+2023-04-03,SFO,San Francisco International Airport,25656.55,1242787,9,Digital Board,General Travelers
+2023-04-03,SEA,Seattle–Tacoma International Airport,18134.8,1139497,8,Concourse Wrap,Frequent Flyers
+2023-04-03,LAS,Harry Reid International Airport,16981.94,889005,4,Concourse Wrap,Family Leisure Travelers
+2023-04-03,MCO,Orlando International Airport,21324.85,1153040,11,Jet Bridge,Family Leisure Travelers
+2023-04-03,CLT,Charlotte Douglas International Airport,21248.77,1354360,5,Baggage Claim Display,Family Leisure Travelers
+2023-04-03,MIA,Miami International Airport,18851.04,852796,11,Concourse Wrap,Frequent Flyers
+2023-04-03,PHX,Phoenix Sky Harbor International Airport,25195.46,1344781,9,Digital Board,Traveling Moms
+2023-04-03,IAH,George Bush Intercontinental Airport,21163.18,1217543,7,Concourse Wrap,Traveling Moms
+2023-04-03,BOS,Logan International Airport,18367.53,1026497,10,Concourse Wrap,Frequent Flyers
+2023-04-03,MSP,Minneapolis–Saint Paul International Airport,21483.52,972220,6,Digital Board,Family Leisure Travelers
+2023-04-03,DTW,Detroit Metropolitan Airport,19264.78,1194300,10,Concourse Wrap,General Travelers
+2023-04-03,PHL,Philadelphia International Airport,14832.18,659680,9,Concourse Wrap,General Travelers
+2023-04-03,LGA,LaGuardia Airport,16688.36,698934,5,Digital Board,General Travelers
+2023-04-03,BWI,Baltimore/Washington International Airport,22510.75,1399472,8,Concourse Wrap,General Travelers
+2023-04-10,ATL,Hartsfield–Jackson Atlanta International Airport,22546.77,1340803,6,Concourse Wrap,Traveling Moms
+2023-04-10,LAX,Los Angeles International Airport,20560.1,834913,8,Digital Board,General Travelers
+2023-04-10,ORD,Chicago O'Hare International Airport,18524.74,862684,11,Jet Bridge,Family Leisure Travelers
+2023-04-10,DFW,Dallas/Fort Worth International Airport,22854.78,922058,11,Baggage Claim Display,Traveling Moms
+2023-04-10,DEN,Denver International Airport,20562.33,1040957,9,Baggage Claim Display,Traveling Moms
+2023-04-10,JFK,John F. Kennedy International Airport,14456.66,839758,5,Concourse Wrap,General Travelers
+2023-04-10,SFO,San Francisco International Airport,20645.08,1303191,7,Baggage Claim Display,Traveling Moms
+2023-04-10,SEA,Seattle–Tacoma International Airport,22278.07,1371803,5,Digital Board,General Travelers
+2023-04-10,LAS,Harry Reid International Airport,15471.94,796427,7,Concourse Wrap,Traveling Moms
+2023-04-10,MCO,Orlando International Airport,18885.93,1128965,11,Digital Board,General Travelers
+2023-04-10,CLT,Charlotte Douglas International Airport,22186.34,1278462,5,Digital Board,General Travelers
+2023-04-10,MIA,Miami International Airport,17303.74,1075951,6,Concourse Wrap,General Travelers
+2023-04-10,PHX,Phoenix Sky Harbor International Airport,12934.78,607837,9,Jet Bridge,Family Leisure Travelers
+2023-04-10,IAH,George Bush Intercontinental Airport,13647.97,551887,6,Concourse Wrap,Frequent Flyers
+2023-04-10,BOS,Logan International Airport,17256.42,758888,9,Digital Board,General Travelers
+2023-04-10,MSP,Minneapolis–Saint Paul International Airport,17474.94,1101156,4,Digital Board,General Travelers
+2023-04-10,DTW,Detroit Metropolitan Airport,20526.97,1005925,4,Jet Bridge,Frequent Flyers
+2023-04-10,PHL,Philadelphia International Airport,19590.09,787404,7,Baggage Claim Display,General Travelers
+2023-04-10,LGA,LaGuardia Airport,25664.11,1602538,9,Digital Board,Family Leisure Travelers
+2023-04-10,BWI,Baltimore/Washington International Airport,27034.11,1336585,9,Jet Bridge,Frequent Flyers
+2023-04-17,ATL,Hartsfield–Jackson Atlanta International Airport,22057.36,1355367,6,Jet Bridge,Traveling Moms
+2023-04-17,LAX,Los Angeles International Airport,21293.45,1232628,3,Concourse Wrap,Family Leisure Travelers
+2023-04-17,ORD,Chicago O'Hare International Airport,24253.31,1510240,6,Concourse Wrap,Traveling Moms
+2023-04-17,DFW,Dallas/Fort Worth International Airport,21541.07,1337632,6,Digital Board,Frequent Flyers
+2023-04-17,DEN,Denver International Airport,15144.4,886626,5,Baggage Claim Display,Family Leisure Travelers
+2023-04-17,JFK,John F. Kennedy International Airport,19705.16,968899,9,Digital Board,Frequent Flyers
+2023-04-17,SFO,San Francisco International Airport,25280.16,1203835,11,Concourse Wrap,Traveling Moms
+2023-04-17,SEA,Seattle–Tacoma International Airport,22101.74,1036907,4,Concourse Wrap,Traveling Moms
+2023-04-17,LAS,Harry Reid International Airport,18306.25,1044519,3,Concourse Wrap,General Travelers
+2023-04-17,MCO,Orlando International Airport,15999.03,757458,5,Concourse Wrap,Frequent Flyers
+2023-04-17,CLT,Charlotte Douglas International Airport,20421.77,1285118,4,Digital Board,Frequent Flyers
+2023-04-17,MIA,Miami International Airport,22190.94,1291971,7,Concourse Wrap,Traveling Moms
+2023-04-17,PHX,Phoenix Sky Harbor International Airport,23283.47,1416793,7,Jet Bridge,Traveling Moms
+2023-04-17,IAH,George Bush Intercontinental Airport,19397.67,1208253,11,Jet Bridge,Family Leisure Travelers
+2023-04-17,BOS,Logan International Airport,20036.25,854201,4,Digital Board,Frequent Flyers
+2023-04-17,MSP,Minneapolis–Saint Paul International Airport,17898.48,751925,11,Concourse Wrap,Family Leisure Travelers
+2023-04-17,DTW,Detroit Metropolitan Airport,22167.58,933929,8,Baggage Claim Display,Traveling Moms
+2023-04-17,PHL,Philadelphia International Airport,19394.87,785950,9,Digital Board,Traveling Moms
+2023-04-17,LGA,LaGuardia Airport,23337.68,1456861,10,Digital Board,General Travelers
+2023-04-17,BWI,Baltimore/Washington International Airport,15839.22,819543,4,Digital Board,General Travelers
+2023-04-24,ATL,Hartsfield–Jackson Atlanta International Airport,25659.86,1189343,3,Baggage Claim Display,General Travelers
+2023-04-24,LAX,Los Angeles International Airport,20381.06,1303933,4,Concourse Wrap,Frequent Flyers
+2023-04-24,ORD,Chicago O'Hare International Airport,21112.43,1113839,7,Baggage Claim Display,Frequent Flyers
+2023-04-24,DFW,Dallas/Fort Worth International Airport,18677.73,1040112,5,Digital Board,General Travelers
+2023-04-24,DEN,Denver International Airport,19523.16,876893,4,Baggage Claim Display,Family Leisure Travelers
+2023-04-24,JFK,John F. Kennedy International Airport,20664.68,1044712,3,Concourse Wrap,Family Leisure Travelers
+2023-04-24,SFO,San Francisco International Airport,17631.33,969686,8,Digital Board,General Travelers
+2023-04-24,SEA,Seattle–Tacoma International Airport,21981.76,1082830,10,Concourse Wrap,Traveling Moms
+2023-04-24,LAS,Harry Reid International Airport,22145.95,1031418,6,Digital Board,Family Leisure Travelers
+2023-04-24,MCO,Orlando International Airport,22886.5,1110808,9,Digital Board,General Travelers
+2023-04-24,CLT,Charlotte Douglas International Airport,24178.79,1553272,6,Baggage Claim Display,Traveling Moms
+2023-04-24,MIA,Miami International Airport,24056.72,1142812,7,Concourse Wrap,General Travelers
+2023-04-24,PHX,Phoenix Sky Harbor International Airport,19712.55,1036912,5,Jet Bridge,Family Leisure Travelers
+2023-04-24,IAH,George Bush Intercontinental Airport,24155.09,1144570,4,Jet Bridge,Frequent Flyers
+2023-04-24,BOS,Logan International Airport,18671.41,1011735,6,Jet Bridge,Frequent Flyers
+2023-04-24,MSP,Minneapolis–Saint Paul International Airport,17531.33,724976,11,Digital Board,Family Leisure Travelers
+2023-04-24,DTW,Detroit Metropolitan Airport,19590.66,980890,11,Concourse Wrap,Family Leisure Travelers
+2023-04-24,PHL,Philadelphia International Airport,23766.24,1094669,9,Baggage Claim Display,Frequent Flyers
+2023-04-24,LGA,LaGuardia Airport,20780.81,1290460,3,Jet Bridge,General Travelers
+2023-04-24,BWI,Baltimore/Washington International Airport,22252.58,996469,4,Digital Board,Frequent Flyers
+2023-05-01,ATL,Hartsfield–Jackson Atlanta International Airport,16940.45,726557,10,Jet Bridge,Family Leisure Travelers
+2023-05-01,LAX,Los Angeles International Airport,14304.78,744283,6,Baggage Claim Display,Traveling Moms
+2023-05-01,ORD,Chicago O'Hare International Airport,13037.63,822777,8,Digital Board,Traveling Moms
+2023-05-01,DFW,Dallas/Fort Worth International Airport,14319.03,744394,7,Concourse Wrap,Frequent Flyers
+2023-05-01,DEN,Denver International Airport,17804.08,1019055,3,Jet Bridge,General Travelers
+2023-05-01,JFK,John F. Kennedy International Airport,13893.93,695509,3,Baggage Claim Display,General Travelers
+2023-05-01,SFO,San Francisco International Airport,19640.48,811880,7,Concourse Wrap,Traveling Moms
+2023-05-01,SEA,Seattle–Tacoma International Airport,15099.86,691536,8,Concourse Wrap,Family Leisure Travelers
+2023-05-01,LAS,Harry Reid International Airport,15228.64,927665,8,Jet Bridge,Frequent Flyers
+2023-05-01,MCO,Orlando International Airport,10960.33,679743,10,Baggage Claim Display,Traveling Moms
+2023-05-01,CLT,Charlotte Douglas International Airport,14667.79,942148,10,Concourse Wrap,General Travelers
+2023-05-01,MIA,Miami International Airport,11494.15,519226,6,Baggage Claim Display,Traveling Moms
+2023-05-01,PHX,Phoenix Sky Harbor International Airport,14175.44,898066,9,Baggage Claim Display,General Travelers
+2023-05-01,IAH,George Bush Intercontinental Airport,14436.88,779977,5,Concourse Wrap,Frequent Flyers
+2023-05-01,BOS,Logan International Airport,17411.12,702979,6,Jet Bridge,Traveling Moms
+2023-05-01,MSP,Minneapolis–Saint Paul International Airport,15878.92,868911,7,Concourse Wrap,General Travelers
+2023-05-01,DTW,Detroit Metropolitan Airport,18374.4,1142694,5,Concourse Wrap,Traveling Moms
+2023-05-01,PHL,Philadelphia International Airport,18913.53,902733,11,Digital Board,Traveling Moms
+2023-05-01,LGA,LaGuardia Airport,21904.34,1016693,3,Digital Board,General Travelers
+2023-05-01,BWI,Baltimore/Washington International Airport,15608.87,805068,7,Jet Bridge,Traveling Moms
+2023-05-08,ATL,Hartsfield–Jackson Atlanta International Airport,15918.73,809042,6,Jet Bridge,General Travelers
+2023-05-08,LAX,Los Angeles International Airport,13785.91,798616,5,Jet Bridge,Traveling Moms
+2023-05-08,ORD,Chicago O'Hare International Airport,15803.78,726877,3,Concourse Wrap,Frequent Flyers
+2023-05-08,DFW,Dallas/Fort Worth International Airport,17227.23,1061294,4,Baggage Claim Display,Traveling Moms
+2023-05-08,DEN,Denver International Airport,16383.51,945129,9,Digital Board,General Travelers
+2023-05-08,JFK,John F. Kennedy International Airport,17059.88,799198,7,Digital Board,General Travelers
+2023-05-08,SFO,San Francisco International Airport,12750.36,642081,3,Digital Board,Traveling Moms
+2023-05-08,SEA,Seattle–Tacoma International Airport,12936.4,808589,4,Jet Bridge,General Travelers
+2023-05-08,LAS,Harry Reid International Airport,19617.0,1028329,7,Baggage Claim Display,General Travelers
+2023-05-08,MCO,Orlando International Airport,14390.22,682121,3,Jet Bridge,Traveling Moms
+2023-05-08,CLT,Charlotte Douglas International Airport,17418.77,1106748,9,Digital Board,General Travelers
+2023-05-08,MIA,Miami International Airport,14207.62,630482,7,Jet Bridge,General Travelers
+2023-05-08,PHX,Phoenix Sky Harbor International Airport,18294.34,900592,4,Baggage Claim Display,General Travelers
+2023-05-08,IAH,George Bush Intercontinental Airport,16368.22,1041725,5,Concourse Wrap,Traveling Moms
+2023-05-08,BOS,Logan International Airport,14047.15,619996,4,Digital Board,Traveling Moms
+2023-05-08,MSP,Minneapolis–Saint Paul International Airport,17046.69,756510,9,Digital Board,Traveling Moms
+2023-05-08,DTW,Detroit Metropolitan Airport,20666.14,1111130,7,Concourse Wrap,Family Leisure Travelers
+2023-05-08,PHL,Philadelphia International Airport,18397.5,842638,11,Digital Board,General Travelers
+2023-05-08,LGA,LaGuardia Airport,18246.89,874264,6,Jet Bridge,Family Leisure Travelers
+2023-05-08,BWI,Baltimore/Washington International Airport,14683.3,764442,10,Jet Bridge,Family Leisure Travelers
+2023-05-15,ATL,Hartsfield–Jackson Atlanta International Airport,19986.8,1296260,11,Baggage Claim Display,General Travelers
+2023-05-15,LAX,Los Angeles International Airport,11742.98,555244,5,Digital Board,Traveling Moms
+2023-05-15,ORD,Chicago O'Hare International Airport,18104.71,995386,11,Concourse Wrap,Traveling Moms
+2023-05-15,DFW,Dallas/Fort Worth International Airport,13448.41,598750,6,Digital Board,Family Leisure Travelers
+2023-05-15,DEN,Denver International Airport,18514.0,749893,4,Baggage Claim Display,Traveling Moms
+2023-05-15,JFK,John F. Kennedy International Airport,19665.58,1193781,3,Digital Board,Family Leisure Travelers
+2023-05-15,SFO,San Francisco International Airport,19361.03,1053147,8,Jet Bridge,General Travelers
+2023-05-15,SEA,Seattle–Tacoma International Airport,20208.83,864335,6,Concourse Wrap,General Travelers
+2023-05-15,LAS,Harry Reid International Airport,15794.73,753325,9,Jet Bridge,Traveling Moms
+2023-05-15,MCO,Orlando International Airport,18860.14,1089888,4,Concourse Wrap,Traveling Moms
+2023-05-15,CLT,Charlotte Douglas International Airport,11422.7,700531,8,Digital Board,Traveling Moms
+2023-05-15,MIA,Miami International Airport,15078.28,931147,6,Digital Board,Traveling Moms
+2023-05-15,PHX,Phoenix Sky Harbor International Airport,19162.53,803834,8,Jet Bridge,Frequent Flyers
+2023-05-15,IAH,George Bush Intercontinental Airport,16283.02,1013317,7,Concourse Wrap,General Travelers
+2023-05-15,BOS,Logan International Airport,13160.84,605039,9,Digital Board,Traveling Moms
+2023-05-15,MSP,Minneapolis–Saint Paul International Airport,15419.12,639537,6,Digital Board,Frequent Flyers
+2023-05-15,DTW,Detroit Metropolitan Airport,15481.63,776575,11,Jet Bridge,Traveling Moms
+2023-05-15,PHL,Philadelphia International Airport,19191.59,1041619,7,Jet Bridge,General Travelers
+2023-05-15,LGA,LaGuardia Airport,21703.21,1140714,8,Jet Bridge,General Travelers
+2023-05-15,BWI,Baltimore/Washington International Airport,14144.6,653170,8,Baggage Claim Display,General Travelers
+2023-05-22,ATL,Hartsfield–Jackson Atlanta International Airport,12443.17,576780,7,Digital Board,Frequent Flyers
+2023-05-22,LAX,Los Angeles International Airport,20924.83,1116621,11,Jet Bridge,Frequent Flyers
+2023-05-22,ORD,Chicago O'Hare International Airport,15474.35,751346,5,Baggage Claim Display,Family Leisure Travelers
+2023-05-22,DFW,Dallas/Fort Worth International Airport,18624.45,1104136,3,Baggage Claim Display,General Travelers
+2023-05-22,DEN,Denver International Airport,17962.81,1100879,7,Jet Bridge,Frequent Flyers
+2023-05-22,JFK,John F. Kennedy International Airport,18538.0,945587,9,Digital Board,Family Leisure Travelers
+2023-05-22,SFO,San Francisco International Airport,14266.08,644386,4,Jet Bridge,Frequent Flyers
+2023-05-22,SEA,Seattle–Tacoma International Airport,13476.36,676762,5,Baggage Claim Display,Frequent Flyers
+2023-05-22,LAS,Harry Reid International Airport,10297.15,498354,5,Digital Board,General Travelers
+2023-05-22,MCO,Orlando International Airport,17232.72,856993,4,Digital Board,Traveling Moms
+2023-05-22,CLT,Charlotte Douglas International Airport,18207.05,1169593,5,Jet Bridge,Frequent Flyers
+2023-05-22,MIA,Miami International Airport,14355.18,764279,8,Baggage Claim Display,Traveling Moms
+2023-05-22,PHX,Phoenix Sky Harbor International Airport,12186.06,755175,7,Baggage Claim Display,Traveling Moms
+2023-05-22,IAH,George Bush Intercontinental Airport,15895.87,688201,4,Digital Board,Family Leisure Travelers
+2023-05-22,BOS,Logan International Airport,14348.23,905350,10,Jet Bridge,Frequent Flyers
+2023-05-22,MSP,Minneapolis–Saint Paul International Airport,16687.77,863827,11,Baggage Claim Display,Family Leisure Travelers
+2023-05-22,DTW,Detroit Metropolitan Airport,14489.47,744035,9,Concourse Wrap,Frequent Flyers
+2023-05-22,PHL,Philadelphia International Airport,15282.71,662825,11,Concourse Wrap,General Travelers
+2023-05-22,LGA,LaGuardia Airport,16486.17,817993,3,Digital Board,General Travelers
+2023-05-22,BWI,Baltimore/Washington International Airport,20687.32,1198573,11,Jet Bridge,Traveling Moms
+2023-05-29,ATL,Hartsfield–Jackson Atlanta International Airport,15079.87,937006,11,Jet Bridge,Traveling Moms
+2023-05-29,LAX,Los Angeles International Airport,14713.16,765352,7,Jet Bridge,General Travelers
+2023-05-29,ORD,Chicago O'Hare International Airport,21822.93,1061168,11,Concourse Wrap,Frequent Flyers
+2023-05-29,DFW,Dallas/Fort Worth International Airport,11320.07,462740,10,Jet Bridge,Traveling Moms
+2023-05-29,DEN,Denver International Airport,16395.6,849300,3,Concourse Wrap,General Travelers
+2023-05-29,JFK,John F. Kennedy International Airport,16115.98,804191,5,Baggage Claim Display,Traveling Moms
+2023-05-29,SFO,San Francisco International Airport,15337.04,888373,11,Jet Bridge,Family Leisure Travelers
+2023-05-29,SEA,Seattle–Tacoma International Airport,20393.17,1281063,11,Jet Bridge,General Travelers
+2023-05-29,LAS,Harry Reid International Airport,11218.11,727692,11,Digital Board,Family Leisure Travelers
+2023-05-29,MCO,Orlando International Airport,17235.38,976222,8,Jet Bridge,General Travelers
+2023-05-29,CLT,Charlotte Douglas International Airport,19233.16,1020223,4,Digital Board,Frequent Flyers
+2023-05-29,MIA,Miami International Airport,14696.64,767607,5,Baggage Claim Display,Family Leisure Travelers
+2023-05-29,PHX,Phoenix Sky Harbor International Airport,15122.47,688200,5,Digital Board,Frequent Flyers
+2023-05-29,IAH,George Bush Intercontinental Airport,16400.08,1019532,3,Digital Board,Frequent Flyers
+2023-05-29,BOS,Logan International Airport,15913.83,655535,5,Jet Bridge,Frequent Flyers
+2023-05-29,MSP,Minneapolis–Saint Paul International Airport,17490.16,1069367,10,Baggage Claim Display,Frequent Flyers
+2023-05-29,DTW,Detroit Metropolitan Airport,16001.68,1025518,10,Jet Bridge,Traveling Moms
+2023-05-29,PHL,Philadelphia International Airport,17179.47,1107673,9,Jet Bridge,General Travelers
+2023-05-29,LGA,LaGuardia Airport,14933.66,613310,7,Baggage Claim Display,General Travelers
+2023-05-29,BWI,Baltimore/Washington International Airport,11686.32,496994,3,Concourse Wrap,Family Leisure Travelers
+2023-06-05,ATL,Hartsfield–Jackson Atlanta International Airport,23730.14,1505972,8,Jet Bridge,General Travelers
+2023-06-05,LAX,Los Angeles International Airport,20379.03,1044916,5,Concourse Wrap,Frequent Flyers
+2023-06-05,ORD,Chicago O'Hare International Airport,21832.83,901027,5,Digital Board,General Travelers
+2023-06-05,DFW,Dallas/Fort Worth International Airport,21752.78,1134502,6,Concourse Wrap,Traveling Moms
+2023-06-05,DEN,Denver International Airport,27845.93,1511709,11,Baggage Claim Display,General Travelers
+2023-06-05,JFK,John F. Kennedy International Airport,19615.74,911352,8,Jet Bridge,Family Leisure Travelers
+2023-06-05,SFO,San Francisco International Airport,18894.93,1103992,7,Concourse Wrap,General Travelers
+2023-06-05,SEA,Seattle–Tacoma International Airport,20275.12,831397,6,Jet Bridge,General Travelers
+2023-06-05,LAS,Harry Reid International Airport,23249.64,1001673,4,Baggage Claim Display,Frequent Flyers
+2023-06-05,MCO,Orlando International Airport,20575.23,1295236,10,Baggage Claim Display,Traveling Moms
+2023-06-05,CLT,Charlotte Douglas International Airport,25324.7,1476745,11,Concourse Wrap,Family Leisure Travelers
+2023-06-05,MIA,Miami International Airport,24499.2,1293930,8,Baggage Claim Display,Traveling Moms
+2023-06-05,PHX,Phoenix Sky Harbor International Airport,22333.66,1318884,7,Digital Board,Frequent Flyers
+2023-06-05,IAH,George Bush Intercontinental Airport,19849.73,1129347,10,Concourse Wrap,Family Leisure Travelers
+2023-06-05,BOS,Logan International Airport,20222.45,1212671,11,Digital Board,Family Leisure Travelers
+2023-06-05,MSP,Minneapolis–Saint Paul International Airport,20234.6,1087336,11,Jet Bridge,Traveling Moms
+2023-06-05,DTW,Detroit Metropolitan Airport,26753.03,1724101,8,Digital Board,General Travelers
+2023-06-05,PHL,Philadelphia International Airport,16696.78,673443,5,Baggage Claim Display,General Travelers
+2023-06-05,LGA,LaGuardia Airport,21258.63,937346,8,Baggage Claim Display,Traveling Moms
+2023-06-05,BWI,Baltimore/Washington International Airport,24848.21,1365632,11,Baggage Claim Display,Traveling Moms
+2023-06-12,ATL,Hartsfield–Jackson Atlanta International Airport,23008.41,1450468,8,Digital Board,General Travelers
+2023-06-12,LAX,Los Angeles International Airport,19251.01,858989,7,Baggage Claim Display,General Travelers
+2023-06-12,ORD,Chicago O'Hare International Airport,25069.68,1291104,8,Concourse Wrap,Traveling Moms
+2023-06-12,DFW,Dallas/Fort Worth International Airport,23708.87,1234855,3,Digital Board,Frequent Flyers
+2023-06-12,DEN,Denver International Airport,23759.1,1283743,4,Baggage Claim Display,General Travelers
+2023-06-12,JFK,John F. Kennedy International Airport,18567.52,925185,3,Concourse Wrap,Frequent Flyers
+2023-06-12,SFO,San Francisco International Airport,15995.93,892520,11,Digital Board,Frequent Flyers
+2023-06-12,SEA,Seattle–Tacoma International Airport,22544.59,1066424,5,Concourse Wrap,Traveling Moms
+2023-06-12,LAS,Harry Reid International Airport,23800.59,1433382,5,Baggage Claim Display,Frequent Flyers
+2023-06-12,MCO,Orlando International Airport,17979.15,1013124,7,Digital Board,Frequent Flyers
+2023-06-12,CLT,Charlotte Douglas International Airport,19948.71,996291,3,Digital Board,Frequent Flyers
+2023-06-12,MIA,Miami International Airport,17071.77,821465,5,Jet Bridge,Traveling Moms
+2023-06-12,PHX,Phoenix Sky Harbor International Airport,23598.11,1405937,10,Digital Board,Traveling Moms
+2023-06-12,IAH,George Bush Intercontinental Airport,18878.57,1102971,8,Digital Board,General Travelers
+2023-06-12,BOS,Logan International Airport,20125.51,1070302,10,Baggage Claim Display,Frequent Flyers
+2023-06-12,MSP,Minneapolis–Saint Paul International Airport,21385.14,1012041,7,Baggage Claim Display,General Travelers
+2023-06-12,DTW,Detroit Metropolitan Airport,20164.57,1296703,9,Baggage Claim Display,Traveling Moms
+2023-06-12,PHL,Philadelphia International Airport,19903.38,1219194,5,Baggage Claim Display,Frequent Flyers
+2023-06-12,LGA,LaGuardia Airport,21697.97,1259352,6,Concourse Wrap,General Travelers
+2023-06-12,BWI,Baltimore/Washington International Airport,15905.11,834074,4,Digital Board,Traveling Moms
+2023-06-19,ATL,Hartsfield–Jackson Atlanta International Airport,14116.47,801695,11,Baggage Claim Display,General Travelers
+2023-06-19,LAX,Los Angeles International Airport,23649.55,961207,3,Baggage Claim Display,General Travelers
+2023-06-19,ORD,Chicago O'Hare International Airport,18823.91,1005161,5,Jet Bridge,Traveling Moms
+2023-06-19,DFW,Dallas/Fort Worth International Airport,18932.32,937877,6,Jet Bridge,Frequent Flyers
+2023-06-19,DEN,Denver International Airport,20417.13,841568,8,Digital Board,Traveling Moms
+2023-06-19,JFK,John F. Kennedy International Airport,22634.38,1186173,6,Concourse Wrap,Frequent Flyers
+2023-06-19,SFO,San Francisco International Airport,24855.45,1365270,7,Baggage Claim Display,Traveling Moms
+2023-06-19,SEA,Seattle–Tacoma International Airport,24090.45,1178763,10,Digital Board,Family Leisure Travelers
+2023-06-19,LAS,Harry Reid International Airport,19202.78,909355,9,Baggage Claim Display,Frequent Flyers
+2023-06-19,MCO,Orlando International Airport,18327.22,808597,6,Concourse Wrap,Frequent Flyers
+2023-06-19,CLT,Charlotte Douglas International Airport,19681.12,896519,5,Jet Bridge,General Travelers
+2023-06-19,MIA,Miami International Airport,24632.87,1484771,4,Concourse Wrap,General Travelers
+2023-06-19,PHX,Phoenix Sky Harbor International Airport,25955.0,1098821,8,Jet Bridge,Family Leisure Travelers
+2023-06-19,IAH,George Bush Intercontinental Airport,20381.93,1150217,3,Jet Bridge,General Travelers
+2023-06-19,BOS,Logan International Airport,15284.23,612430,5,Jet Bridge,Family Leisure Travelers
+2023-06-19,MSP,Minneapolis–Saint Paul International Airport,22315.65,907525,5,Concourse Wrap,Frequent Flyers
+2023-06-19,DTW,Detroit Metropolitan Airport,22906.08,951060,6,Baggage Claim Display,Family Leisure Travelers
+2023-06-19,PHL,Philadelphia International Airport,22522.74,1321720,6,Baggage Claim Display,Traveling Moms
+2023-06-19,LGA,LaGuardia Airport,19426.87,927069,11,Digital Board,Frequent Flyers
+2023-06-19,BWI,Baltimore/Washington International Airport,15913.18,679176,10,Concourse Wrap,Frequent Flyers
+2023-06-26,ATL,Hartsfield–Jackson Atlanta International Airport,25174.45,1383010,9,Concourse Wrap,Traveling Moms
+2023-06-26,LAX,Los Angeles International Airport,26957.56,1328964,6,Digital Board,Family Leisure Travelers
+2023-06-26,ORD,Chicago O'Hare International Airport,19501.08,831084,7,Digital Board,Family Leisure Travelers
+2023-06-26,DFW,Dallas/Fort Worth International Airport,22043.94,1151362,4,Baggage Claim Display,General Travelers
+2023-06-26,DEN,Denver International Airport,21390.15,1054100,6,Baggage Claim Display,Traveling Moms
+2023-06-26,JFK,John F. Kennedy International Airport,25206.12,1177282,8,Concourse Wrap,Traveling Moms
+2023-06-26,SFO,San Francisco International Airport,22521.45,981873,4,Baggage Claim Display,Traveling Moms
+2023-06-26,SEA,Seattle–Tacoma International Airport,15755.27,1000285,6,Digital Board,Traveling Moms
+2023-06-26,LAS,Harry Reid International Airport,16656.25,1023195,9,Concourse Wrap,Frequent Flyers
+2023-06-26,MCO,Orlando International Airport,22744.61,1191520,10,Jet Bridge,Family Leisure Travelers
+2023-06-26,CLT,Charlotte Douglas International Airport,23658.74,1084879,7,Jet Bridge,Traveling Moms
+2023-06-26,MIA,Miami International Airport,19465.74,929687,3,Jet Bridge,General Travelers
+2023-06-26,PHX,Phoenix Sky Harbor International Airport,22233.99,1335977,8,Concourse Wrap,Frequent Flyers
+2023-06-26,IAH,George Bush Intercontinental Airport,23362.11,940002,7,Jet Bridge,General Travelers
+2023-06-26,BOS,Logan International Airport,24298.15,1207483,10,Concourse Wrap,Traveling Moms
+2023-06-26,MSP,Minneapolis–Saint Paul International Airport,15380.97,963214,5,Baggage Claim Display,Frequent Flyers
+2023-06-26,DTW,Detroit Metropolitan Airport,15732.47,711816,6,Concourse Wrap,Frequent Flyers
+2023-06-26,PHL,Philadelphia International Airport,20665.37,962323,4,Digital Board,General Travelers
+2023-06-26,LGA,LaGuardia Airport,19261.65,1173352,5,Digital Board,Frequent Flyers
+2023-06-26,BWI,Baltimore/Washington International Airport,19945.39,1190004,10,Jet Bridge,General Travelers
+2023-07-03,ATL,Hartsfield–Jackson Atlanta International Airport,28403.51,1478065,4,Concourse Wrap,Frequent Flyers
+2023-07-03,LAX,Los Angeles International Airport,18605.31,774872,3,Digital Board,Frequent Flyers
+2023-07-03,ORD,Chicago O'Hare International Airport,21885.9,1047954,8,Jet Bridge,General Travelers
+2023-07-03,DFW,Dallas/Fort Worth International Airport,16607.0,1073943,5,Concourse Wrap,Family Leisure Travelers
+2023-07-03,DEN,Denver International Airport,21913.89,1351309,5,Jet Bridge,Frequent Flyers
+2023-07-03,JFK,John F. Kennedy International Airport,17741.43,985901,6,Baggage Claim Display,Frequent Flyers
+2023-07-03,SFO,San Francisco International Airport,18096.25,790907,7,Jet Bridge,Family Leisure Travelers
+2023-07-03,SEA,Seattle–Tacoma International Airport,20084.92,1105986,4,Concourse Wrap,Frequent Flyers
+2023-07-03,LAS,Harry Reid International Airport,22926.77,985326,8,Baggage Claim Display,General Travelers
+2023-07-03,MCO,Orlando International Airport,23839.14,1395153,9,Baggage Claim Display,Family Leisure Travelers
+2023-07-03,CLT,Charlotte Douglas International Airport,23079.67,1274214,7,Digital Board,General Travelers
+2023-07-03,MIA,Miami International Airport,19960.25,1221611,10,Baggage Claim Display,Frequent Flyers
+2023-07-03,PHX,Phoenix Sky Harbor International Airport,18612.87,954889,10,Jet Bridge,Frequent Flyers
+2023-07-03,IAH,George Bush Intercontinental Airport,20224.94,1186104,3,Digital Board,Frequent Flyers
+2023-07-03,BOS,Logan International Airport,15899.74,913633,11,Baggage Claim Display,Frequent Flyers
+2023-07-03,MSP,Minneapolis–Saint Paul International Airport,26297.56,1361670,8,Concourse Wrap,Family Leisure Travelers
+2023-07-03,DTW,Detroit Metropolitan Airport,24715.23,1580188,3,Concourse Wrap,Frequent Flyers
+2023-07-03,PHL,Philadelphia International Airport,16543.47,752450,8,Baggage Claim Display,Traveling Moms
+2023-07-03,LGA,LaGuardia Airport,22120.37,1181614,4,Digital Board,Family Leisure Travelers
+2023-07-03,BWI,Baltimore/Washington International Airport,19828.62,1143043,10,Concourse Wrap,Traveling Moms
+2023-07-10,ATL,Hartsfield–Jackson Atlanta International Airport,20417.17,1226352,3,Concourse Wrap,General Travelers
+2023-07-10,LAX,Los Angeles International Airport,27959.73,1718234,6,Digital Board,Traveling Moms
+2023-07-10,ORD,Chicago O'Hare International Airport,18677.9,924606,8,Jet Bridge,Traveling Moms
+2023-07-10,DFW,Dallas/Fort Worth International Airport,21603.54,1168133,10,Baggage Claim Display,Family Leisure Travelers
+2023-07-10,DEN,Denver International Airport,18868.89,1131657,6,Jet Bridge,Family Leisure Travelers
+2023-07-10,JFK,John F. Kennedy International Airport,20852.61,1298862,9,Jet Bridge,Traveling Moms
+2023-07-10,SFO,San Francisco International Airport,15597.65,935680,6,Digital Board,General Travelers
+2023-07-10,SEA,Seattle–Tacoma International Airport,19489.9,1164051,3,Jet Bridge,Family Leisure Travelers
+2023-07-10,LAS,Harry Reid International Airport,20042.06,841531,10,Digital Board,Traveling Moms
+2023-07-10,MCO,Orlando International Airport,20559.49,927531,8,Jet Bridge,Family Leisure Travelers
+2023-07-10,CLT,Charlotte Douglas International Airport,19638.23,1092521,8,Baggage Claim Display,Frequent Flyers
+2023-07-10,MIA,Miami International Airport,23539.51,1039793,9,Baggage Claim Display,Traveling Moms
+2023-07-10,PHX,Phoenix Sky Harbor International Airport,19995.06,836431,8,Baggage Claim Display,Family Leisure Travelers
+2023-07-10,IAH,George Bush Intercontinental Airport,21699.98,1252883,8,Concourse Wrap,General Travelers
+2023-07-10,BOS,Logan International Airport,23497.36,1240449,5,Baggage Claim Display,Frequent Flyers
+2023-07-10,MSP,Minneapolis–Saint Paul International Airport,17043.11,735683,11,Baggage Claim Display,Family Leisure Travelers
+2023-07-10,DTW,Detroit Metropolitan Airport,24953.54,1442131,10,Concourse Wrap,Family Leisure Travelers
+2023-07-10,PHL,Philadelphia International Airport,18783.07,1061224,4,Baggage Claim Display,Frequent Flyers
+2023-07-10,LGA,LaGuardia Airport,22747.65,1076096,8,Baggage Claim Display,General Travelers
+2023-07-10,BWI,Baltimore/Washington International Airport,19935.75,1225754,9,Baggage Claim Display,Frequent Flyers
+2023-07-17,ATL,Hartsfield–Jackson Atlanta International Airport,24399.09,1516278,5,Jet Bridge,Family Leisure Travelers
+2023-07-17,LAX,Los Angeles International Airport,18053.57,864326,9,Concourse Wrap,General Travelers
+2023-07-17,ORD,Chicago O'Hare International Airport,18822.92,816692,8,Baggage Claim Display,Family Leisure Travelers
+2023-07-17,DFW,Dallas/Fort Worth International Airport,25601.5,1167959,3,Concourse Wrap,Family Leisure Travelers
+2023-07-17,DEN,Denver International Airport,19487.58,861696,10,Jet Bridge,Traveling Moms
+2023-07-17,JFK,John F. Kennedy International Airport,23935.67,1404987,3,Jet Bridge,General Travelers
+2023-07-17,SFO,San Francisco International Airport,16553.24,927149,7,Concourse Wrap,Frequent Flyers
+2023-07-17,SEA,Seattle–Tacoma International Airport,24433.15,1215753,3,Jet Bridge,Family Leisure Travelers
+2023-07-17,LAS,Harry Reid International Airport,16457.17,1027665,10,Jet Bridge,Traveling Moms
+2023-07-17,MCO,Orlando International Airport,28044.78,1512381,11,Digital Board,Traveling Moms
+2023-07-17,CLT,Charlotte Douglas International Airport,25597.44,1216401,10,Concourse Wrap,Frequent Flyers
+2023-07-17,MIA,Miami International Airport,21894.69,1235977,11,Concourse Wrap,Frequent Flyers
+2023-07-17,PHX,Phoenix Sky Harbor International Airport,17203.29,892033,8,Digital Board,Frequent Flyers
+2023-07-17,IAH,George Bush Intercontinental Airport,22271.69,1328611,5,Jet Bridge,Family Leisure Travelers
+2023-07-17,BOS,Logan International Airport,21417.45,1262601,5,Concourse Wrap,Traveling Moms
+2023-07-17,MSP,Minneapolis–Saint Paul International Airport,24647.99,1381248,5,Concourse Wrap,Family Leisure Travelers
+2023-07-17,DTW,Detroit Metropolitan Airport,22044.89,999013,11,Concourse Wrap,Traveling Moms
+2023-07-17,PHL,Philadelphia International Airport,23081.83,1244512,3,Digital Board,Frequent Flyers
+2023-07-17,LGA,LaGuardia Airport,17764.27,980092,3,Digital Board,Family Leisure Travelers
+2023-07-17,BWI,Baltimore/Washington International Airport,15681.17,994947,10,Concourse Wrap,Traveling Moms
+2023-07-24,ATL,Hartsfield–Jackson Atlanta International Airport,19374.52,820970,11,Jet Bridge,General Travelers
+2023-07-24,LAX,Los Angeles International Airport,19918.51,1021865,9,Concourse Wrap,Frequent Flyers
+2023-07-24,ORD,Chicago O'Hare International Airport,22200.87,1261830,3,Concourse Wrap,Frequent Flyers
+2023-07-24,DFW,Dallas/Fort Worth International Airport,23338.39,1342409,10,Baggage Claim Display,General Travelers
+2023-07-24,DEN,Denver International Airport,19139.92,900174,5,Digital Board,Family Leisure Travelers
+2023-07-24,JFK,John F. Kennedy International Airport,21445.71,1256094,9,Jet Bridge,Traveling Moms
+2023-07-24,SFO,San Francisco International Airport,24112.61,1082126,4,Jet Bridge,Family Leisure Travelers
+2023-07-24,SEA,Seattle–Tacoma International Airport,19465.62,1168234,3,Jet Bridge,General Travelers
+2023-07-24,LAS,Harry Reid International Airport,19900.85,826841,10,Concourse Wrap,Frequent Flyers
+2023-07-24,MCO,Orlando International Airport,18866.95,1082539,6,Digital Board,Frequent Flyers
+2023-07-24,CLT,Charlotte Douglas International Airport,21077.49,852040,11,Baggage Claim Display,Traveling Moms
+2023-07-24,MIA,Miami International Airport,23675.2,1179854,11,Concourse Wrap,Traveling Moms
+2023-07-24,PHX,Phoenix Sky Harbor International Airport,28222.26,1674853,11,Concourse Wrap,General Travelers
+2023-07-24,IAH,George Bush Intercontinental Airport,18760.22,1061992,6,Baggage Claim Display,Frequent Flyers
+2023-07-24,BOS,Logan International Airport,21880.94,1361272,9,Digital Board,Family Leisure Travelers
+2023-07-24,MSP,Minneapolis–Saint Paul International Airport,16549.68,841817,4,Baggage Claim Display,Traveling Moms
+2023-07-24,DTW,Detroit Metropolitan Airport,19789.72,1067060,6,Jet Bridge,Traveling Moms
+2023-07-24,PHL,Philadelphia International Airport,26854.91,1458774,5,Concourse Wrap,Traveling Moms
+2023-07-24,LGA,LaGuardia Airport,28006.46,1294336,11,Concourse Wrap,General Travelers
+2023-07-24,BWI,Baltimore/Washington International Airport,16142.84,710151,3,Concourse Wrap,Frequent Flyers
+2023-07-31,ATL,Hartsfield–Jackson Atlanta International Airport,21120.77,1129895,10,Concourse Wrap,General Travelers
+2023-07-31,LAX,Los Angeles International Airport,18062.55,872907,4,Digital Board,Family Leisure Travelers
+2023-07-31,ORD,Chicago O'Hare International Airport,18613.45,867651,7,Jet Bridge,Traveling Moms
+2023-07-31,DFW,Dallas/Fort Worth International Airport,27195.79,1243526,7,Concourse Wrap,Frequent Flyers
+2023-07-31,DEN,Denver International Airport,17504.43,705487,10,Baggage Claim Display,Traveling Moms
+2023-07-31,JFK,John F. Kennedy International Airport,18738.79,1038607,4,Digital Board,Traveling Moms
+2023-07-31,SFO,San Francisco International Airport,17270.84,883071,11,Baggage Claim Display,Family Leisure Travelers
+2023-07-31,SEA,Seattle–Tacoma International Airport,23100.93,983239,10,Concourse Wrap,General Travelers
+2023-07-31,LAS,Harry Reid International Airport,19421.06,867021,11,Baggage Claim Display,Family Leisure Travelers
+2023-07-31,MCO,Orlando International Airport,22434.38,919098,11,Baggage Claim Display,Family Leisure Travelers
+2023-07-31,CLT,Charlotte Douglas International Airport,21573.37,1314832,7,Concourse Wrap,General Travelers
+2023-07-31,MIA,Miami International Airport,23813.29,1313556,5,Concourse Wrap,Family Leisure Travelers
+2023-07-31,PHX,Phoenix Sky Harbor International Airport,18486.58,874251,3,Jet Bridge,Family Leisure Travelers
+2023-07-31,IAH,George Bush Intercontinental Airport,15902.07,713956,4,Concourse Wrap,Family Leisure Travelers
+2023-07-31,BOS,Logan International Airport,22658.31,1186401,10,Concourse Wrap,Family Leisure Travelers
+2023-07-31,MSP,Minneapolis–Saint Paul International Airport,28561.14,1707953,7,Digital Board,Traveling Moms
+2023-07-31,DTW,Detroit Metropolitan Airport,22883.94,1230338,7,Digital Board,Traveling Moms
+2023-07-31,PHL,Philadelphia International Airport,17427.43,832311,9,Baggage Claim Display,Family Leisure Travelers
+2023-07-31,LGA,LaGuardia Airport,28623.19,1497397,8,Concourse Wrap,Family Leisure Travelers
+2023-07-31,BWI,Baltimore/Washington International Airport,18509.23,1105724,8,Jet Bridge,Family Leisure Travelers
+2023-08-07,ATL,Hartsfield–Jackson Atlanta International Airport,20055.94,1208495,7,Concourse Wrap,Traveling Moms
+2023-08-07,LAX,Los Angeles International Airport,17597.41,817769,5,Jet Bridge,General Travelers
+2023-08-07,ORD,Chicago O'Hare International Airport,25969.16,1488256,5,Jet Bridge,Traveling Moms
+2023-08-07,DFW,Dallas/Fort Worth International Airport,22933.43,1023512,9,Jet Bridge,Family Leisure Travelers
+2023-08-07,DEN,Denver International Airport,22471.35,1330995,5,Baggage Claim Display,Traveling Moms
+2023-08-07,JFK,John F. Kennedy International Airport,18509.09,1166520,7,Jet Bridge,Family Leisure Travelers
+2023-08-07,SFO,San Francisco International Airport,23028.22,1460776,5,Jet Bridge,Family Leisure Travelers
+2023-08-07,SEA,Seattle–Tacoma International Airport,19050.54,861151,3,Jet Bridge,General Travelers
+2023-08-07,LAS,Harry Reid International Airport,18904.27,1090001,11,Concourse Wrap,Traveling Moms
+2023-08-07,MCO,Orlando International Airport,19334.05,984473,5,Concourse Wrap,General Travelers
+2023-08-07,CLT,Charlotte Douglas International Airport,21413.04,1381658,9,Concourse Wrap,Traveling Moms
+2023-08-07,MIA,Miami International Airport,29657.72,1212584,11,Jet Bridge,General Travelers
+2023-08-07,PHX,Phoenix Sky Harbor International Airport,18846.18,1152831,6,Jet Bridge,General Travelers
+2023-08-07,IAH,George Bush Intercontinental Airport,15014.67,732931,11,Concourse Wrap,Family Leisure Travelers
+2023-08-07,BOS,Logan International Airport,24969.05,1123500,4,Baggage Claim Display,General Travelers
+2023-08-07,MSP,Minneapolis–Saint Paul International Airport,23055.45,1110984,11,Jet Bridge,Traveling Moms
+2023-08-07,DTW,Detroit Metropolitan Airport,16019.27,856247,5,Jet Bridge,General Travelers
+2023-08-07,PHL,Philadelphia International Airport,27146.26,1098655,5,Jet Bridge,Frequent Flyers
+2023-08-07,LGA,LaGuardia Airport,19462.87,838192,6,Baggage Claim Display,Family Leisure Travelers
+2023-08-07,BWI,Baltimore/Washington International Airport,19597.37,1143923,8,Digital Board,General Travelers
+2023-08-14,ATL,Hartsfield–Jackson Atlanta International Airport,24603.5,1063782,5,Baggage Claim Display,Family Leisure Travelers
+2023-08-14,LAX,Los Angeles International Airport,20374.73,900732,4,Concourse Wrap,Frequent Flyers
+2023-08-14,ORD,Chicago O'Hare International Airport,28649.93,1328927,10,Concourse Wrap,Frequent Flyers
+2023-08-14,DFW,Dallas/Fort Worth International Airport,20156.6,1019348,9,Baggage Claim Display,Frequent Flyers
+2023-08-14,DEN,Denver International Airport,25152.12,1240906,4,Jet Bridge,Family Leisure Travelers
+2023-08-14,JFK,John F. Kennedy International Airport,21734.61,1255871,9,Jet Bridge,General Travelers
+2023-08-14,SFO,San Francisco International Airport,14278.55,601256,8,Jet Bridge,Family Leisure Travelers
+2023-08-14,SEA,Seattle–Tacoma International Airport,22190.17,911905,10,Baggage Claim Display,Traveling Moms
+2023-08-14,LAS,Harry Reid International Airport,18310.65,828147,11,Digital Board,General Travelers
+2023-08-14,MCO,Orlando International Airport,20789.92,1138240,10,Jet Bridge,Frequent Flyers
+2023-08-14,CLT,Charlotte Douglas International Airport,23925.08,1469820,9,Baggage Claim Display,General Travelers
+2023-08-14,MIA,Miami International Airport,19721.09,1221037,8,Digital Board,Traveling Moms
+2023-08-14,PHX,Phoenix Sky Harbor International Airport,18139.86,800144,5,Concourse Wrap,Family Leisure Travelers
+2023-08-14,IAH,George Bush Intercontinental Airport,21871.38,1406819,4,Jet Bridge,Frequent Flyers
+2023-08-14,BOS,Logan International Airport,22444.22,1027123,10,Concourse Wrap,Traveling Moms
+2023-08-14,MSP,Minneapolis–Saint Paul International Airport,25666.71,1588987,5,Jet Bridge,General Travelers
+2023-08-14,DTW,Detroit Metropolitan Airport,22871.92,1063986,6,Digital Board,General Travelers
+2023-08-14,PHL,Philadelphia International Airport,25432.83,1366994,4,Digital Board,Family Leisure Travelers
+2023-08-14,LGA,LaGuardia Airport,21445.15,1058462,9,Jet Bridge,Traveling Moms
+2023-08-14,BWI,Baltimore/Washington International Airport,17187.19,1034673,8,Digital Board,Frequent Flyers
+2023-08-21,ATL,Hartsfield–Jackson Atlanta International Airport,24883.65,1110848,3,Jet Bridge,Traveling Moms
+2023-08-21,LAX,Los Angeles International Airport,24735.22,1432120,3,Jet Bridge,Family Leisure Travelers
+2023-08-21,ORD,Chicago O'Hare International Airport,17661.75,1054647,11,Jet Bridge,Family Leisure Travelers
+2023-08-21,DFW,Dallas/Fort Worth International Airport,27549.86,1556883,7,Jet Bridge,General Travelers
+2023-08-21,DEN,Denver International Airport,23631.27,1373612,3,Baggage Claim Display,Frequent Flyers
+2023-08-21,JFK,John F. Kennedy International Airport,25678.58,1663638,6,Concourse Wrap,Traveling Moms
+2023-08-21,SFO,San Francisco International Airport,16254.43,700799,10,Jet Bridge,General Travelers
+2023-08-21,SEA,Seattle–Tacoma International Airport,18731.94,1169376,11,Concourse Wrap,Family Leisure Travelers
+2023-08-21,LAS,Harry Reid International Airport,18521.08,1050304,10,Digital Board,Traveling Moms
+2023-08-21,MCO,Orlando International Airport,15263.86,664757,6,Digital Board,Family Leisure Travelers
+2023-08-21,CLT,Charlotte Douglas International Airport,24243.76,1187548,8,Digital Board,Frequent Flyers
+2023-08-21,MIA,Miami International Airport,20503.95,884623,8,Baggage Claim Display,Frequent Flyers
+2023-08-21,PHX,Phoenix Sky Harbor International Airport,21143.1,1098413,7,Jet Bridge,Family Leisure Travelers
+2023-08-21,IAH,George Bush Intercontinental Airport,17631.71,717861,3,Jet Bridge,Family Leisure Travelers
+2023-08-21,BOS,Logan International Airport,15963.05,711034,3,Jet Bridge,General Travelers
+2023-08-21,MSP,Minneapolis–Saint Paul International Airport,19266.19,1163476,3,Digital Board,Family Leisure Travelers
+2023-08-21,DTW,Detroit Metropolitan Airport,15029.68,777226,11,Jet Bridge,Family Leisure Travelers
+2023-08-21,PHL,Philadelphia International Airport,26281.67,1054723,6,Baggage Claim Display,Family Leisure Travelers
+2023-08-21,LGA,LaGuardia Airport,18368.46,823057,8,Baggage Claim Display,Family Leisure Travelers
+2023-08-21,BWI,Baltimore/Washington International Airport,19756.92,812945,10,Baggage Claim Display,Frequent Flyers
+2023-08-28,ATL,Hartsfield–Jackson Atlanta International Airport,18806.05,809200,3,Jet Bridge,General Travelers
+2023-08-28,LAX,Los Angeles International Airport,14137.14,644964,3,Digital Board,Family Leisure Travelers
+2023-08-28,ORD,Chicago O'Hare International Airport,20863.11,922271,7,Baggage Claim Display,Frequent Flyers
+2023-08-28,DFW,Dallas/Fort Worth International Airport,21142.13,848043,9,Digital Board,Frequent Flyers
+2023-08-28,DEN,Denver International Airport,23082.72,999112,3,Baggage Claim Display,Family Leisure Travelers
+2023-08-28,JFK,John F. Kennedy International Airport,22619.46,1122260,4,Concourse Wrap,Frequent Flyers
+2023-08-28,SFO,San Francisco International Airport,24802.4,1002499,11,Baggage Claim Display,Family Leisure Travelers
+2023-08-28,SEA,Seattle–Tacoma International Airport,22835.09,1301070,3,Digital Board,Family Leisure Travelers
+2023-08-28,LAS,Harry Reid International Airport,28025.44,1467885,7,Jet Bridge,Frequent Flyers
+2023-08-28,MCO,Orlando International Airport,25309.61,1371446,10,Concourse Wrap,General Travelers
+2023-08-28,CLT,Charlotte Douglas International Airport,15942.41,790395,6,Baggage Claim Display,Family Leisure Travelers
+2023-08-28,MIA,Miami International Airport,20441.59,1218142,10,Jet Bridge,Frequent Flyers
+2023-08-28,PHX,Phoenix Sky Harbor International Airport,15156.58,766025,5,Jet Bridge,Family Leisure Travelers
+2023-08-28,IAH,George Bush Intercontinental Airport,20541.1,1199078,3,Jet Bridge,General Travelers
+2023-08-28,BOS,Logan International Airport,17893.05,963972,6,Baggage Claim Display,Frequent Flyers
+2023-08-28,MSP,Minneapolis–Saint Paul International Airport,21807.15,1357080,10,Digital Board,Family Leisure Travelers
+2023-08-28,DTW,Detroit Metropolitan Airport,18599.09,831907,9,Concourse Wrap,Frequent Flyers
+2023-08-28,PHL,Philadelphia International Airport,24256.76,1293445,6,Jet Bridge,Frequent Flyers
+2023-08-28,LGA,LaGuardia Airport,19654.21,1139807,11,Digital Board,Family Leisure Travelers
+2023-08-28,BWI,Baltimore/Washington International Airport,22725.68,1435556,6,Baggage Claim Display,Family Leisure Travelers
+2023-09-04,ATL,Hartsfield–Jackson Atlanta International Airport,14896.63,627373,3,Digital Board,General Travelers
+2023-09-04,LAX,Los Angeles International Airport,17851.46,1124308,3,Baggage Claim Display,Frequent Flyers
+2023-09-04,ORD,Chicago O'Hare International Airport,12684.57,665718,11,Baggage Claim Display,Family Leisure Travelers
+2023-09-04,DFW,Dallas/Fort Worth International Airport,12912.64,827377,8,Jet Bridge,Family Leisure Travelers
+2023-09-04,DEN,Denver International Airport,15215.75,648015,9,Digital Board,Frequent Flyers
+2023-09-04,JFK,John F. Kennedy International Airport,14947.95,837391,6,Digital Board,General Travelers
+2023-09-04,SFO,San Francisco International Airport,14528.17,909578,5,Digital Board,Family Leisure Travelers
+2023-09-04,SEA,Seattle–Tacoma International Airport,14888.58,925675,5,Jet Bridge,General Travelers
+2023-09-04,LAS,Harry Reid International Airport,19565.68,1148154,7,Baggage Claim Display,Traveling Moms
+2023-09-04,MCO,Orlando International Airport,17194.58,836323,9,Concourse Wrap,Frequent Flyers
+2023-09-04,CLT,Charlotte Douglas International Airport,12636.58,744066,8,Digital Board,Frequent Flyers
+2023-09-04,MIA,Miami International Airport,11511.01,604873,8,Baggage Claim Display,Traveling Moms
+2023-09-04,PHX,Phoenix Sky Harbor International Airport,19436.36,824735,6,Digital Board,Frequent Flyers
+2023-09-04,IAH,George Bush Intercontinental Airport,18312.09,1070463,7,Jet Bridge,General Travelers
+2023-09-04,BOS,Logan International Airport,14721.13,873635,3,Jet Bridge,General Travelers
+2023-09-04,MSP,Minneapolis–Saint Paul International Airport,14899.74,609579,9,Jet Bridge,Family Leisure Travelers
+2023-09-04,DTW,Detroit Metropolitan Airport,17719.56,1008535,8,Concourse Wrap,Frequent Flyers
+2023-09-04,PHL,Philadelphia International Airport,13958.04,684445,11,Concourse Wrap,Family Leisure Travelers
+2023-09-04,LGA,LaGuardia Airport,13537.36,614903,8,Baggage Claim Display,Family Leisure Travelers
+2023-09-04,BWI,Baltimore/Washington International Airport,16509.49,991838,3,Concourse Wrap,Family Leisure Travelers
+2023-09-11,ATL,Hartsfield–Jackson Atlanta International Airport,12686.62,758588,10,Concourse Wrap,General Travelers
+2023-09-11,LAX,Los Angeles International Airport,17524.54,946388,3,Jet Bridge,Frequent Flyers
+2023-09-11,ORD,Chicago O'Hare International Airport,10482.93,469232,3,Baggage Claim Display,Traveling Moms
+2023-09-11,DFW,Dallas/Fort Worth International Airport,16792.26,923601,8,Concourse Wrap,Frequent Flyers
+2023-09-11,DEN,Denver International Airport,12799.09,647307,4,Baggage Claim Display,Frequent Flyers
+2023-09-11,JFK,John F. Kennedy International Airport,12683.38,555849,6,Concourse Wrap,Family Leisure Travelers
+2023-09-11,SFO,San Francisco International Airport,16676.61,874130,4,Concourse Wrap,General Travelers
+2023-09-11,SEA,Seattle–Tacoma International Airport,16805.53,979830,8,Jet Bridge,Traveling Moms
+2023-09-11,LAS,Harry Reid International Airport,14766.33,724901,4,Digital Board,Traveling Moms
+2023-09-11,MCO,Orlando International Airport,16658.71,970180,6,Digital Board,Frequent Flyers
+2023-09-11,CLT,Charlotte Douglas International Airport,15457.54,794077,7,Digital Board,Frequent Flyers
+2023-09-11,MIA,Miami International Airport,15037.98,913991,10,Digital Board,Traveling Moms
+2023-09-11,PHX,Phoenix Sky Harbor International Airport,17838.48,1152760,8,Jet Bridge,Traveling Moms
+2023-09-11,IAH,George Bush Intercontinental Airport,20368.96,878810,10,Concourse Wrap,Traveling Moms
+2023-09-11,BOS,Logan International Airport,14420.81,678549,10,Baggage Claim Display,General Travelers
+2023-09-11,MSP,Minneapolis–Saint Paul International Airport,14747.34,892682,10,Jet Bridge,Frequent Flyers
+2023-09-11,DTW,Detroit Metropolitan Airport,14977.74,708869,7,Baggage Claim Display,General Travelers
+2023-09-11,PHL,Philadelphia International Airport,13899.9,594639,6,Concourse Wrap,Family Leisure Travelers
+2023-09-11,LGA,LaGuardia Airport,10737.93,599252,6,Baggage Claim Display,Family Leisure Travelers
+2023-09-11,BWI,Baltimore/Washington International Airport,13750.67,843042,6,Digital Board,General Travelers
+2023-09-18,ATL,Hartsfield–Jackson Atlanta International Airport,17635.17,999220,7,Concourse Wrap,General Travelers
+2023-09-18,LAX,Los Angeles International Airport,12526.91,657229,8,Jet Bridge,General Travelers
+2023-09-18,ORD,Chicago O'Hare International Airport,17521.72,745900,8,Concourse Wrap,Family Leisure Travelers
+2023-09-18,DFW,Dallas/Fort Worth International Airport,20298.31,1088601,6,Baggage Claim Display,Traveling Moms
+2023-09-18,DEN,Denver International Airport,12464.77,527488,8,Baggage Claim Display,Family Leisure Travelers
+2023-09-18,JFK,John F. Kennedy International Airport,13114.13,640163,7,Jet Bridge,Family Leisure Travelers
+2023-09-18,SFO,San Francisco International Airport,15565.31,629156,8,Concourse Wrap,Frequent Flyers
+2023-09-18,SEA,Seattle–Tacoma International Airport,15042.27,713852,4,Jet Bridge,Traveling Moms
+2023-09-18,LAS,Harry Reid International Airport,14284.88,832711,8,Concourse Wrap,General Travelers
+2023-09-18,MCO,Orlando International Airport,15721.47,921416,5,Concourse Wrap,Family Leisure Travelers
+2023-09-18,CLT,Charlotte Douglas International Airport,14553.53,597602,8,Concourse Wrap,Family Leisure Travelers
+2023-09-18,MIA,Miami International Airport,15574.78,872198,6,Concourse Wrap,Frequent Flyers
+2023-09-18,PHX,Phoenix Sky Harbor International Airport,14078.42,668554,7,Baggage Claim Display,Family Leisure Travelers
+2023-09-18,IAH,George Bush Intercontinental Airport,14992.44,730379,11,Digital Board,Family Leisure Travelers
+2023-09-18,BOS,Logan International Airport,15390.03,650988,7,Digital Board,General Travelers
+2023-09-18,MSP,Minneapolis–Saint Paul International Airport,11994.78,646584,4,Baggage Claim Display,Family Leisure Travelers
+2023-09-18,DTW,Detroit Metropolitan Airport,15047.27,704573,4,Digital Board,Traveling Moms
+2023-09-18,PHL,Philadelphia International Airport,14581.22,816147,6,Concourse Wrap,General Travelers
+2023-09-18,LGA,LaGuardia Airport,16462.58,704817,6,Concourse Wrap,General Travelers
+2023-09-18,BWI,Baltimore/Washington International Airport,21867.16,982062,5,Digital Board,Traveling Moms
+2023-09-25,ATL,Hartsfield–Jackson Atlanta International Airport,18730.95,761561,11,Digital Board,General Travelers
+2023-09-25,LAX,Los Angeles International Airport,16946.87,917985,9,Concourse Wrap,General Travelers
+2023-09-25,ORD,Chicago O'Hare International Airport,12399.07,566442,11,Digital Board,General Travelers
+2023-09-25,DFW,Dallas/Fort Worth International Airport,12208.17,772738,11,Concourse Wrap,Family Leisure Travelers
+2023-09-25,DEN,Denver International Airport,16273.43,669422,3,Baggage Claim Display,General Travelers
+2023-09-25,JFK,John F. Kennedy International Airport,11707.92,476385,4,Concourse Wrap,General Travelers
+2023-09-25,SFO,San Francisco International Airport,10763.15,530000,6,Baggage Claim Display,General Travelers
+2023-09-25,SEA,Seattle–Tacoma International Airport,13245.15,597388,6,Concourse Wrap,Family Leisure Travelers
+2023-09-25,LAS,Harry Reid International Airport,18009.72,1161739,7,Baggage Claim Display,General Travelers
+2023-09-25,MCO,Orlando International Airport,14149.89,900112,3,Jet Bridge,Family Leisure Travelers
+2023-09-25,CLT,Charlotte Douglas International Airport,21810.6,1048159,5,Digital Board,Family Leisure Travelers
+2023-09-25,MIA,Miami International Airport,13765.73,707821,4,Digital Board,Frequent Flyers
+2023-09-25,PHX,Phoenix Sky Harbor International Airport,13370.69,787837,6,Digital Board,Frequent Flyers
+2023-09-25,IAH,George Bush Intercontinental Airport,15221.43,978014,3,Baggage Claim Display,Traveling Moms
+2023-09-25,BOS,Logan International Airport,13553.2,607072,4,Jet Bridge,Family Leisure Travelers
+2023-09-25,MSP,Minneapolis–Saint Paul International Airport,10902.32,452186,5,Baggage Claim Display,Traveling Moms
+2023-09-25,DTW,Detroit Metropolitan Airport,15113.35,766130,6,Jet Bridge,General Travelers
+2023-09-25,PHL,Philadelphia International Airport,18209.33,866694,11,Jet Bridge,Family Leisure Travelers
+2023-09-25,LGA,LaGuardia Airport,17217.69,887436,8,Jet Bridge,Family Leisure Travelers
+2023-09-25,BWI,Baltimore/Washington International Airport,15894.98,739011,11,Concourse Wrap,General Travelers
+2023-10-02,ATL,Hartsfield–Jackson Atlanta International Airport,12186.92,659838,6,Baggage Claim Display,Family Leisure Travelers
+2023-10-02,LAX,Los Angeles International Airport,15901.01,1015663,4,Digital Board,General Travelers
+2023-10-02,ORD,Chicago O'Hare International Airport,16888.98,985180,7,Concourse Wrap,General Travelers
+2023-10-02,DFW,Dallas/Fort Worth International Airport,17718.41,1043966,4,Jet Bridge,Frequent Flyers
+2023-10-02,DEN,Denver International Airport,13696.39,752619,11,Digital Board,Family Leisure Travelers
+2023-10-02,JFK,John F. Kennedy International Airport,12693.8,779333,3,Concourse Wrap,Family Leisure Travelers
+2023-10-02,SFO,San Francisco International Airport,19570.2,1223317,5,Concourse Wrap,Frequent Flyers
+2023-10-02,SEA,Seattle–Tacoma International Airport,15412.95,794021,6,Jet Bridge,General Travelers
+2023-10-02,LAS,Harry Reid International Airport,12610.82,781856,4,Jet Bridge,Frequent Flyers
+2023-10-02,MCO,Orlando International Airport,17880.68,1002215,4,Jet Bridge,Traveling Moms
+2023-10-02,CLT,Charlotte Douglas International Airport,16740.28,803827,7,Baggage Claim Display,Family Leisure Travelers
+2023-10-02,MIA,Miami International Airport,17784.68,930332,5,Concourse Wrap,Family Leisure Travelers
+2023-10-02,PHX,Phoenix Sky Harbor International Airport,15987.02,713301,11,Digital Board,Traveling Moms
+2023-10-02,IAH,George Bush Intercontinental Airport,15458.41,648689,4,Concourse Wrap,Family Leisure Travelers
+2023-10-02,BOS,Logan International Airport,16822.11,895995,11,Concourse Wrap,Traveling Moms
+2023-10-02,MSP,Minneapolis–Saint Paul International Airport,19131.35,1113492,11,Baggage Claim Display,Family Leisure Travelers
+2023-10-02,DTW,Detroit Metropolitan Airport,15927.58,715523,7,Jet Bridge,General Travelers
+2023-10-02,PHL,Philadelphia International Airport,16837.18,1089523,11,Digital Board,Frequent Flyers
+2023-10-02,LGA,LaGuardia Airport,14556.4,783088,9,Concourse Wrap,Traveling Moms
+2023-10-02,BWI,Baltimore/Washington International Airport,18776.93,1216682,8,Digital Board,Family Leisure Travelers
+2023-10-09,ATL,Hartsfield–Jackson Atlanta International Airport,16253.68,848291,5,Baggage Claim Display,Family Leisure Travelers
+2023-10-09,LAX,Los Angeles International Airport,16485.6,764583,10,Baggage Claim Display,Frequent Flyers
+2023-10-09,ORD,Chicago O'Hare International Airport,15237.62,819289,3,Concourse Wrap,Frequent Flyers
+2023-10-09,DFW,Dallas/Fort Worth International Airport,15979.21,1038100,5,Digital Board,Frequent Flyers
+2023-10-09,DEN,Denver International Airport,17418.47,1001056,6,Baggage Claim Display,Family Leisure Travelers
+2023-10-09,JFK,John F. Kennedy International Airport,16743.31,762445,3,Baggage Claim Display,Family Leisure Travelers
+2023-10-09,SFO,San Francisco International Airport,18868.39,937385,3,Digital Board,Frequent Flyers
+2023-10-09,SEA,Seattle–Tacoma International Airport,15705.5,650606,7,Jet Bridge,General Travelers
+2023-10-09,LAS,Harry Reid International Airport,19661.72,871049,5,Jet Bridge,General Travelers
+2023-10-09,MCO,Orlando International Airport,20721.56,944792,4,Baggage Claim Display,Frequent Flyers
+2023-10-09,CLT,Charlotte Douglas International Airport,18996.72,911062,3,Jet Bridge,Family Leisure Travelers
+2023-10-09,MIA,Miami International Airport,20212.59,1137748,6,Digital Board,Family Leisure Travelers
+2023-10-09,PHX,Phoenix Sky Harbor International Airport,20715.32,1319707,4,Concourse Wrap,General Travelers
+2023-10-09,IAH,George Bush Intercontinental Airport,17365.29,754758,8,Jet Bridge,Family Leisure Travelers
+2023-10-09,BOS,Logan International Airport,14349.36,827933,9,Digital Board,Frequent Flyers
+2023-10-09,MSP,Minneapolis–Saint Paul International Airport,21444.93,980107,9,Digital Board,Frequent Flyers
+2023-10-09,DTW,Detroit Metropolitan Airport,14803.94,894659,6,Concourse Wrap,General Travelers
+2023-10-09,PHL,Philadelphia International Airport,11559.54,465452,6,Jet Bridge,Traveling Moms
+2023-10-09,LGA,LaGuardia Airport,20666.77,1122714,9,Baggage Claim Display,General Travelers
+2023-10-09,BWI,Baltimore/Washington International Airport,13614.52,623238,5,Digital Board,General Travelers
+2023-10-16,ATL,Hartsfield–Jackson Atlanta International Airport,15406.93,781477,6,Jet Bridge,Traveling Moms
+2023-10-16,LAX,Los Angeles International Airport,14883.66,596138,6,Concourse Wrap,Frequent Flyers
+2023-10-16,ORD,Chicago O'Hare International Airport,17898.62,928570,11,Baggage Claim Display,Family Leisure Travelers
+2023-10-16,DFW,Dallas/Fort Worth International Airport,15708.87,655816,6,Jet Bridge,General Travelers
+2023-10-16,DEN,Denver International Airport,15601.97,808617,8,Concourse Wrap,Family Leisure Travelers
+2023-10-16,JFK,John F. Kennedy International Airport,16752.16,979431,8,Jet Bridge,Family Leisure Travelers
+2023-10-16,SFO,San Francisco International Airport,13950.24,736037,8,Jet Bridge,Frequent Flyers
+2023-10-16,SEA,Seattle–Tacoma International Airport,17016.89,822807,5,Concourse Wrap,Traveling Moms
+2023-10-16,LAS,Harry Reid International Airport,18149.05,947425,7,Jet Bridge,Family Leisure Travelers
+2023-10-16,MCO,Orlando International Airport,14868.51,683999,4,Baggage Claim Display,Traveling Moms
+2023-10-16,CLT,Charlotte Douglas International Airport,15605.38,731622,7,Baggage Claim Display,General Travelers
+2023-10-16,MIA,Miami International Airport,18390.32,827875,3,Baggage Claim Display,General Travelers
+2023-10-16,PHX,Phoenix Sky Harbor International Airport,20499.74,1324794,6,Baggage Claim Display,Frequent Flyers
+2023-10-16,IAH,George Bush Intercontinental Airport,14938.55,643469,7,Jet Bridge,Family Leisure Travelers
+2023-10-16,BOS,Logan International Airport,18935.74,788762,10,Jet Bridge,Traveling Moms
+2023-10-16,MSP,Minneapolis–Saint Paul International Airport,17870.4,901984,7,Jet Bridge,Traveling Moms
+2023-10-16,DTW,Detroit Metropolitan Airport,13420.36,669723,5,Digital Board,Family Leisure Travelers
+2023-10-16,PHL,Philadelphia International Airport,11425.33,536091,4,Jet Bridge,Frequent Flyers
+2023-10-16,LGA,LaGuardia Airport,15883.8,835834,3,Digital Board,Traveling Moms
+2023-10-16,BWI,Baltimore/Washington International Airport,14904.32,759905,10,Concourse Wrap,Family Leisure Travelers
+2023-10-23,ATL,Hartsfield–Jackson Atlanta International Airport,20814.46,1224834,6,Digital Board,Traveling Moms
+2023-10-23,LAX,Los Angeles International Airport,13803.33,824005,5,Digital Board,Frequent Flyers
+2023-10-23,ORD,Chicago O'Hare International Airport,11530.74,580306,7,Concourse Wrap,General Travelers
+2023-10-23,DFW,Dallas/Fort Worth International Airport,10662.85,577369,8,Concourse Wrap,Frequent Flyers
+2023-10-23,DEN,Denver International Airport,16088.22,890965,11,Baggage Claim Display,General Travelers
+2023-10-23,JFK,John F. Kennedy International Airport,16466.79,1020632,7,Jet Bridge,Frequent Flyers
+2023-10-23,SFO,San Francisco International Airport,15976.83,1022967,10,Digital Board,Family Leisure Travelers
+2023-10-23,SEA,Seattle–Tacoma International Airport,12859.34,769404,8,Digital Board,Traveling Moms
+2023-10-23,LAS,Harry Reid International Airport,17047.34,771959,10,Digital Board,Family Leisure Travelers
+2023-10-23,MCO,Orlando International Airport,13502.06,698135,6,Concourse Wrap,Traveling Moms
+2023-10-23,CLT,Charlotte Douglas International Airport,11817.99,504215,3,Concourse Wrap,Traveling Moms
+2023-10-23,MIA,Miami International Airport,13659.38,808463,5,Jet Bridge,Traveling Moms
+2023-10-23,PHX,Phoenix Sky Harbor International Airport,15694.93,925253,3,Baggage Claim Display,General Travelers
+2023-10-23,IAH,George Bush Intercontinental Airport,14703.24,633949,7,Baggage Claim Display,Frequent Flyers
+2023-10-23,BOS,Logan International Airport,17484.38,1001515,11,Baggage Claim Display,Traveling Moms
+2023-10-23,MSP,Minneapolis–Saint Paul International Airport,20028.82,1116523,5,Digital Board,Frequent Flyers
+2023-10-23,DTW,Detroit Metropolitan Airport,13558.1,859947,3,Concourse Wrap,General Travelers
+2023-10-23,PHL,Philadelphia International Airport,19111.59,873537,4,Concourse Wrap,Frequent Flyers
+2023-10-23,LGA,LaGuardia Airport,16818.91,752336,10,Baggage Claim Display,Family Leisure Travelers
+2023-10-23,BWI,Baltimore/Washington International Airport,17365.38,786975,8,Baggage Claim Display,Frequent Flyers
+2023-10-30,ATL,Hartsfield–Jackson Atlanta International Airport,15501.65,669719,7,Baggage Claim Display,Frequent Flyers
+2023-10-30,LAX,Los Angeles International Airport,13492.49,582152,3,Concourse Wrap,General Travelers
+2023-10-30,ORD,Chicago O'Hare International Airport,18733.32,919199,10,Baggage Claim Display,Family Leisure Travelers
+2023-10-30,DFW,Dallas/Fort Worth International Airport,15631.68,838748,7,Concourse Wrap,General Travelers
+2023-10-30,DEN,Denver International Airport,17156.79,926057,5,Jet Bridge,Traveling Moms
+2023-10-30,JFK,John F. Kennedy International Airport,15648.62,725330,4,Jet Bridge,Family Leisure Travelers
+2023-10-30,SFO,San Francisco International Airport,12150.36,486702,5,Digital Board,General Travelers
+2023-10-30,SEA,Seattle–Tacoma International Airport,20028.68,1243570,3,Concourse Wrap,General Travelers
+2023-10-30,LAS,Harry Reid International Airport,14855.02,829710,5,Digital Board,General Travelers
+2023-10-30,MCO,Orlando International Airport,18068.83,969296,3,Digital Board,General Travelers
+2023-10-30,CLT,Charlotte Douglas International Airport,15884.4,664780,9,Jet Bridge,General Travelers
+2023-10-30,MIA,Miami International Airport,11889.46,628428,9,Digital Board,Frequent Flyers
+2023-10-30,PHX,Phoenix Sky Harbor International Airport,13426.21,595813,7,Jet Bridge,General Travelers
+2023-10-30,IAH,George Bush Intercontinental Airport,16794.8,996959,6,Concourse Wrap,Frequent Flyers
+2023-10-30,BOS,Logan International Airport,20258.52,1249783,4,Jet Bridge,Traveling Moms
+2023-10-30,MSP,Minneapolis–Saint Paul International Airport,15849.88,937526,11,Jet Bridge,Traveling Moms
+2023-10-30,DTW,Detroit Metropolitan Airport,15105.49,681509,3,Digital Board,Frequent Flyers
+2023-10-30,PHL,Philadelphia International Airport,15786.68,974095,6,Jet Bridge,Traveling Moms
+2023-10-30,LGA,LaGuardia Airport,12177.97,585598,11,Concourse Wrap,General Travelers
+2023-10-30,BWI,Baltimore/Washington International Airport,14096.82,817482,10,Baggage Claim Display,General Travelers
+2023-11-06,ATL,Hartsfield–Jackson Atlanta International Airport,27410.98,1610697,4,Digital Board,Family Leisure Travelers
+2023-11-06,LAX,Los Angeles International Airport,24097.6,1462731,10,Jet Bridge,Frequent Flyers
+2023-11-06,ORD,Chicago O'Hare International Airport,31034.88,1853912,5,Concourse Wrap,Frequent Flyers
+2023-11-06,DFW,Dallas/Fort Worth International Airport,21380.37,1230218,11,Digital Board,Traveling Moms
+2023-11-06,DEN,Denver International Airport,24692.35,1128028,5,Concourse Wrap,General Travelers
+2023-11-06,JFK,John F. Kennedy International Airport,24816.62,1341565,3,Concourse Wrap,Family Leisure Travelers
+2023-11-06,SFO,San Francisco International Airport,25272.17,1297461,5,Jet Bridge,Frequent Flyers
+2023-11-06,SEA,Seattle–Tacoma International Airport,19902.14,1122800,6,Digital Board,Family Leisure Travelers
+2023-11-06,LAS,Harry Reid International Airport,22538.36,1351185,7,Digital Board,Traveling Moms
+2023-11-06,MCO,Orlando International Airport,29413.19,1550524,6,Digital Board,General Travelers
+2023-11-06,CLT,Charlotte Douglas International Airport,24960.77,1160895,5,Jet Bridge,Frequent Flyers
+2023-11-06,MIA,Miami International Airport,17507.75,865855,8,Jet Bridge,Family Leisure Travelers
+2023-11-06,PHX,Phoenix Sky Harbor International Airport,22074.86,1137164,6,Baggage Claim Display,Traveling Moms
+2023-11-06,IAH,George Bush Intercontinental Airport,25799.48,1479192,3,Concourse Wrap,Frequent Flyers
+2023-11-06,BOS,Logan International Airport,21125.63,1367396,8,Jet Bridge,Traveling Moms
+2023-11-06,MSP,Minneapolis–Saint Paul International Airport,25957.58,1078137,9,Baggage Claim Display,Frequent Flyers
+2023-11-06,DTW,Detroit Metropolitan Airport,26695.51,1124210,8,Jet Bridge,Traveling Moms
+2023-11-06,PHL,Philadelphia International Airport,18450.84,1198699,7,Baggage Claim Display,General Travelers
+2023-11-06,LGA,LaGuardia Airport,21824.81,1182112,11,Digital Board,General Travelers
+2023-11-06,BWI,Baltimore/Washington International Airport,21569.06,1301122,4,Jet Bridge,Family Leisure Travelers
+2023-11-13,ATL,Hartsfield–Jackson Atlanta International Airport,22860.16,964579,6,Digital Board,Traveling Moms
+2023-11-13,LAX,Los Angeles International Airport,20685.08,1236735,3,Baggage Claim Display,Traveling Moms
+2023-11-13,ORD,Chicago O'Hare International Airport,22214.01,1164617,7,Concourse Wrap,Frequent Flyers
+2023-11-13,DFW,Dallas/Fort Worth International Airport,29936.59,1654966,11,Digital Board,Frequent Flyers
+2023-11-13,DEN,Denver International Airport,23546.38,1055116,8,Digital Board,Family Leisure Travelers
+2023-11-13,JFK,John F. Kennedy International Airport,21172.87,922901,9,Digital Board,Family Leisure Travelers
+2023-11-13,SFO,San Francisco International Airport,32133.38,1384290,7,Concourse Wrap,Traveling Moms
+2023-11-13,SEA,Seattle–Tacoma International Airport,29502.59,1512849,9,Baggage Claim Display,Frequent Flyers
+2023-11-13,LAS,Harry Reid International Airport,27493.3,1265716,4,Digital Board,General Travelers
+2023-11-13,MCO,Orlando International Airport,24743.45,1201880,11,Jet Bridge,Family Leisure Travelers
+2023-11-13,CLT,Charlotte Douglas International Airport,15810.17,866651,11,Baggage Claim Display,Family Leisure Travelers
+2023-11-13,MIA,Miami International Airport,18230.28,938757,4,Concourse Wrap,Frequent Flyers
+2023-11-13,PHX,Phoenix Sky Harbor International Airport,27224.06,1292108,6,Baggage Claim Display,General Travelers
+2023-11-13,IAH,George Bush Intercontinental Airport,28731.11,1233642,7,Digital Board,General Travelers
+2023-11-13,BOS,Logan International Airport,26901.06,1383906,7,Jet Bridge,Frequent Flyers
+2023-11-13,MSP,Minneapolis–Saint Paul International Airport,25228.47,1253669,7,Concourse Wrap,General Travelers
+2023-11-13,DTW,Detroit Metropolitan Airport,22842.74,1343433,10,Baggage Claim Display,Frequent Flyers
+2023-11-13,PHL,Philadelphia International Airport,25543.37,1630307,7,Baggage Claim Display,Family Leisure Travelers
+2023-11-13,LGA,LaGuardia Airport,27163.12,1245549,7,Jet Bridge,General Travelers
+2023-11-13,BWI,Baltimore/Washington International Airport,26313.39,1399067,4,Baggage Claim Display,Frequent Flyers
+2023-11-20,ATL,Hartsfield–Jackson Atlanta International Airport,27561.89,1143993,5,Jet Bridge,Frequent Flyers
+2023-11-20,LAX,Los Angeles International Airport,28246.54,1727940,7,Digital Board,Frequent Flyers
+2023-11-20,ORD,Chicago O'Hare International Airport,24999.01,1462224,5,Digital Board,Family Leisure Travelers
+2023-11-20,DFW,Dallas/Fort Worth International Airport,18090.09,1055701,10,Concourse Wrap,General Travelers
+2023-11-20,DEN,Denver International Airport,21116.11,1290696,9,Digital Board,Frequent Flyers
+2023-11-20,JFK,John F. Kennedy International Airport,27427.38,1512398,9,Concourse Wrap,General Travelers
+2023-11-20,SFO,San Francisco International Airport,21227.94,1262670,10,Jet Bridge,Traveling Moms
+2023-11-20,SEA,Seattle–Tacoma International Airport,30754.32,1458176,10,Concourse Wrap,General Travelers
+2023-11-20,LAS,Harry Reid International Airport,31667.7,1995068,10,Digital Board,General Travelers
+2023-11-20,MCO,Orlando International Airport,21798.58,1314689,6,Concourse Wrap,General Travelers
+2023-11-20,CLT,Charlotte Douglas International Airport,23091.93,992245,6,Digital Board,Frequent Flyers
+2023-11-20,MIA,Miami International Airport,24443.32,1044994,11,Concourse Wrap,General Travelers
+2023-11-20,PHX,Phoenix Sky Harbor International Airport,30925.22,1782828,11,Baggage Claim Display,Traveling Moms
+2023-11-20,IAH,George Bush Intercontinental Airport,20392.05,850488,9,Concourse Wrap,General Travelers
+2023-11-20,BOS,Logan International Airport,21085.9,958701,7,Concourse Wrap,Family Leisure Travelers
+2023-11-20,MSP,Minneapolis–Saint Paul International Airport,17066.34,799293,11,Digital Board,Family Leisure Travelers
+2023-11-20,DTW,Detroit Metropolitan Airport,20220.84,892532,5,Digital Board,Family Leisure Travelers
+2023-11-20,PHL,Philadelphia International Airport,18484.48,864031,9,Baggage Claim Display,General Travelers
+2023-11-20,LGA,LaGuardia Airport,24939.85,1408291,4,Baggage Claim Display,General Travelers
+2023-11-20,BWI,Baltimore/Washington International Airport,27190.74,1389545,6,Jet Bridge,Frequent Flyers
+2023-11-27,ATL,Hartsfield–Jackson Atlanta International Airport,24865.68,1044009,10,Concourse Wrap,Frequent Flyers
+2023-11-27,LAX,Los Angeles International Airport,23066.32,1413187,6,Baggage Claim Display,General Travelers
+2023-11-27,ORD,Chicago O'Hare International Airport,28124.0,1601503,5,Jet Bridge,Traveling Moms
+2023-11-27,DFW,Dallas/Fort Worth International Airport,20412.32,868238,6,Baggage Claim Display,Family Leisure Travelers
+2023-11-27,DEN,Denver International Airport,22634.82,1360286,3,Jet Bridge,General Travelers
+2023-11-27,JFK,John F. Kennedy International Airport,28579.29,1347097,9,Concourse Wrap,Frequent Flyers
+2023-11-27,SFO,San Francisco International Airport,22966.86,1020777,7,Digital Board,Frequent Flyers
+2023-11-27,SEA,Seattle–Tacoma International Airport,23197.76,1458351,6,Concourse Wrap,General Travelers
+2023-11-27,LAS,Harry Reid International Airport,29845.77,1794540,6,Digital Board,Frequent Flyers
+2023-11-27,MCO,Orlando International Airport,30669.8,1842727,7,Jet Bridge,Traveling Moms
+2023-11-27,CLT,Charlotte Douglas International Airport,20677.42,1072443,8,Baggage Claim Display,Family Leisure Travelers
+2023-11-27,MIA,Miami International Airport,24613.82,1579631,6,Baggage Claim Display,Frequent Flyers
+2023-11-27,PHX,Phoenix Sky Harbor International Airport,20341.67,1149384,6,Jet Bridge,General Travelers
+2023-11-27,IAH,George Bush Intercontinental Airport,19031.86,948354,10,Digital Board,Frequent Flyers
+2023-11-27,BOS,Logan International Airport,19715.12,929100,10,Jet Bridge,Frequent Flyers
+2023-11-27,MSP,Minneapolis–Saint Paul International Airport,24456.4,1471438,10,Digital Board,Frequent Flyers
+2023-11-27,DTW,Detroit Metropolitan Airport,25677.86,1333501,5,Baggage Claim Display,Traveling Moms
+2023-11-27,PHL,Philadelphia International Airport,26214.03,1260967,10,Concourse Wrap,Family Leisure Travelers
+2023-11-27,LGA,LaGuardia Airport,24452.28,1215628,11,Digital Board,Traveling Moms
+2023-11-27,BWI,Baltimore/Washington International Airport,27035.65,1139303,6,Concourse Wrap,General Travelers
+2023-12-04,ATL,Hartsfield–Jackson Atlanta International Airport,29310.65,1841913,5,Digital Board,Family Leisure Travelers
+2023-12-04,LAX,Los Angeles International Airport,23947.16,1340564,6,Jet Bridge,Frequent Flyers
+2023-12-04,ORD,Chicago O'Hare International Airport,34826.63,2150414,9,Baggage Claim Display,Frequent Flyers
+2023-12-04,DFW,Dallas/Fort Worth International Airport,21559.38,898275,9,Jet Bridge,Traveling Moms
+2023-12-04,DEN,Denver International Airport,25324.77,1080667,6,Jet Bridge,General Travelers
+2023-12-04,JFK,John F. Kennedy International Airport,24478.92,1313937,10,Concourse Wrap,General Travelers
+2023-12-04,SFO,San Francisco International Airport,25221.91,1178921,9,Jet Bridge,Frequent Flyers
+2023-12-04,SEA,Seattle–Tacoma International Airport,22718.35,1053844,3,Jet Bridge,Frequent Flyers
+2023-12-04,LAS,Harry Reid International Airport,29867.92,1938308,9,Baggage Claim Display,Frequent Flyers
+2023-12-04,MCO,Orlando International Airport,18909.93,947626,4,Baggage Claim Display,Traveling Moms
+2023-12-04,CLT,Charlotte Douglas International Airport,23088.62,957579,4,Baggage Claim Display,General Travelers
+2023-12-04,MIA,Miami International Airport,25827.07,1460980,9,Digital Board,Frequent Flyers
+2023-12-04,PHX,Phoenix Sky Harbor International Airport,29277.09,1598333,4,Digital Board,General Travelers
+2023-12-04,IAH,George Bush Intercontinental Airport,19331.15,1057572,7,Concourse Wrap,General Travelers
+2023-12-04,BOS,Logan International Airport,32731.2,1558670,3,Baggage Claim Display,Family Leisure Travelers
+2023-12-04,MSP,Minneapolis–Saint Paul International Airport,26114.55,1554124,9,Concourse Wrap,Traveling Moms
+2023-12-04,DTW,Detroit Metropolitan Airport,29226.68,1891498,11,Digital Board,General Travelers
+2023-12-04,PHL,Philadelphia International Airport,26492.7,1276109,11,Digital Board,Family Leisure Travelers
+2023-12-04,LGA,LaGuardia Airport,19373.61,985061,8,Baggage Claim Display,Family Leisure Travelers
+2023-12-04,BWI,Baltimore/Washington International Airport,19660.76,1072992,7,Jet Bridge,General Travelers
+2023-12-11,ATL,Hartsfield–Jackson Atlanta International Airport,30994.52,1542569,3,Digital Board,Family Leisure Travelers
+2023-12-11,LAX,Los Angeles International Airport,34103.65,1683394,11,Jet Bridge,General Travelers
+2023-12-11,ORD,Chicago O'Hare International Airport,25952.83,1601632,4,Concourse Wrap,Frequent Flyers
+2023-12-11,DFW,Dallas/Fort Worth International Airport,28055.72,1180420,10,Concourse Wrap,General Travelers
+2023-12-11,DEN,Denver International Airport,25843.97,1081388,11,Baggage Claim Display,Traveling Moms
+2023-12-11,JFK,John F. Kennedy International Airport,20919.59,1286697,5,Baggage Claim Display,Traveling Moms
+2023-12-11,SFO,San Francisco International Airport,26270.42,1311011,8,Jet Bridge,Traveling Moms
+2023-12-11,SEA,Seattle–Tacoma International Airport,24166.15,1045206,9,Jet Bridge,Frequent Flyers
+2023-12-11,LAS,Harry Reid International Airport,31549.03,1921134,3,Jet Bridge,Family Leisure Travelers
+2023-12-11,MCO,Orlando International Airport,33995.3,1443375,6,Digital Board,Traveling Moms
+2023-12-11,CLT,Charlotte Douglas International Airport,24931.34,1114178,8,Baggage Claim Display,Frequent Flyers
+2023-12-11,MIA,Miami International Airport,21754.64,1130642,3,Digital Board,Frequent Flyers
+2023-12-11,PHX,Phoenix Sky Harbor International Airport,25179.22,1301139,5,Jet Bridge,Family Leisure Travelers
+2023-12-11,IAH,George Bush Intercontinental Airport,23590.78,1200469,6,Digital Board,Family Leisure Travelers
+2023-12-11,BOS,Logan International Airport,33695.75,1965705,3,Baggage Claim Display,General Travelers
+2023-12-11,MSP,Minneapolis–Saint Paul International Airport,25387.78,1578640,8,Baggage Claim Display,Family Leisure Travelers
+2023-12-11,DTW,Detroit Metropolitan Airport,24852.63,1186960,6,Baggage Claim Display,Family Leisure Travelers
+2023-12-11,PHL,Philadelphia International Airport,28156.29,1488934,6,Jet Bridge,Frequent Flyers
+2023-12-11,LGA,LaGuardia Airport,26678.35,1385639,7,Jet Bridge,Traveling Moms
+2023-12-11,BWI,Baltimore/Washington International Airport,23535.94,1491022,5,Concourse Wrap,Family Leisure Travelers
+2023-12-18,ATL,Hartsfield–Jackson Atlanta International Airport,31119.14,1821408,5,Digital Board,Frequent Flyers
+2023-12-18,LAX,Los Angeles International Airport,30626.28,1385096,3,Digital Board,Family Leisure Travelers
+2023-12-18,ORD,Chicago O'Hare International Airport,30107.06,1336405,6,Jet Bridge,Family Leisure Travelers
+2023-12-18,DFW,Dallas/Fort Worth International Airport,30739.22,1535819,11,Concourse Wrap,Family Leisure Travelers
+2023-12-18,DEN,Denver International Airport,35353.63,2231622,9,Concourse Wrap,Traveling Moms
+2023-12-18,JFK,John F. Kennedy International Airport,30473.9,1858869,3,Baggage Claim Display,Frequent Flyers
+2023-12-18,SFO,San Francisco International Airport,21638.34,1402935,7,Concourse Wrap,Traveling Moms
+2023-12-18,SEA,Seattle–Tacoma International Airport,26154.18,1585441,5,Digital Board,Frequent Flyers
+2023-12-18,LAS,Harry Reid International Airport,28695.77,1527481,11,Concourse Wrap,Family Leisure Travelers
+2023-12-18,MCO,Orlando International Airport,31027.89,1747183,10,Digital Board,Traveling Moms
+2023-12-18,CLT,Charlotte Douglas International Airport,21695.69,874238,7,Concourse Wrap,Traveling Moms
+2023-12-18,MIA,Miami International Airport,24852.66,1466890,5,Digital Board,Frequent Flyers
+2023-12-18,PHX,Phoenix Sky Harbor International Airport,32015.26,1865478,3,Concourse Wrap,General Travelers
+2023-12-18,IAH,George Bush Intercontinental Airport,23793.39,1120234,4,Jet Bridge,Frequent Flyers
+2023-12-18,BOS,Logan International Airport,31088.85,1570101,8,Digital Board,Frequent Flyers
+2023-12-18,MSP,Minneapolis–Saint Paul International Airport,28052.86,1172470,3,Concourse Wrap,Traveling Moms
+2023-12-18,DTW,Detroit Metropolitan Airport,32156.7,1297932,3,Concourse Wrap,Frequent Flyers
+2023-12-18,PHL,Philadelphia International Airport,19176.83,1014752,3,Baggage Claim Display,Traveling Moms
+2023-12-18,LGA,LaGuardia Airport,23079.5,928890,4,Baggage Claim Display,General Travelers
+2023-12-18,BWI,Baltimore/Washington International Airport,28232.15,1605605,4,Jet Bridge,Traveling Moms
+2023-12-25,ATL,Hartsfield–Jackson Atlanta International Airport,34165.02,2156742,4,Baggage Claim Display,General Travelers
+2023-12-25,LAX,Los Angeles International Airport,19711.99,1063745,9,Baggage Claim Display,Family Leisure Travelers
+2023-12-25,ORD,Chicago O'Hare International Airport,22330.04,914951,7,Baggage Claim Display,Traveling Moms
+2023-12-25,DFW,Dallas/Fort Worth International Airport,22470.52,1086195,5,Concourse Wrap,Family Leisure Travelers
+2023-12-25,DEN,Denver International Airport,30139.86,1306797,6,Concourse Wrap,General Travelers
+2023-12-25,JFK,John F. Kennedy International Airport,24220.29,1238837,9,Digital Board,Frequent Flyers
+2023-12-25,SFO,San Francisco International Airport,21746.93,901706,3,Jet Bridge,Frequent Flyers
+2023-12-25,SEA,Seattle–Tacoma International Airport,27503.2,1375221,10,Jet Bridge,Family Leisure Travelers
+2023-12-25,LAS,Harry Reid International Airport,18838.61,842848,11,Digital Board,General Travelers
+2023-12-25,MCO,Orlando International Airport,25388.87,1421251,11,Concourse Wrap,Frequent Flyers
+2023-12-25,CLT,Charlotte Douglas International Airport,24991.44,1081851,11,Digital Board,Traveling Moms
+2023-12-25,MIA,Miami International Airport,29979.81,1687572,9,Jet Bridge,General Travelers
+2023-12-25,PHX,Phoenix Sky Harbor International Airport,24444.09,1253048,9,Jet Bridge,Traveling Moms
+2023-12-25,IAH,George Bush Intercontinental Airport,26989.27,1239663,4,Jet Bridge,Frequent Flyers
+2023-12-25,BOS,Logan International Airport,25621.26,1431925,9,Baggage Claim Display,Frequent Flyers
+2023-12-25,MSP,Minneapolis–Saint Paul International Airport,27918.93,1742653,10,Jet Bridge,Family Leisure Travelers
+2023-12-25,DTW,Detroit Metropolitan Airport,30871.0,1870445,4,Jet Bridge,Family Leisure Travelers
+2023-12-25,PHL,Philadelphia International Airport,28323.29,1520631,5,Jet Bridge,Family Leisure Travelers
+2023-12-25,LGA,LaGuardia Airport,25252.99,1147272,7,Concourse Wrap,General Travelers
+2023-12-25,BWI,Baltimore/Washington International Airport,32277.03,1454014,3,Digital Board,Family Leisure Travelers
+2024-01-01,ATL,Hartsfield–Jackson Atlanta International Airport,12034.0,565271,5,Baggage Claim Display,Traveling Moms
+2024-01-01,LAX,Los Angeles International Airport,15966.57,930807,8,Baggage Claim Display,Frequent Flyers
+2024-01-01,ORD,Chicago O'Hare International Airport,13352.08,849135,10,Jet Bridge,General Travelers
+2024-01-01,DFW,Dallas/Fort Worth International Airport,15930.07,1025636,6,Jet Bridge,Frequent Flyers
+2024-01-01,DEN,Denver International Airport,13169.16,702004,8,Jet Bridge,General Travelers
+2024-01-01,JFK,John F. Kennedy International Airport,15293.51,705272,11,Baggage Claim Display,Frequent Flyers
+2024-01-01,SFO,San Francisco International Airport,13378.87,599508,11,Digital Board,Family Leisure Travelers
+2024-01-01,SEA,Seattle–Tacoma International Airport,18430.07,1028652,5,Baggage Claim Display,Traveling Moms
+2024-01-01,LAS,Harry Reid International Airport,17829.46,1024693,5,Jet Bridge,Traveling Moms
+2024-01-01,MCO,Orlando International Airport,11414.13,489394,6,Concourse Wrap,Traveling Moms
+2024-01-01,CLT,Charlotte Douglas International Airport,13240.37,732658,9,Baggage Claim Display,General Travelers
+2024-01-01,MIA,Miami International Airport,16620.34,840313,5,Digital Board,Traveling Moms
+2024-01-01,PHX,Phoenix Sky Harbor International Airport,17418.11,939039,6,Baggage Claim Display,Frequent Flyers
+2024-01-01,IAH,George Bush Intercontinental Airport,15199.28,645863,5,Digital Board,General Travelers
+2024-01-01,BOS,Logan International Airport,16035.45,716605,4,Concourse Wrap,Family Leisure Travelers
+2024-01-01,MSP,Minneapolis–Saint Paul International Airport,14519.58,794873,11,Concourse Wrap,Family Leisure Travelers
+2024-01-01,DTW,Detroit Metropolitan Airport,18851.7,1065632,10,Jet Bridge,General Travelers
+2024-01-01,PHL,Philadelphia International Airport,12939.98,750815,6,Baggage Claim Display,General Travelers
+2024-01-01,LGA,LaGuardia Airport,16831.72,944034,5,Jet Bridge,General Travelers
+2024-01-01,BWI,Baltimore/Washington International Airport,16961.3,712360,3,Baggage Claim Display,Family Leisure Travelers
+2024-01-08,ATL,Hartsfield–Jackson Atlanta International Airport,20337.9,1069058,6,Concourse Wrap,Traveling Moms
+2024-01-08,LAX,Los Angeles International Airport,13979.43,643284,9,Concourse Wrap,Family Leisure Travelers
+2024-01-08,ORD,Chicago O'Hare International Airport,13862.53,900638,9,Jet Bridge,General Travelers
+2024-01-08,DFW,Dallas/Fort Worth International Airport,12696.41,622564,7,Digital Board,Frequent Flyers
+2024-01-08,DEN,Denver International Airport,15845.68,915648,6,Digital Board,Traveling Moms
+2024-01-08,JFK,John F. Kennedy International Airport,22011.73,954749,3,Digital Board,General Travelers
+2024-01-08,SFO,San Francisco International Airport,16629.79,942598,5,Digital Board,Frequent Flyers
+2024-01-08,SEA,Seattle–Tacoma International Airport,14190.81,629971,10,Concourse Wrap,Family Leisure Travelers
+2024-01-08,LAS,Harry Reid International Airport,12548.3,673781,10,Digital Board,General Travelers
+2024-01-08,MCO,Orlando International Airport,15645.12,832430,10,Digital Board,Traveling Moms
+2024-01-08,CLT,Charlotte Douglas International Airport,15974.56,848312,8,Digital Board,General Travelers
+2024-01-08,MIA,Miami International Airport,20095.13,1290324,9,Digital Board,Frequent Flyers
+2024-01-08,PHX,Phoenix Sky Harbor International Airport,15755.86,1004849,3,Jet Bridge,Traveling Moms
+2024-01-08,IAH,George Bush Intercontinental Airport,12214.58,753004,11,Jet Bridge,Family Leisure Travelers
+2024-01-08,BOS,Logan International Airport,14901.21,723158,4,Baggage Claim Display,Frequent Flyers
+2024-01-08,MSP,Minneapolis–Saint Paul International Airport,15403.25,951464,10,Jet Bridge,Traveling Moms
+2024-01-08,DTW,Detroit Metropolitan Airport,14309.7,761610,10,Baggage Claim Display,Frequent Flyers
+2024-01-08,PHL,Philadelphia International Airport,12612.88,749952,8,Baggage Claim Display,General Travelers
+2024-01-08,LGA,LaGuardia Airport,19189.15,1079504,3,Digital Board,General Travelers
+2024-01-08,BWI,Baltimore/Washington International Airport,17978.11,727201,10,Digital Board,Frequent Flyers
+2024-01-15,ATL,Hartsfield–Jackson Atlanta International Airport,16968.4,1052673,11,Digital Board,General Travelers
+2024-01-15,LAX,Los Angeles International Airport,17057.63,783511,4,Baggage Claim Display,Traveling Moms
+2024-01-15,ORD,Chicago O'Hare International Airport,14651.32,670423,6,Digital Board,Frequent Flyers
+2024-01-15,DFW,Dallas/Fort Worth International Airport,19865.19,796176,3,Concourse Wrap,Frequent Flyers
+2024-01-15,DEN,Denver International Airport,14922.15,629561,6,Baggage Claim Display,Frequent Flyers
+2024-01-15,JFK,John F. Kennedy International Airport,18132.08,1023720,10,Digital Board,General Travelers
+2024-01-15,SFO,San Francisco International Airport,21964.45,1217276,3,Digital Board,General Travelers
+2024-01-15,SEA,Seattle–Tacoma International Airport,14385.21,819009,8,Jet Bridge,Traveling Moms
+2024-01-15,LAS,Harry Reid International Airport,15413.38,647958,5,Baggage Claim Display,General Travelers
+2024-01-15,MCO,Orlando International Airport,18321.82,1170560,5,Concourse Wrap,Traveling Moms
+2024-01-15,CLT,Charlotte Douglas International Airport,15156.51,699422,7,Jet Bridge,Frequent Flyers
+2024-01-15,MIA,Miami International Airport,12456.03,713628,6,Digital Board,Traveling Moms
+2024-01-15,PHX,Phoenix Sky Harbor International Airport,14508.74,810549,7,Baggage Claim Display,Family Leisure Travelers
+2024-01-15,IAH,George Bush Intercontinental Airport,14525.67,848923,8,Baggage Claim Display,Frequent Flyers
+2024-01-15,BOS,Logan International Airport,15132.61,937689,7,Baggage Claim Display,Frequent Flyers
+2024-01-15,MSP,Minneapolis–Saint Paul International Airport,12794.8,585341,11,Concourse Wrap,Family Leisure Travelers
+2024-01-15,DTW,Detroit Metropolitan Airport,17831.16,1075054,8,Digital Board,Frequent Flyers
+2024-01-15,PHL,Philadelphia International Airport,15548.85,625889,7,Jet Bridge,General Travelers
+2024-01-15,LGA,LaGuardia Airport,19610.01,1202052,6,Concourse Wrap,Frequent Flyers
+2024-01-15,BWI,Baltimore/Washington International Airport,14299.39,832027,10,Digital Board,Frequent Flyers
+2024-01-22,ATL,Hartsfield–Jackson Atlanta International Airport,12115.18,604333,4,Jet Bridge,Frequent Flyers
+2024-01-22,LAX,Los Angeles International Airport,17044.64,1048269,9,Concourse Wrap,Family Leisure Travelers
+2024-01-22,ORD,Chicago O'Hare International Airport,16384.63,938005,5,Concourse Wrap,General Travelers
+2024-01-22,DFW,Dallas/Fort Worth International Airport,13366.65,867663,4,Jet Bridge,Family Leisure Travelers
+2024-01-22,DEN,Denver International Airport,17891.26,1123069,5,Digital Board,General Travelers
+2024-01-22,JFK,John F. Kennedy International Airport,14836.7,746284,3,Digital Board,Family Leisure Travelers
+2024-01-22,SFO,San Francisco International Airport,14884.9,691952,3,Digital Board,Frequent Flyers
+2024-01-22,SEA,Seattle–Tacoma International Airport,13450.96,683244,9,Jet Bridge,Traveling Moms
+2024-01-22,LAS,Harry Reid International Airport,15428.19,971284,11,Jet Bridge,General Travelers
+2024-01-22,MCO,Orlando International Airport,15623.88,801196,9,Digital Board,Traveling Moms
+2024-01-22,CLT,Charlotte Douglas International Airport,20882.84,889543,6,Baggage Claim Display,General Travelers
+2024-01-22,MIA,Miami International Airport,15631.99,700028,3,Jet Bridge,Family Leisure Travelers
+2024-01-22,PHX,Phoenix Sky Harbor International Airport,12777.76,663875,9,Concourse Wrap,Traveling Moms
+2024-01-22,IAH,George Bush Intercontinental Airport,17737.74,1084422,8,Digital Board,Frequent Flyers
+2024-01-22,BOS,Logan International Airport,13770.03,706841,4,Digital Board,General Travelers
+2024-01-22,MSP,Minneapolis–Saint Paul International Airport,14585.66,764886,8,Jet Bridge,General Travelers
+2024-01-22,DTW,Detroit Metropolitan Airport,16792.88,746402,7,Jet Bridge,Family Leisure Travelers
+2024-01-22,PHL,Philadelphia International Airport,13138.07,832397,11,Concourse Wrap,Traveling Moms
+2024-01-22,LGA,LaGuardia Airport,15269.85,625886,8,Jet Bridge,General Travelers
+2024-01-22,BWI,Baltimore/Washington International Airport,15619.57,898962,5,Digital Board,Frequent Flyers
+2024-01-29,ATL,Hartsfield–Jackson Atlanta International Airport,20110.63,914871,11,Baggage Claim Display,General Travelers
+2024-01-29,LAX,Los Angeles International Airport,13457.94,673227,8,Concourse Wrap,Traveling Moms
+2024-01-29,ORD,Chicago O'Hare International Airport,14696.45,868906,3,Concourse Wrap,Family Leisure Travelers
+2024-01-29,DFW,Dallas/Fort Worth International Airport,16860.52,925348,5,Digital Board,Traveling Moms
+2024-01-29,DEN,Denver International Airport,17015.96,1073008,4,Concourse Wrap,Traveling Moms
+2024-01-29,JFK,John F. Kennedy International Airport,20747.17,1042650,7,Baggage Claim Display,Traveling Moms
+2024-01-29,SFO,San Francisco International Airport,13966.82,602682,9,Concourse Wrap,Frequent Flyers
+2024-01-29,SEA,Seattle–Tacoma International Airport,14943.37,885854,9,Jet Bridge,General Travelers
+2024-01-29,LAS,Harry Reid International Airport,19612.28,1018012,8,Concourse Wrap,Frequent Flyers
+2024-01-29,MCO,Orlando International Airport,17364.65,1019046,11,Concourse Wrap,General Travelers
+2024-01-29,CLT,Charlotte Douglas International Airport,14537.11,784798,7,Concourse Wrap,General Travelers
+2024-01-29,MIA,Miami International Airport,20380.06,820434,7,Concourse Wrap,Family Leisure Travelers
+2024-01-29,PHX,Phoenix Sky Harbor International Airport,16666.45,711679,7,Jet Bridge,Traveling Moms
+2024-01-29,IAH,George Bush Intercontinental Airport,15952.61,855199,10,Baggage Claim Display,Family Leisure Travelers
+2024-01-29,BOS,Logan International Airport,16032.53,788794,6,Concourse Wrap,Traveling Moms
+2024-01-29,MSP,Minneapolis–Saint Paul International Airport,12323.51,495256,10,Concourse Wrap,Frequent Flyers
+2024-01-29,DTW,Detroit Metropolitan Airport,15506.1,707651,5,Digital Board,Frequent Flyers
+2024-01-29,PHL,Philadelphia International Airport,17350.38,791843,4,Jet Bridge,General Travelers
+2024-01-29,LGA,LaGuardia Airport,21701.88,1331531,8,Digital Board,General Travelers
+2024-01-29,BWI,Baltimore/Washington International Airport,12975.31,772652,10,Jet Bridge,Traveling Moms
+2024-02-05,ATL,Hartsfield–Jackson Atlanta International Airport,19162.81,836391,11,Jet Bridge,Traveling Moms
+2024-02-05,LAX,Los Angeles International Airport,17906.41,1117123,11,Baggage Claim Display,Frequent Flyers
+2024-02-05,ORD,Chicago O'Hare International Airport,17303.74,782129,3,Concourse Wrap,Traveling Moms
+2024-02-05,DFW,Dallas/Fort Worth International Airport,19784.17,1136010,3,Baggage Claim Display,Family Leisure Travelers
+2024-02-05,DEN,Denver International Airport,18488.58,1157966,9,Jet Bridge,General Travelers
+2024-02-05,JFK,John F. Kennedy International Airport,14306.74,702110,10,Digital Board,Family Leisure Travelers
+2024-02-05,SFO,San Francisco International Airport,17254.71,747966,10,Baggage Claim Display,Family Leisure Travelers
+2024-02-05,SEA,Seattle–Tacoma International Airport,15292.41,786523,3,Jet Bridge,General Travelers
+2024-02-05,LAS,Harry Reid International Airport,17825.31,854374,5,Baggage Claim Display,Frequent Flyers
+2024-02-05,MCO,Orlando International Airport,17513.1,704305,10,Digital Board,Traveling Moms
+2024-02-05,CLT,Charlotte Douglas International Airport,14932.85,888135,5,Digital Board,Frequent Flyers
+2024-02-05,MIA,Miami International Airport,17434.46,1033212,5,Digital Board,Traveling Moms
+2024-02-05,PHX,Phoenix Sky Harbor International Airport,16691.57,737140,9,Concourse Wrap,Family Leisure Travelers
+2024-02-05,IAH,George Bush Intercontinental Airport,16092.65,737325,7,Digital Board,Frequent Flyers
+2024-02-05,BOS,Logan International Airport,18619.35,755236,3,Jet Bridge,Frequent Flyers
+2024-02-05,MSP,Minneapolis–Saint Paul International Airport,14338.94,913164,3,Concourse Wrap,Frequent Flyers
+2024-02-05,DTW,Detroit Metropolitan Airport,18369.3,936587,9,Baggage Claim Display,Family Leisure Travelers
+2024-02-05,PHL,Philadelphia International Airport,17984.08,766434,7,Jet Bridge,Frequent Flyers
+2024-02-05,LGA,LaGuardia Airport,20226.4,993644,4,Jet Bridge,Family Leisure Travelers
+2024-02-05,BWI,Baltimore/Washington International Airport,13147.07,804770,6,Digital Board,General Travelers
+2024-02-12,ATL,Hartsfield–Jackson Atlanta International Airport,19480.4,954469,11,Digital Board,Frequent Flyers
+2024-02-12,LAX,Los Angeles International Airport,19269.0,996243,3,Jet Bridge,Frequent Flyers
+2024-02-12,ORD,Chicago O'Hare International Airport,13144.66,651041,5,Jet Bridge,Traveling Moms
+2024-02-12,DFW,Dallas/Fort Worth International Airport,16333.16,675773,9,Baggage Claim Display,General Travelers
+2024-02-12,DEN,Denver International Airport,16617.32,769404,9,Baggage Claim Display,Traveling Moms
+2024-02-12,JFK,John F. Kennedy International Airport,13834.4,853786,3,Baggage Claim Display,Family Leisure Travelers
+2024-02-12,SFO,San Francisco International Airport,12963.14,788483,8,Digital Board,General Travelers
+2024-02-12,SEA,Seattle–Tacoma International Airport,20392.09,1151109,11,Digital Board,Frequent Flyers
+2024-02-12,LAS,Harry Reid International Airport,15236.94,635585,6,Concourse Wrap,General Travelers
+2024-02-12,MCO,Orlando International Airport,17768.28,742596,8,Concourse Wrap,Family Leisure Travelers
+2024-02-12,CLT,Charlotte Douglas International Airport,17639.64,721101,10,Concourse Wrap,Frequent Flyers
+2024-02-12,MIA,Miami International Airport,18404.2,1114035,3,Concourse Wrap,Frequent Flyers
+2024-02-12,PHX,Phoenix Sky Harbor International Airport,20363.08,883618,11,Concourse Wrap,Frequent Flyers
+2024-02-12,IAH,George Bush Intercontinental Airport,15640.18,749962,8,Digital Board,General Travelers
+2024-02-12,BOS,Logan International Airport,12391.43,527067,10,Concourse Wrap,Frequent Flyers
+2024-02-12,MSP,Minneapolis–Saint Paul International Airport,18897.44,818393,3,Concourse Wrap,Traveling Moms
+2024-02-12,DTW,Detroit Metropolitan Airport,14467.42,894923,11,Jet Bridge,Family Leisure Travelers
+2024-02-12,PHL,Philadelphia International Airport,16393.14,778174,7,Jet Bridge,Traveling Moms
+2024-02-12,LGA,LaGuardia Airport,12147.72,518811,5,Baggage Claim Display,Frequent Flyers
+2024-02-12,BWI,Baltimore/Washington International Airport,16297.99,730184,7,Digital Board,Frequent Flyers
+2024-02-19,ATL,Hartsfield–Jackson Atlanta International Airport,13676.47,697326,4,Jet Bridge,Traveling Moms
+2024-02-19,LAX,Los Angeles International Airport,17122.32,1049298,6,Digital Board,General Travelers
+2024-02-19,ORD,Chicago O'Hare International Airport,19847.04,940142,9,Baggage Claim Display,Frequent Flyers
+2024-02-19,DFW,Dallas/Fort Worth International Airport,12835.82,595407,3,Concourse Wrap,Frequent Flyers
+2024-02-19,DEN,Denver International Airport,13365.01,642043,5,Baggage Claim Display,Family Leisure Travelers
+2024-02-19,JFK,John F. Kennedy International Airport,13129.23,697510,4,Digital Board,General Travelers
+2024-02-19,SFO,San Francisco International Airport,10645.12,473420,4,Digital Board,Traveling Moms
+2024-02-19,SEA,Seattle–Tacoma International Airport,15741.99,640727,6,Concourse Wrap,Frequent Flyers
+2024-02-19,LAS,Harry Reid International Airport,13308.89,589494,7,Jet Bridge,Frequent Flyers
+2024-02-19,MCO,Orlando International Airport,12562.18,520861,10,Jet Bridge,Frequent Flyers
+2024-02-19,CLT,Charlotte Douglas International Airport,14194.25,845252,3,Digital Board,General Travelers
+2024-02-19,MIA,Miami International Airport,15090.07,613578,3,Digital Board,Frequent Flyers
+2024-02-19,PHX,Phoenix Sky Harbor International Airport,18609.88,924854,9,Digital Board,General Travelers
+2024-02-19,IAH,George Bush Intercontinental Airport,15549.84,867086,4,Digital Board,Family Leisure Travelers
+2024-02-19,BOS,Logan International Airport,12416.47,539746,8,Concourse Wrap,General Travelers
+2024-02-19,MSP,Minneapolis–Saint Paul International Airport,21570.84,1335571,5,Jet Bridge,Traveling Moms
+2024-02-19,DTW,Detroit Metropolitan Airport,18708.39,1001086,5,Digital Board,Frequent Flyers
+2024-02-19,PHL,Philadelphia International Airport,20919.56,1157065,8,Concourse Wrap,Frequent Flyers
+2024-02-19,LGA,LaGuardia Airport,15100.26,900449,3,Jet Bridge,General Travelers
+2024-02-19,BWI,Baltimore/Washington International Airport,13293.41,779810,10,Concourse Wrap,General Travelers
+2024-02-26,ATL,Hartsfield–Jackson Atlanta International Airport,16420.18,1009411,10,Baggage Claim Display,Frequent Flyers
+2024-02-26,LAX,Los Angeles International Airport,10660.45,456027,11,Jet Bridge,Family Leisure Travelers
+2024-02-26,ORD,Chicago O'Hare International Airport,18475.63,959308,9,Jet Bridge,Frequent Flyers
+2024-02-26,DFW,Dallas/Fort Worth International Airport,12539.03,759743,9,Baggage Claim Display,Traveling Moms
+2024-02-26,DEN,Denver International Airport,13618.37,691742,6,Jet Bridge,General Travelers
+2024-02-26,JFK,John F. Kennedy International Airport,14380.78,595579,3,Digital Board,Family Leisure Travelers
+2024-02-26,SFO,San Francisco International Airport,19161.38,901817,3,Digital Board,General Travelers
+2024-02-26,SEA,Seattle–Tacoma International Airport,12124.52,642855,7,Digital Board,General Travelers
+2024-02-26,LAS,Harry Reid International Airport,16127.48,645388,6,Baggage Claim Display,Family Leisure Travelers
+2024-02-26,MCO,Orlando International Airport,16217.01,947801,7,Baggage Claim Display,Traveling Moms
+2024-02-26,CLT,Charlotte Douglas International Airport,18005.93,807422,3,Jet Bridge,Traveling Moms
+2024-02-26,MIA,Miami International Airport,17222.38,1057681,5,Jet Bridge,Traveling Moms
+2024-02-26,PHX,Phoenix Sky Harbor International Airport,21124.02,1085495,7,Digital Board,Traveling Moms
+2024-02-26,IAH,George Bush Intercontinental Airport,16238.99,968234,6,Digital Board,General Travelers
+2024-02-26,BOS,Logan International Airport,15671.1,757009,10,Jet Bridge,Traveling Moms
+2024-02-26,MSP,Minneapolis–Saint Paul International Airport,20652.25,858151,7,Digital Board,Family Leisure Travelers
+2024-02-26,DTW,Detroit Metropolitan Airport,21464.99,1246267,9,Digital Board,Traveling Moms
+2024-02-26,PHL,Philadelphia International Airport,16596.85,898100,9,Concourse Wrap,Family Leisure Travelers
+2024-02-26,LGA,LaGuardia Airport,18527.44,750009,5,Concourse Wrap,General Travelers
+2024-02-26,BWI,Baltimore/Washington International Airport,13649.95,785683,7,Baggage Claim Display,General Travelers
+2024-03-04,ATL,Hartsfield–Jackson Atlanta International Airport,21729.09,1065146,11,Jet Bridge,Frequent Flyers
+2024-03-04,LAX,Los Angeles International Airport,26487.32,1156945,5,Concourse Wrap,General Travelers
+2024-03-04,ORD,Chicago O'Hare International Airport,24054.28,1360240,8,Jet Bridge,Frequent Flyers
+2024-03-04,DFW,Dallas/Fort Worth International Airport,19176.71,1186330,7,Jet Bridge,Traveling Moms
+2024-03-04,DEN,Denver International Airport,17425.8,868535,7,Baggage Claim Display,Family Leisure Travelers
+2024-03-04,JFK,John F. Kennedy International Airport,22284.45,898572,8,Digital Board,Frequent Flyers
+2024-03-04,SFO,San Francisco International Airport,22167.45,1363895,5,Concourse Wrap,Frequent Flyers
+2024-03-04,SEA,Seattle–Tacoma International Airport,19977.54,807492,6,Jet Bridge,Family Leisure Travelers
+2024-03-04,LAS,Harry Reid International Airport,19278.11,981976,7,Baggage Claim Display,General Travelers
+2024-03-04,MCO,Orlando International Airport,16453.98,1065993,9,Jet Bridge,Traveling Moms
+2024-03-04,CLT,Charlotte Douglas International Airport,23751.98,1141571,8,Concourse Wrap,General Travelers
+2024-03-04,MIA,Miami International Airport,15541.63,995931,10,Digital Board,Traveling Moms
+2024-03-04,PHX,Phoenix Sky Harbor International Airport,22675.94,970721,11,Jet Bridge,Traveling Moms
+2024-03-04,IAH,George Bush Intercontinental Airport,19251.33,1009924,5,Jet Bridge,General Travelers
+2024-03-04,BOS,Logan International Airport,18081.54,742103,6,Baggage Claim Display,Frequent Flyers
+2024-03-04,MSP,Minneapolis–Saint Paul International Airport,24511.3,1366817,4,Concourse Wrap,General Travelers
+2024-03-04,DTW,Detroit Metropolitan Airport,15526.18,699141,9,Digital Board,Family Leisure Travelers
+2024-03-04,PHL,Philadelphia International Airport,21260.04,869347,4,Concourse Wrap,Family Leisure Travelers
+2024-03-04,LGA,LaGuardia Airport,17727.81,1108660,11,Digital Board,Traveling Moms
+2024-03-04,BWI,Baltimore/Washington International Airport,17617.04,1122591,7,Digital Board,General Travelers
+2024-03-11,ATL,Hartsfield–Jackson Atlanta International Airport,23556.03,1496661,9,Baggage Claim Display,Family Leisure Travelers
+2024-03-11,LAX,Los Angeles International Airport,23002.28,943741,6,Baggage Claim Display,General Travelers
+2024-03-11,ORD,Chicago O'Hare International Airport,17865.13,944310,7,Digital Board,Traveling Moms
+2024-03-11,DFW,Dallas/Fort Worth International Airport,19345.66,1057387,6,Concourse Wrap,Family Leisure Travelers
+2024-03-11,DEN,Denver International Airport,18137.38,977999,4,Jet Bridge,Family Leisure Travelers
+2024-03-11,JFK,John F. Kennedy International Airport,15648.12,633279,8,Baggage Claim Display,Traveling Moms
+2024-03-11,SFO,San Francisco International Airport,19862.02,1030011,6,Concourse Wrap,Family Leisure Travelers
+2024-03-11,SEA,Seattle–Tacoma International Airport,15051.67,722449,5,Jet Bridge,Traveling Moms
+2024-03-11,LAS,Harry Reid International Airport,16810.7,843714,7,Baggage Claim Display,Traveling Moms
+2024-03-11,MCO,Orlando International Airport,21704.83,1193739,8,Jet Bridge,General Travelers
+2024-03-11,CLT,Charlotte Douglas International Airport,16401.73,1035651,4,Digital Board,Traveling Moms
+2024-03-11,MIA,Miami International Airport,17662.86,938622,5,Concourse Wrap,Family Leisure Travelers
+2024-03-11,PHX,Phoenix Sky Harbor International Airport,18468.77,1173046,3,Concourse Wrap,Family Leisure Travelers
+2024-03-11,IAH,George Bush Intercontinental Airport,22050.52,1313459,9,Baggage Claim Display,Traveling Moms
+2024-03-11,BOS,Logan International Airport,17413.23,711907,10,Jet Bridge,General Travelers
+2024-03-11,MSP,Minneapolis–Saint Paul International Airport,18684.53,793791,5,Digital Board,Traveling Moms
+2024-03-11,DTW,Detroit Metropolitan Airport,19072.31,977202,11,Baggage Claim Display,General Travelers
+2024-03-11,PHL,Philadelphia International Airport,16065.83,996942,3,Digital Board,General Travelers
+2024-03-11,LGA,LaGuardia Airport,25709.46,1448236,5,Digital Board,Traveling Moms
+2024-03-11,BWI,Baltimore/Washington International Airport,13371.26,695483,11,Concourse Wrap,Frequent Flyers
+2024-03-18,ATL,Hartsfield–Jackson Atlanta International Airport,20614.25,1181825,8,Digital Board,Family Leisure Travelers
+2024-03-18,LAX,Los Angeles International Airport,19061.22,881265,9,Concourse Wrap,Family Leisure Travelers
+2024-03-18,ORD,Chicago O'Hare International Airport,23907.05,1020956,11,Concourse Wrap,General Travelers
+2024-03-18,DFW,Dallas/Fort Worth International Airport,22759.69,1200081,6,Baggage Claim Display,General Travelers
+2024-03-18,DEN,Denver International Airport,15993.31,714530,7,Baggage Claim Display,Family Leisure Travelers
+2024-03-18,JFK,John F. Kennedy International Airport,27251.72,1415950,6,Digital Board,General Travelers
+2024-03-18,SFO,San Francisco International Airport,17821.0,858801,4,Jet Bridge,Traveling Moms
+2024-03-18,SEA,Seattle–Tacoma International Airport,16949.1,1002348,11,Jet Bridge,Traveling Moms
+2024-03-18,LAS,Harry Reid International Airport,21576.02,1187748,8,Baggage Claim Display,General Travelers
+2024-03-18,MCO,Orlando International Airport,20522.9,869248,11,Digital Board,Frequent Flyers
+2024-03-18,CLT,Charlotte Douglas International Airport,20436.97,1027587,3,Baggage Claim Display,Frequent Flyers
+2024-03-18,MIA,Miami International Airport,26534.21,1256193,9,Digital Board,Traveling Moms
+2024-03-18,PHX,Phoenix Sky Harbor International Airport,17360.1,935798,6,Baggage Claim Display,General Travelers
+2024-03-18,IAH,George Bush Intercontinental Airport,25245.06,1271995,5,Concourse Wrap,Traveling Moms
+2024-03-18,BOS,Logan International Airport,19219.57,853117,3,Baggage Claim Display,Family Leisure Travelers
+2024-03-18,MSP,Minneapolis–Saint Paul International Airport,18545.6,881382,11,Baggage Claim Display,Traveling Moms
+2024-03-18,DTW,Detroit Metropolitan Airport,19481.42,927011,7,Baggage Claim Display,General Travelers
+2024-03-18,PHL,Philadelphia International Airport,23424.41,1146995,6,Jet Bridge,Frequent Flyers
+2024-03-18,LGA,LaGuardia Airport,20229.08,1168188,3,Baggage Claim Display,General Travelers
+2024-03-18,BWI,Baltimore/Washington International Airport,22038.23,1418140,7,Jet Bridge,Frequent Flyers
+2024-03-25,ATL,Hartsfield–Jackson Atlanta International Airport,18791.47,1122013,7,Concourse Wrap,General Travelers
+2024-03-25,LAX,Los Angeles International Airport,26061.05,1574401,4,Digital Board,Family Leisure Travelers
+2024-03-25,ORD,Chicago O'Hare International Airport,16423.66,747696,8,Digital Board,Traveling Moms
+2024-03-25,DFW,Dallas/Fort Worth International Airport,16098.19,1044509,5,Digital Board,General Travelers
+2024-03-25,DEN,Denver International Airport,15540.71,826708,3,Concourse Wrap,Frequent Flyers
+2024-03-25,JFK,John F. Kennedy International Airport,20393.14,1006169,9,Jet Bridge,Frequent Flyers
+2024-03-25,SFO,San Francisco International Airport,19023.54,1228581,7,Digital Board,Family Leisure Travelers
+2024-03-25,SEA,Seattle–Tacoma International Airport,25308.01,1211459,9,Concourse Wrap,Traveling Moms
+2024-03-25,LAS,Harry Reid International Airport,18342.95,930042,6,Concourse Wrap,Family Leisure Travelers
+2024-03-25,MCO,Orlando International Airport,17745.54,758850,4,Digital Board,Traveling Moms
+2024-03-25,CLT,Charlotte Douglas International Airport,15008.06,966900,9,Baggage Claim Display,General Travelers
+2024-03-25,MIA,Miami International Airport,22020.11,881626,4,Digital Board,Family Leisure Travelers
+2024-03-25,PHX,Phoenix Sky Harbor International Airport,20558.64,1102751,7,Baggage Claim Display,General Travelers
+2024-03-25,IAH,George Bush Intercontinental Airport,20810.16,1077184,11,Jet Bridge,Traveling Moms
+2024-03-25,BOS,Logan International Airport,15290.93,977827,3,Baggage Claim Display,Frequent Flyers
+2024-03-25,MSP,Minneapolis–Saint Paul International Airport,16375.55,922302,4,Digital Board,General Travelers
+2024-03-25,DTW,Detroit Metropolitan Airport,24041.5,1501845,11,Concourse Wrap,Traveling Moms
+2024-03-25,PHL,Philadelphia International Airport,23132.86,1216111,10,Jet Bridge,Frequent Flyers
+2024-03-25,LGA,LaGuardia Airport,26211.26,1451299,9,Jet Bridge,Frequent Flyers
+2024-03-25,BWI,Baltimore/Washington International Airport,24781.7,1007762,7,Concourse Wrap,Traveling Moms
+2024-04-01,ATL,Hartsfield–Jackson Atlanta International Airport,19412.23,1131198,8,Baggage Claim Display,Frequent Flyers
+2024-04-01,LAX,Los Angeles International Airport,19895.89,894707,8,Concourse Wrap,Traveling Moms
+2024-04-01,ORD,Chicago O'Hare International Airport,19443.97,1215111,6,Jet Bridge,General Travelers
+2024-04-01,DFW,Dallas/Fort Worth International Airport,23955.64,1502226,6,Digital Board,Family Leisure Travelers
+2024-04-01,DEN,Denver International Airport,19020.86,1128231,10,Digital Board,Family Leisure Travelers
+2024-04-01,JFK,John F. Kennedy International Airport,21855.53,1336433,8,Baggage Claim Display,General Travelers
+2024-04-01,SFO,San Francisco International Airport,24279.3,1259111,10,Baggage Claim Display,Traveling Moms
+2024-04-01,SEA,Seattle–Tacoma International Airport,17990.96,836054,11,Baggage Claim Display,Family Leisure Travelers
+2024-04-01,LAS,Harry Reid International Airport,18739.21,1212156,5,Baggage Claim Display,Frequent Flyers
+2024-04-01,MCO,Orlando International Airport,20953.73,939588,10,Concourse Wrap,General Travelers
+2024-04-01,CLT,Charlotte Douglas International Airport,23617.77,1378626,5,Concourse Wrap,General Travelers
+2024-04-01,MIA,Miami International Airport,18757.17,1179024,9,Baggage Claim Display,General Travelers
+2024-04-01,PHX,Phoenix Sky Harbor International Airport,20091.81,1070695,6,Digital Board,Frequent Flyers
+2024-04-01,IAH,George Bush Intercontinental Airport,18141.31,937180,11,Baggage Claim Display,Family Leisure Travelers
+2024-04-01,BOS,Logan International Airport,20166.97,1212603,6,Baggage Claim Display,Traveling Moms
+2024-04-01,MSP,Minneapolis–Saint Paul International Airport,22728.72,944790,8,Digital Board,Frequent Flyers
+2024-04-01,DTW,Detroit Metropolitan Airport,17096.31,1014068,7,Jet Bridge,Frequent Flyers
+2024-04-01,PHL,Philadelphia International Airport,19288.26,1067725,8,Digital Board,General Travelers
+2024-04-01,LGA,LaGuardia Airport,16345.35,707065,3,Digital Board,Family Leisure Travelers
+2024-04-01,BWI,Baltimore/Washington International Airport,21330.47,892493,6,Jet Bridge,General Travelers
+2024-04-08,ATL,Hartsfield–Jackson Atlanta International Airport,16153.13,995436,10,Baggage Claim Display,Traveling Moms
+2024-04-08,LAX,Los Angeles International Airport,27499.55,1199090,11,Baggage Claim Display,Family Leisure Travelers
+2024-04-08,ORD,Chicago O'Hare International Airport,17781.62,1082054,10,Digital Board,Traveling Moms
+2024-04-08,DFW,Dallas/Fort Worth International Airport,21191.37,908853,11,Baggage Claim Display,Frequent Flyers
+2024-04-08,DEN,Denver International Airport,18845.06,1075291,9,Concourse Wrap,Traveling Moms
+2024-04-08,JFK,John F. Kennedy International Airport,25270.3,1181052,5,Concourse Wrap,Traveling Moms
+2024-04-08,SFO,San Francisco International Airport,23404.72,1294149,3,Concourse Wrap,Family Leisure Travelers
+2024-04-08,SEA,Seattle–Tacoma International Airport,19931.28,1161094,11,Concourse Wrap,Frequent Flyers
+2024-04-08,LAS,Harry Reid International Airport,17996.16,1083259,3,Concourse Wrap,General Travelers
+2024-04-08,MCO,Orlando International Airport,20479.91,1247996,6,Jet Bridge,Family Leisure Travelers
+2024-04-08,CLT,Charlotte Douglas International Airport,14958.61,886039,10,Digital Board,Traveling Moms
+2024-04-08,MIA,Miami International Airport,15261.17,851389,9,Jet Bridge,Traveling Moms
+2024-04-08,PHX,Phoenix Sky Harbor International Airport,18751.79,1189530,9,Digital Board,Family Leisure Travelers
+2024-04-08,IAH,George Bush Intercontinental Airport,18826.61,1048760,8,Digital Board,General Travelers
+2024-04-08,BOS,Logan International Airport,21474.19,1075404,7,Baggage Claim Display,Family Leisure Travelers
+2024-04-08,MSP,Minneapolis–Saint Paul International Airport,18182.44,1093262,3,Concourse Wrap,Frequent Flyers
+2024-04-08,DTW,Detroit Metropolitan Airport,24009.48,1549803,7,Concourse Wrap,General Travelers
+2024-04-08,PHL,Philadelphia International Airport,17833.8,879801,9,Digital Board,General Travelers
+2024-04-08,LGA,LaGuardia Airport,18276.12,1173064,11,Concourse Wrap,General Travelers
+2024-04-08,BWI,Baltimore/Washington International Airport,22440.56,1157799,9,Jet Bridge,General Travelers
+2024-04-15,ATL,Hartsfield–Jackson Atlanta International Airport,22881.96,1261178,5,Digital Board,Family Leisure Travelers
+2024-04-15,LAX,Los Angeles International Airport,20782.43,952619,4,Jet Bridge,Frequent Flyers
+2024-04-15,ORD,Chicago O'Hare International Airport,18945.94,1184082,8,Jet Bridge,Frequent Flyers
+2024-04-15,DFW,Dallas/Fort Worth International Airport,13307.18,587448,4,Digital Board,General Travelers
+2024-04-15,DEN,Denver International Airport,16844.54,943575,3,Jet Bridge,Family Leisure Travelers
+2024-04-15,JFK,John F. Kennedy International Airport,23325.61,1065884,10,Digital Board,Frequent Flyers
+2024-04-15,SFO,San Francisco International Airport,25167.36,1089258,3,Digital Board,Family Leisure Travelers
+2024-04-15,SEA,Seattle–Tacoma International Airport,21023.38,1053703,7,Baggage Claim Display,Family Leisure Travelers
+2024-04-15,LAS,Harry Reid International Airport,18723.91,1211945,10,Concourse Wrap,Frequent Flyers
+2024-04-15,MCO,Orlando International Airport,18208.21,947725,11,Concourse Wrap,Traveling Moms
+2024-04-15,CLT,Charlotte Douglas International Airport,17658.13,847854,3,Baggage Claim Display,Family Leisure Travelers
+2024-04-15,MIA,Miami International Airport,20415.06,1289612,3,Digital Board,Traveling Moms
+2024-04-15,PHX,Phoenix Sky Harbor International Airport,16978.99,936883,7,Jet Bridge,General Travelers
+2024-04-15,IAH,George Bush Intercontinental Airport,15483.86,877338,7,Concourse Wrap,General Travelers
+2024-04-15,BOS,Logan International Airport,19990.38,1236740,4,Concourse Wrap,Frequent Flyers
+2024-04-15,MSP,Minneapolis–Saint Paul International Airport,21806.25,1006786,10,Concourse Wrap,General Travelers
+2024-04-15,DTW,Detroit Metropolitan Airport,20853.95,946807,8,Digital Board,Frequent Flyers
+2024-04-15,PHL,Philadelphia International Airport,20448.97,912447,7,Baggage Claim Display,Frequent Flyers
+2024-04-15,LGA,LaGuardia Airport,19584.19,1041674,4,Baggage Claim Display,Family Leisure Travelers
+2024-04-15,BWI,Baltimore/Washington International Airport,16874.46,912750,7,Baggage Claim Display,Family Leisure Travelers
+2024-04-22,ATL,Hartsfield–Jackson Atlanta International Airport,21092.48,887152,8,Baggage Claim Display,Traveling Moms
+2024-04-22,LAX,Los Angeles International Airport,18855.39,895346,7,Baggage Claim Display,Traveling Moms
+2024-04-22,ORD,Chicago O'Hare International Airport,19150.58,794126,7,Concourse Wrap,General Travelers
+2024-04-22,DFW,Dallas/Fort Worth International Airport,17968.55,729524,4,Concourse Wrap,Traveling Moms
+2024-04-22,DEN,Denver International Airport,18777.51,1067398,7,Digital Board,General Travelers
+2024-04-22,JFK,John F. Kennedy International Airport,27427.88,1356715,8,Concourse Wrap,General Travelers
+2024-04-22,SFO,San Francisco International Airport,21625.79,1139146,8,Jet Bridge,Traveling Moms
+2024-04-22,SEA,Seattle–Tacoma International Airport,22824.34,1058407,6,Baggage Claim Display,Family Leisure Travelers
+2024-04-22,LAS,Harry Reid International Airport,19304.0,1106089,6,Jet Bridge,Traveling Moms
+2024-04-22,MCO,Orlando International Airport,15736.33,789143,10,Jet Bridge,Frequent Flyers
+2024-04-22,CLT,Charlotte Douglas International Airport,14665.08,684064,10,Jet Bridge,Traveling Moms
+2024-04-22,MIA,Miami International Airport,16903.85,776129,6,Digital Board,General Travelers
+2024-04-22,PHX,Phoenix Sky Harbor International Airport,16945.01,790926,10,Concourse Wrap,Family Leisure Travelers
+2024-04-22,IAH,George Bush Intercontinental Airport,14788.78,851108,8,Baggage Claim Display,Frequent Flyers
+2024-04-22,BOS,Logan International Airport,19629.18,1192893,7,Jet Bridge,Traveling Moms
+2024-04-22,MSP,Minneapolis–Saint Paul International Airport,19702.15,1169959,4,Jet Bridge,Family Leisure Travelers
+2024-04-22,DTW,Detroit Metropolitan Airport,23003.19,1095936,6,Digital Board,Family Leisure Travelers
+2024-04-22,PHL,Philadelphia International Airport,22803.9,1101992,9,Digital Board,Family Leisure Travelers
+2024-04-22,LGA,LaGuardia Airport,23036.15,1422062,4,Digital Board,General Travelers
+2024-04-22,BWI,Baltimore/Washington International Airport,19596.04,1083629,7,Jet Bridge,Traveling Moms
+2024-04-29,ATL,Hartsfield–Jackson Atlanta International Airport,17481.74,882894,7,Jet Bridge,Family Leisure Travelers
+2024-04-29,LAX,Los Angeles International Airport,22220.12,1045618,3,Digital Board,Frequent Flyers
+2024-04-29,ORD,Chicago O'Hare International Airport,22027.13,1067132,8,Digital Board,General Travelers
+2024-04-29,DFW,Dallas/Fort Worth International Airport,21601.58,1239074,5,Concourse Wrap,Family Leisure Travelers
+2024-04-29,DEN,Denver International Airport,18708.35,874255,6,Digital Board,General Travelers
+2024-04-29,JFK,John F. Kennedy International Airport,21209.94,861925,4,Jet Bridge,Frequent Flyers
+2024-04-29,SFO,San Francisco International Airport,17451.92,1012222,5,Baggage Claim Display,Traveling Moms
+2024-04-29,SEA,Seattle–Tacoma International Airport,19218.39,904281,10,Jet Bridge,Family Leisure Travelers
+2024-04-29,LAS,Harry Reid International Airport,18170.18,1099967,3,Baggage Claim Display,Frequent Flyers
+2024-04-29,MCO,Orlando International Airport,16874.83,866469,6,Concourse Wrap,General Travelers
+2024-04-29,CLT,Charlotte Douglas International Airport,16289.01,1058751,8,Jet Bridge,General Travelers
+2024-04-29,MIA,Miami International Airport,22471.26,943951,5,Jet Bridge,General Travelers
+2024-04-29,PHX,Phoenix Sky Harbor International Airport,16997.26,917525,8,Digital Board,Traveling Moms
+2024-04-29,IAH,George Bush Intercontinental Airport,13893.74,762449,5,Concourse Wrap,General Travelers
+2024-04-29,BOS,Logan International Airport,21714.15,1402818,4,Digital Board,Frequent Flyers
+2024-04-29,MSP,Minneapolis–Saint Paul International Airport,19480.81,784662,9,Baggage Claim Display,Traveling Moms
+2024-04-29,DTW,Detroit Metropolitan Airport,18433.39,970732,5,Baggage Claim Display,General Travelers
+2024-04-29,PHL,Philadelphia International Airport,25187.93,1568026,6,Jet Bridge,Frequent Flyers
+2024-04-29,LGA,LaGuardia Airport,24646.44,1543529,9,Jet Bridge,General Travelers
+2024-04-29,BWI,Baltimore/Washington International Airport,23347.25,1006775,11,Baggage Claim Display,Family Leisure Travelers
+2024-05-06,ATL,Hartsfield–Jackson Atlanta International Airport,16836.99,789422,11,Concourse Wrap,General Travelers
+2024-05-06,LAX,Los Angeles International Airport,16009.48,683685,10,Concourse Wrap,Frequent Flyers
+2024-05-06,ORD,Chicago O'Hare International Airport,16164.28,731072,11,Concourse Wrap,Frequent Flyers
+2024-05-06,DFW,Dallas/Fort Worth International Airport,15122.26,818940,6,Concourse Wrap,Traveling Moms
+2024-05-06,DEN,Denver International Airport,20355.37,1289705,3,Baggage Claim Display,Traveling Moms
+2024-05-06,JFK,John F. Kennedy International Airport,13778.72,793505,7,Digital Board,Traveling Moms
+2024-05-06,SFO,San Francisco International Airport,16651.88,848959,11,Baggage Claim Display,Frequent Flyers
+2024-05-06,SEA,Seattle–Tacoma International Airport,17176.57,1028525,11,Digital Board,General Travelers
+2024-05-06,LAS,Harry Reid International Airport,15162.45,889866,9,Digital Board,Frequent Flyers
+2024-05-06,MCO,Orlando International Airport,12764.48,776224,3,Jet Bridge,Frequent Flyers
+2024-05-06,CLT,Charlotte Douglas International Airport,18858.72,953540,9,Jet Bridge,General Travelers
+2024-05-06,MIA,Miami International Airport,15665.24,733982,11,Digital Board,Frequent Flyers
+2024-05-06,PHX,Phoenix Sky Harbor International Airport,12019.69,513738,6,Concourse Wrap,Traveling Moms
+2024-05-06,IAH,George Bush Intercontinental Airport,13337.52,569891,10,Baggage Claim Display,Frequent Flyers
+2024-05-06,BOS,Logan International Airport,13000.35,658667,4,Jet Bridge,Frequent Flyers
+2024-05-06,MSP,Minneapolis–Saint Paul International Airport,20145.04,1107540,9,Concourse Wrap,Family Leisure Travelers
+2024-05-06,DTW,Detroit Metropolitan Airport,14293.21,620446,6,Digital Board,Frequent Flyers
+2024-05-06,PHL,Philadelphia International Airport,12819.86,530590,5,Digital Board,Frequent Flyers
+2024-05-06,LGA,LaGuardia Airport,17081.28,766416,6,Baggage Claim Display,Frequent Flyers
+2024-05-06,BWI,Baltimore/Washington International Airport,17809.22,900463,6,Digital Board,Family Leisure Travelers
+2024-05-13,ATL,Hartsfield–Jackson Atlanta International Airport,14683.24,739726,6,Concourse Wrap,Frequent Flyers
+2024-05-13,LAX,Los Angeles International Airport,12201.9,774306,6,Baggage Claim Display,Family Leisure Travelers
+2024-05-13,ORD,Chicago O'Hare International Airport,18598.18,1109638,10,Jet Bridge,General Travelers
+2024-05-13,DFW,Dallas/Fort Worth International Airport,19180.54,1176392,10,Digital Board,General Travelers
+2024-05-13,DEN,Denver International Airport,14698.52,896864,8,Digital Board,Family Leisure Travelers
+2024-05-13,JFK,John F. Kennedy International Airport,15131.67,965189,3,Jet Bridge,General Travelers
+2024-05-13,SFO,San Francisco International Airport,18011.29,1140033,5,Baggage Claim Display,Family Leisure Travelers
+2024-05-13,SEA,Seattle–Tacoma International Airport,18262.18,743330,10,Concourse Wrap,General Travelers
+2024-05-13,LAS,Harry Reid International Airport,17644.65,943132,10,Jet Bridge,General Travelers
+2024-05-13,MCO,Orlando International Airport,15925.44,792756,9,Baggage Claim Display,Family Leisure Travelers
+2024-05-13,CLT,Charlotte Douglas International Airport,15351.51,825511,9,Baggage Claim Display,Frequent Flyers
+2024-05-13,MIA,Miami International Airport,14715.45,725429,5,Jet Bridge,Family Leisure Travelers
+2024-05-13,PHX,Phoenix Sky Harbor International Airport,16931.44,883038,6,Baggage Claim Display,Frequent Flyers
+2024-05-13,IAH,George Bush Intercontinental Airport,16621.41,919481,3,Concourse Wrap,Frequent Flyers
+2024-05-13,BOS,Logan International Airport,20213.27,954963,7,Concourse Wrap,Family Leisure Travelers
+2024-05-13,MSP,Minneapolis–Saint Paul International Airport,15427.21,870028,4,Baggage Claim Display,Frequent Flyers
+2024-05-13,DTW,Detroit Metropolitan Airport,12428.36,581694,6,Jet Bridge,General Travelers
+2024-05-13,PHL,Philadelphia International Airport,16946.91,735632,6,Digital Board,General Travelers
+2024-05-13,LGA,LaGuardia Airport,17909.56,811810,7,Jet Bridge,General Travelers
+2024-05-13,BWI,Baltimore/Washington International Airport,18762.01,1077241,10,Jet Bridge,Family Leisure Travelers
+2024-05-20,ATL,Hartsfield–Jackson Atlanta International Airport,12781.76,704118,11,Digital Board,General Travelers
+2024-05-20,LAX,Los Angeles International Airport,16538.7,1007865,9,Concourse Wrap,Family Leisure Travelers
+2024-05-20,ORD,Chicago O'Hare International Airport,19355.05,1163772,7,Jet Bridge,Family Leisure Travelers
+2024-05-20,DFW,Dallas/Fort Worth International Airport,16238.44,940098,11,Concourse Wrap,Frequent Flyers
+2024-05-20,DEN,Denver International Airport,20524.61,1298680,8,Jet Bridge,Traveling Moms
+2024-05-20,JFK,John F. Kennedy International Airport,20271.16,1311834,5,Concourse Wrap,Family Leisure Travelers
+2024-05-20,SFO,San Francisco International Airport,15420.38,832464,6,Digital Board,Family Leisure Travelers
+2024-05-20,SEA,Seattle–Tacoma International Airport,12832.97,793771,9,Jet Bridge,Traveling Moms
+2024-05-20,LAS,Harry Reid International Airport,14658.32,863079,7,Jet Bridge,Frequent Flyers
+2024-05-20,MCO,Orlando International Airport,17959.95,890066,8,Digital Board,Family Leisure Travelers
+2024-05-20,CLT,Charlotte Douglas International Airport,20177.17,1083145,7,Concourse Wrap,Frequent Flyers
+2024-05-20,MIA,Miami International Airport,12109.39,663829,4,Digital Board,General Travelers
+2024-05-20,PHX,Phoenix Sky Harbor International Airport,17641.17,714953,7,Digital Board,General Travelers
+2024-05-20,IAH,George Bush Intercontinental Airport,15248.34,670829,11,Digital Board,Frequent Flyers
+2024-05-20,BOS,Logan International Airport,19512.87,1108518,9,Jet Bridge,Frequent Flyers
+2024-05-20,MSP,Minneapolis–Saint Paul International Airport,16604.1,1046795,6,Baggage Claim Display,Frequent Flyers
+2024-05-20,DTW,Detroit Metropolitan Airport,16780.71,697140,10,Baggage Claim Display,Frequent Flyers
+2024-05-20,PHL,Philadelphia International Airport,17774.52,946220,8,Concourse Wrap,General Travelers
+2024-05-20,LGA,LaGuardia Airport,15528.89,733404,11,Baggage Claim Display,Traveling Moms
+2024-05-20,BWI,Baltimore/Washington International Airport,18127.33,1064486,8,Concourse Wrap,Frequent Flyers
+2024-05-27,ATL,Hartsfield–Jackson Atlanta International Airport,14179.91,906089,9,Concourse Wrap,Traveling Moms
+2024-05-27,LAX,Los Angeles International Airport,11739.91,702782,9,Baggage Claim Display,Frequent Flyers
+2024-05-27,ORD,Chicago O'Hare International Airport,16734.13,872992,4,Digital Board,Frequent Flyers
+2024-05-27,DFW,Dallas/Fort Worth International Airport,17346.22,1025441,10,Jet Bridge,Frequent Flyers
+2024-05-27,DEN,Denver International Airport,13803.47,593185,9,Digital Board,General Travelers
+2024-05-27,JFK,John F. Kennedy International Airport,19527.86,1042958,10,Concourse Wrap,Family Leisure Travelers
+2024-05-27,SFO,San Francisco International Airport,12024.86,612887,7,Concourse Wrap,General Travelers
+2024-05-27,SEA,Seattle–Tacoma International Airport,14138.07,671735,6,Concourse Wrap,Family Leisure Travelers
+2024-05-27,LAS,Harry Reid International Airport,19996.51,810447,6,Digital Board,Traveling Moms
+2024-05-27,MCO,Orlando International Airport,12656.04,656809,4,Digital Board,Traveling Moms
+2024-05-27,CLT,Charlotte Douglas International Airport,18923.96,837090,7,Concourse Wrap,Family Leisure Travelers
+2024-05-27,MIA,Miami International Airport,12934.13,758154,3,Baggage Claim Display,Frequent Flyers
+2024-05-27,PHX,Phoenix Sky Harbor International Airport,14015.9,854895,3,Digital Board,Traveling Moms
+2024-05-27,IAH,George Bush Intercontinental Airport,11562.36,472057,4,Concourse Wrap,General Travelers
+2024-05-27,BOS,Logan International Airport,17193.43,722806,11,Baggage Claim Display,Traveling Moms
+2024-05-27,MSP,Minneapolis–Saint Paul International Airport,16566.94,1035111,5,Baggage Claim Display,General Travelers
+2024-05-27,DTW,Detroit Metropolitan Airport,12737.92,688920,3,Jet Bridge,Traveling Moms
+2024-05-27,PHL,Philadelphia International Airport,13254.47,788293,7,Concourse Wrap,Frequent Flyers
+2024-05-27,LGA,LaGuardia Airport,16134.88,975909,3,Baggage Claim Display,Frequent Flyers
+2024-05-27,BWI,Baltimore/Washington International Airport,12004.65,575929,10,Concourse Wrap,Traveling Moms
+2024-06-03,ATL,Hartsfield–Jackson Atlanta International Airport,17152.95,736011,8,Jet Bridge,General Travelers
+2024-06-03,LAX,Los Angeles International Airport,15514.17,963571,8,Jet Bridge,Frequent Flyers
+2024-06-03,ORD,Chicago O'Hare International Airport,20693.27,869742,9,Jet Bridge,Family Leisure Travelers
+2024-06-03,DFW,Dallas/Fort Worth International Airport,23527.15,1509155,8,Baggage Claim Display,Family Leisure Travelers
+2024-06-03,DEN,Denver International Airport,22337.55,1309234,5,Concourse Wrap,Frequent Flyers
+2024-06-03,JFK,John F. Kennedy International Airport,20901.19,1198546,11,Jet Bridge,Frequent Flyers
+2024-06-03,SFO,San Francisco International Airport,26047.12,1559120,8,Baggage Claim Display,Frequent Flyers
+2024-06-03,SEA,Seattle–Tacoma International Airport,21841.26,1360828,7,Digital Board,Family Leisure Travelers
+2024-06-03,LAS,Harry Reid International Airport,21324.76,1347884,8,Digital Board,Traveling Moms
+2024-06-03,MCO,Orlando International Airport,17864.08,1085591,10,Concourse Wrap,General Travelers
+2024-06-03,CLT,Charlotte Douglas International Airport,17984.99,923087,7,Digital Board,Family Leisure Travelers
+2024-06-03,MIA,Miami International Airport,19991.64,826721,3,Jet Bridge,Traveling Moms
+2024-06-03,PHX,Phoenix Sky Harbor International Airport,21837.96,1264878,10,Baggage Claim Display,Frequent Flyers
+2024-06-03,IAH,George Bush Intercontinental Airport,24194.18,1143046,6,Digital Board,Frequent Flyers
+2024-06-03,BOS,Logan International Airport,16637.79,1040682,7,Jet Bridge,Family Leisure Travelers
+2024-06-03,MSP,Minneapolis–Saint Paul International Airport,21270.82,893104,10,Jet Bridge,Family Leisure Travelers
+2024-06-03,DTW,Detroit Metropolitan Airport,23239.57,1141605,4,Digital Board,Family Leisure Travelers
+2024-06-03,PHL,Philadelphia International Airport,20378.26,1053202,6,Digital Board,General Travelers
+2024-06-03,LGA,LaGuardia Airport,26536.73,1705203,8,Jet Bridge,Family Leisure Travelers
+2024-06-03,BWI,Baltimore/Washington International Airport,19069.16,1020433,7,Jet Bridge,General Travelers
+2024-06-10,ATL,Hartsfield–Jackson Atlanta International Airport,18025.29,1009532,6,Digital Board,Family Leisure Travelers
+2024-06-10,LAX,Los Angeles International Airport,22638.95,935635,5,Jet Bridge,General Travelers
+2024-06-10,ORD,Chicago O'Hare International Airport,25203.72,1409100,11,Baggage Claim Display,Family Leisure Travelers
+2024-06-10,DFW,Dallas/Fort Worth International Airport,18875.49,1182673,9,Digital Board,Family Leisure Travelers
+2024-06-10,DEN,Denver International Airport,26224.61,1542377,10,Digital Board,General Travelers
+2024-06-10,JFK,John F. Kennedy International Airport,25759.79,1440545,8,Jet Bridge,Family Leisure Travelers
+2024-06-10,SFO,San Francisco International Airport,23426.02,1156751,8,Concourse Wrap,General Travelers
+2024-06-10,SEA,Seattle–Tacoma International Airport,19858.14,1141012,11,Jet Bridge,Traveling Moms
+2024-06-10,LAS,Harry Reid International Airport,23850.89,1226924,9,Digital Board,Family Leisure Travelers
+2024-06-10,MCO,Orlando International Airport,18446.82,1111149,11,Baggage Claim Display,Frequent Flyers
+2024-06-10,CLT,Charlotte Douglas International Airport,17760.87,1120468,9,Digital Board,Frequent Flyers
+2024-06-10,MIA,Miami International Airport,15428.19,678181,11,Baggage Claim Display,General Travelers
+2024-06-10,PHX,Phoenix Sky Harbor International Airport,17429.69,1113562,9,Baggage Claim Display,Traveling Moms
+2024-06-10,IAH,George Bush Intercontinental Airport,21695.6,944505,5,Digital Board,General Travelers
+2024-06-10,BOS,Logan International Airport,21792.56,1107920,7,Concourse Wrap,Frequent Flyers
+2024-06-10,MSP,Minneapolis–Saint Paul International Airport,27280.17,1430557,7,Baggage Claim Display,Frequent Flyers
+2024-06-10,DTW,Detroit Metropolitan Airport,27412.63,1389395,8,Baggage Claim Display,General Travelers
+2024-06-10,PHL,Philadelphia International Airport,22318.62,1406910,8,Baggage Claim Display,Family Leisure Travelers
+2024-06-10,LGA,LaGuardia Airport,19570.35,1084456,4,Baggage Claim Display,General Travelers
+2024-06-10,BWI,Baltimore/Washington International Airport,29026.81,1474956,8,Jet Bridge,General Travelers
+2024-06-17,ATL,Hartsfield–Jackson Atlanta International Airport,18225.65,1129632,9,Digital Board,General Travelers
+2024-06-17,LAX,Los Angeles International Airport,24952.04,1058386,9,Jet Bridge,Family Leisure Travelers
+2024-06-17,ORD,Chicago O'Hare International Airport,20122.78,832452,4,Baggage Claim Display,Frequent Flyers
+2024-06-17,DFW,Dallas/Fort Worth International Airport,29045.67,1228565,7,Concourse Wrap,Frequent Flyers
+2024-06-17,DEN,Denver International Airport,21525.96,989531,8,Concourse Wrap,Frequent Flyers
+2024-06-17,JFK,John F. Kennedy International Airport,23129.6,1083372,9,Digital Board,Frequent Flyers
+2024-06-17,SFO,San Francisco International Airport,28697.16,1306286,8,Jet Bridge,Traveling Moms
+2024-06-17,SEA,Seattle–Tacoma International Airport,17323.04,702420,11,Jet Bridge,General Travelers
+2024-06-17,LAS,Harry Reid International Airport,25153.04,1337246,6,Jet Bridge,General Travelers
+2024-06-17,MCO,Orlando International Airport,19494.33,1083541,3,Jet Bridge,Traveling Moms
+2024-06-17,CLT,Charlotte Douglas International Airport,19526.05,946366,9,Jet Bridge,General Travelers
+2024-06-17,MIA,Miami International Airport,18672.53,1070017,9,Jet Bridge,Traveling Moms
+2024-06-17,PHX,Phoenix Sky Harbor International Airport,24501.87,1212046,8,Concourse Wrap,Traveling Moms
+2024-06-17,IAH,George Bush Intercontinental Airport,24031.26,1474302,8,Digital Board,Frequent Flyers
+2024-06-17,BOS,Logan International Airport,18714.82,1015012,5,Concourse Wrap,Family Leisure Travelers
+2024-06-17,MSP,Minneapolis–Saint Paul International Airport,19393.8,980432,8,Digital Board,Traveling Moms
+2024-06-17,DTW,Detroit Metropolitan Airport,21439.59,1185712,9,Jet Bridge,Traveling Moms
+2024-06-17,PHL,Philadelphia International Airport,18373.23,1073719,11,Concourse Wrap,Family Leisure Travelers
+2024-06-17,LGA,LaGuardia Airport,25431.92,1306044,8,Concourse Wrap,Frequent Flyers
+2024-06-17,BWI,Baltimore/Washington International Airport,19803.84,1181370,3,Digital Board,Traveling Moms
+2024-06-24,ATL,Hartsfield–Jackson Atlanta International Airport,19877.69,870729,4,Concourse Wrap,Traveling Moms
+2024-06-24,LAX,Los Angeles International Airport,22051.86,952894,5,Concourse Wrap,Family Leisure Travelers
+2024-06-24,ORD,Chicago O'Hare International Airport,25421.04,1099549,9,Baggage Claim Display,General Travelers
+2024-06-24,DFW,Dallas/Fort Worth International Airport,14875.06,881195,10,Digital Board,Family Leisure Travelers
+2024-06-24,DEN,Denver International Airport,18554.3,830965,8,Jet Bridge,Family Leisure Travelers
+2024-06-24,JFK,John F. Kennedy International Airport,15883.62,687917,6,Baggage Claim Display,Family Leisure Travelers
+2024-06-24,SFO,San Francisco International Airport,26621.8,1211083,4,Concourse Wrap,Frequent Flyers
+2024-06-24,SEA,Seattle–Tacoma International Airport,16891.83,797600,7,Baggage Claim Display,General Travelers
+2024-06-24,LAS,Harry Reid International Airport,14953.41,846725,9,Concourse Wrap,Traveling Moms
+2024-06-24,MCO,Orlando International Airport,17242.36,902000,8,Baggage Claim Display,Traveling Moms
+2024-06-24,CLT,Charlotte Douglas International Airport,21151.89,895453,4,Baggage Claim Display,Family Leisure Travelers
+2024-06-24,MIA,Miami International Airport,21531.74,1151897,8,Jet Bridge,Frequent Flyers
+2024-06-24,PHX,Phoenix Sky Harbor International Airport,15253.46,895682,11,Concourse Wrap,Frequent Flyers
+2024-06-24,IAH,George Bush Intercontinental Airport,27702.69,1484602,8,Digital Board,Frequent Flyers
+2024-06-24,BOS,Logan International Airport,25293.27,1126934,3,Concourse Wrap,Frequent Flyers
+2024-06-24,MSP,Minneapolis–Saint Paul International Airport,17449.19,1115322,11,Concourse Wrap,Frequent Flyers
+2024-06-24,DTW,Detroit Metropolitan Airport,26992.95,1279659,7,Jet Bridge,Traveling Moms
+2024-06-24,PHL,Philadelphia International Airport,24818.89,1432138,11,Baggage Claim Display,General Travelers
+2024-06-24,LGA,LaGuardia Airport,19615.71,1093729,7,Digital Board,Family Leisure Travelers
+2024-06-24,BWI,Baltimore/Washington International Airport,20954.71,1196185,6,Digital Board,Traveling Moms
