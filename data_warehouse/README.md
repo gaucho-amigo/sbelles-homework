@@ -1,11 +1,11 @@
-# S'Belles Assessment Final — Deliverable Structure
+# S'Belles Data Warehouse — Deliverable Structure
 
 This directory contains the final deliverables for the S'Belles marketing data warehouse assessment. The data model follows a Kimball star schema with six daily fact tables and five conformed dimension tables.
 
 ## Directory Layout
 
 ```
-SBelles_Assessment_Final/
+data_warehouse/
 ├── fact_paid_social/        # Daily paid social metrics (Instagram, Pinterest, TikTok)
 ├── fact_web_analytics/      # Daily web traffic metrics aggregated from event-level data
 ├── fact_ecommerce/          # Daily e-commerce transaction metrics aggregated from line items

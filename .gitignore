@@ -1,3 +1,4 @@
 __pycache__/
 *.pyc
 output/profiling/file_inventory.csv
+reference_data/airport_lookup.csv
