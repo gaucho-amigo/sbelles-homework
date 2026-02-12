@@ -1,0 +1,86 @@
+date,podcast_name,episode_title,host_name,mentions_brand,mentions_founder,sentiment,estimated_impressions,episode_rating,mentions
+2023-01-12,Peach State Parenting,Peach State Parenting - Jan 12 2023,Tamara G.,0,0,mixed,8889,4.61,1
+2023-01-22,Carpool Chronicles GA,Carpool Chronicles GA - Jan 22 2023,Tamara G.,1,0,neutral,13392,5.0,1
+2023-01-27,Mom Life in the ATL,Mom Life in the ATL - Jan 27 2023,Danielle R.,1,0,positive,7079,4.17,1
+2023-01-30,Teen Trend Watch,Teen Trend Watch - Jan 30 2023,Monica P.,1,0,neutral,11582,4.08,1
+2023-02-08,Teen Trend Watch,Teen Trend Watch - Feb 08 2023,Lisa K.,1,0,neutral,6506,4.16,1
+2023-02-09,Teen Trend Watch,Teen Trend Watch - Feb 09 2023,Tamara G.,1,1,mixed,7489,4.68,1
+2023-02-10,Teen Trend Watch,Teen Trend Watch - Feb 10 2023,Lisa K.,1,0,mixed,6479,3.79,1
+2023-02-25,Teen Trend Watch,Teen Trend Watch - Feb 25 2023,Danielle R.,0,1,mixed,11754,4.3,1
+2023-03-10,Suburban Style Chats,Suburban Style Chats - Mar 10 2023,Lisa K.,1,0,mixed,9002,4.53,1
+2023-04-03,Mom Life in the ATL,Mom Life in the ATL - Apr 03 2023,Lisa K.,1,0,positive,7379,4.72,1
+2023-04-03,Peach State Parenting,Peach State Parenting - Apr 03 2023,Tamara G.,1,1,positive,7010,3.77,1
+2023-04-14,Carpool Chronicles GA,Carpool Chronicles GA - Apr 14 2023,Tamara G.,0,0,neutral,6453,4.65,1
+2023-04-23,Mom Life in the ATL,Mom Life in the ATL - Apr 23 2023,Tamara G.,1,0,positive,12694,3.74,1
+2023-04-23,Suburban Style Chats,Suburban Style Chats - Apr 23 2023,Danielle R.,1,0,neutral,11165,4.16,1
+2023-04-24,Teen Trend Watch,Teen Trend Watch - Apr 24 2023,Amy B.,0,0,positive,10794,4.49,1
+2023-05-03,Peach State Parenting,Peach State Parenting - May 03 2023,Lisa K.,1,1,neutral,9551,4.64,1
+2023-05-14,Teen Trend Watch,Teen Trend Watch - May 14 2023,Danielle R.,1,0,positive,12185,4.19,1
+2023-05-18,Peach State Parenting,Peach State Parenting - May 18 2023,Monica P.,1,1,mixed,7569,4.16,1
+2023-05-27,Carpool Chronicles GA,Carpool Chronicles GA - May 27 2023,Danielle R.,1,0,positive,12399,4.24,1
+2023-05-30,Peach State Parenting,Peach State Parenting - May 30 2023,Monica P.,1,1,neutral,5629,4.23,1
+2023-06-10,Carpool Chronicles GA,Carpool Chronicles GA - Jun 10 2023,Lisa K.,0,0,mixed,11496,4.38,1
+2023-06-12,Peach State Parenting,Peach State Parenting - Jun 12 2023,Amy B.,1,0,neutral,8209,4.75,1
+2023-06-22,Suburban Style Chats,Suburban Style Chats - Jun 22 2023,Monica P.,1,0,positive,6677,4.43,1
+2023-06-29,Teen Trend Watch,Teen Trend Watch - Jun 29 2023,Monica P.,1,1,positive,13113,4.61,2
+2023-07-02,Teen Trend Watch,Teen Trend Watch - Jul 02 2023,Monica P.,0,0,positive,13825,4.14,1
+2023-07-15,Carpool Chronicles GA,Carpool Chronicles GA - Jul 15 2023,Tamara G.,1,1,neutral,21575,3.89,1
+2023-07-16,Mom Life in the ATL,Mom Life in the ATL - Jul 16 2023,Danielle R.,1,0,positive,22344,3.7,1
+2023-07-20,Peach State Parenting,Peach State Parenting - Jul 20 2023,Danielle R.,1,0,positive,17194,3.79,1
+2023-07-22,Suburban Style Chats,Suburban Style Chats - Jul 22 2023,Monica P.,0,0,mixed,15627,4.84,1
+2023-07-25,Carpool Chronicles GA,Carpool Chronicles GA - Jul 25 2023,Monica P.,1,1,neutral,13564,3.96,1
+2023-08-05,Suburban Style Chats,Suburban Style Chats - Aug 05 2023,Tamara G.,0,1,positive,19181,4.28,1
+2023-08-08,Carpool Chronicles GA,Carpool Chronicles GA - Aug 08 2023,Danielle R.,0,1,positive,9505,4.45,1
+2023-08-12,Mom Life in the ATL,Mom Life in the ATL - Aug 12 2023,Lisa K.,0,1,neutral,22634,4.78,1
+2023-08-19,Suburban Style Chats,Suburban Style Chats - Aug 19 2023,Tamara G.,1,0,neutral,13333,3.61,1
+2023-08-24,Carpool Chronicles GA,Carpool Chronicles GA - Aug 24 2023,Danielle R.,0,1,neutral,16684,4.06,1
+2023-08-29,Peach State Parenting,Peach State Parenting - Aug 29 2023,Lisa K.,1,0,mixed,31882,5.0,2
+2023-09-16,Suburban Style Chats,Suburban Style Chats - Sep 16 2023,Tamara G.,0,1,positive,8934,4.23,1
+2023-09-21,Peach State Parenting,Peach State Parenting - Sep 21 2023,Lisa K.,1,0,mixed,9838,4.35,1
+2023-09-25,Carpool Chronicles GA,Carpool Chronicles GA - Sep 25 2023,Lisa K.,0,0,positive,9540,4.18,1
+2023-10-04,Peach State Parenting,Peach State Parenting - Oct 04 2023,Amy B.,1,0,neutral,7101,4.25,1
+2023-10-13,Carpool Chronicles GA,Carpool Chronicles GA - Oct 13 2023,Monica P.,1,0,positive,5885,4.04,1
+2023-10-14,Suburban Style Chats,Suburban Style Chats - Oct 14 2023,Tamara G.,0,0,neutral,12545,3.98,1
+2023-10-22,Suburban Style Chats,Suburban Style Chats - Oct 22 2023,Danielle R.,1,1,neutral,8689,4.57,1
+2023-10-22,Teen Trend Watch,Teen Trend Watch - Oct 22 2023,Lisa K.,1,1,neutral,14395,4.37,1
+2023-11-10,Peach State Parenting,Peach State Parenting - Nov 10 2023,Monica P.,1,1,neutral,11992,4.7,1
+2023-11-11,Carpool Chronicles GA,Carpool Chronicles GA - Nov 11 2023,Lisa K.,0,0,positive,10814,4.05,1
+2023-11-15,Carpool Chronicles GA,Carpool Chronicles GA - Nov 15 2023,Monica P.,1,1,mixed,13558,3.4,1
+2023-11-30,Mom Life in the ATL,Mom Life in the ATL - Nov 30 2023,Lisa K.,0,1,positive,21454,4.07,1
+2023-12-05,Suburban Style Chats,Suburban Style Chats - Dec 05 2023,Amy B.,1,1,neutral,14761,4.22,1
+2023-12-17,Teen Trend Watch,Teen Trend Watch - Dec 17 2023,Tamara G.,0,1,positive,13575,4.58,1
+2023-12-31,Teen Trend Watch,Teen Trend Watch - Dec 31 2023,Monica P.,1,1,mixed,7084,4.37,1
+2024-01-07,Carpool Chronicles GA,Carpool Chronicles GA - Jan 07 2024,Danielle R.,1,0,mixed,9159,4.74,1
+2024-01-11,Mom Life in the ATL,Mom Life in the ATL - Jan 11 2024,Amy B.,1,1,positive,6138,4.81,1
+2024-01-11,Teen Trend Watch,Teen Trend Watch - Jan 11 2024,Amy B.,1,0,neutral,11086,4.38,1
+2024-01-14,Suburban Style Chats,Suburban Style Chats - Jan 14 2024,Lisa K.,1,0,neutral,8569,5.0,1
+2024-01-15,Carpool Chronicles GA,Carpool Chronicles GA - Jan 15 2024,Tamara G.,1,1,mixed,8840,4.16,1
+2024-01-22,Suburban Style Chats,Suburban Style Chats - Jan 22 2024,Tamara G.,0,0,neutral,9583,3.3,1
+2024-01-23,Suburban Style Chats,Suburban Style Chats - Jan 23 2024,Danielle R.,0,1,neutral,5965,4.67,1
+2024-01-28,Peach State Parenting,Peach State Parenting - Jan 28 2024,Tamara G.,1,0,neutral,14032,3.85,1
+2024-01-31,Teen Trend Watch,Teen Trend Watch - Jan 31 2024,Monica P.,1,0,positive,9445,4.73,1
+2024-02-08,Carpool Chronicles GA,Carpool Chronicles GA - Feb 08 2024,Danielle R.,1,0,neutral,9056,4.06,1
+2024-02-14,Teen Trend Watch,Teen Trend Watch - Feb 14 2024,Danielle R.,1,1,positive,10842,4.4,1
+2024-02-15,Suburban Style Chats,Suburban Style Chats - Feb 15 2024,Danielle R.,1,0,positive,10117,4.07,1
+2024-02-20,Carpool Chronicles GA,Carpool Chronicles GA - Feb 20 2024,Danielle R.,1,0,mixed,9743,3.46,1
+2024-02-22,Carpool Chronicles GA,Carpool Chronicles GA - Feb 22 2024,Tamara G.,0,1,mixed,11506,4.36,1
+2024-02-24,Mom Life in the ATL,Mom Life in the ATL - Feb 24 2024,Monica P.,0,0,neutral,13066,4.26,1
+2024-03-02,Mom Life in the ATL,Mom Life in the ATL - Mar 02 2024,Monica P.,1,0,positive,11178,4.51,1
+2024-03-28,Mom Life in the ATL,Mom Life in the ATL - Mar 28 2024,Danielle R.,0,0,neutral,8656,4.34,1
+2024-04-05,Peach State Parenting,Peach State Parenting - Apr 05 2024,Amy B.,1,1,mixed,6906,4.27,1
+2024-04-07,Mom Life in the ATL,Mom Life in the ATL - Apr 07 2024,Monica P.,1,0,mixed,13115,4.36,1
+2024-04-12,Suburban Style Chats,Suburban Style Chats - Apr 12 2024,Amy B.,1,1,mixed,8896,4.18,1
+2024-05-05,Carpool Chronicles GA,Carpool Chronicles GA - May 05 2024,Amy B.,1,0,positive,10213,4.04,1
+2024-05-11,Suburban Style Chats,Suburban Style Chats - May 11 2024,Monica P.,1,1,mixed,12219,4.51,1
+2024-05-21,Suburban Style Chats,Suburban Style Chats - May 21 2024,Danielle R.,1,0,positive,10442,3.96,1
+2024-05-25,Mom Life in the ATL,Mom Life in the ATL - May 25 2024,Danielle R.,1,1,positive,12996,4.08,1
+2024-05-28,Mom Life in the ATL,Mom Life in the ATL - May 28 2024,Monica P.,1,1,neutral,8950,4.72,1
+2024-05-30,Suburban Style Chats,Suburban Style Chats - May 30 2024,Amy B.,0,0,mixed,9888,4.21,1
+2024-06-11,Carpool Chronicles GA,Carpool Chronicles GA - Jun 11 2024,Monica P.,1,0,positive,8363,4.86,1
+2024-06-11,Suburban Style Chats,Suburban Style Chats - Jun 11 2024,Danielle R.,1,0,mixed,9825,4.59,1
+2024-06-13,Mom Life in the ATL,Mom Life in the ATL - Jun 13 2024,Monica P.,1,1,mixed,10187,4.98,1
+2024-06-19,Teen Trend Watch,Teen Trend Watch - Jun 19 2024,Tamara G.,1,0,neutral,7305,4.8,1
+2024-06-23,Teen Trend Watch,Teen Trend Watch - Jun 23 2024,Amy B.,1,0,mixed,6964,4.22,1
+2024-06-25,Mom Life in the ATL,Mom Life in the ATL - Jun 25 2024,Tamara G.,1,0,mixed,8007,3.97,1
+2024-06-25,Peach State Parenting,Peach State Parenting - Jun 25 2024,Lisa K.,1,1,mixed,10779,4.14,1
+2024-06-30,Peach State Parenting,Peach State Parenting - Jun 30 2024,Lisa K.,1,0,neutral,13525,4.66,1

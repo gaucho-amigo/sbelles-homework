@@ -1,0 +1,8 @@
+channel_key,channel_name,channel_group,is_paid
+1,instagram,paid_social,True
+2,pinterest,paid_social,True
+3,tiktok,paid_social,True
+4,organic_tiktok,organic_social,False
+5,web,web_analytics,False
+6,podcast,earned_media,False
+7,ooh_airport,ooh,True

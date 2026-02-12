@@ -1,0 +1,7 @@
+initiative_key,initiative_name,paid_social_campaign_pattern,web_analytics_campaign_value,notes
+1,Always On,"Instagram Always On, Pinterest Always On, TikTok Always On",Always On,Direct theme match across both streams
+2,BTS,"Instagram BTS Moms, Pinterest BTS Moms, TikTok BTS Moms","BTS 2023, BTS 2024",Web uses year-suffixed variants
+3,Teen Trends,"Instagram Teen Trends, Pinterest Teen Trends, TikTok Teen Trends",,No web analytics counterpart found
+4,Black Friday,,Black Friday 2023,Web/promo only — no paid social campaign
+5,Email Promo,,Email Promo,Web/promo only — no paid social campaign
+6,Unattributed,,None,Web traffic with explicit 'None' campaign value
