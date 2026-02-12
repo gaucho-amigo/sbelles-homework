@@ -266,6 +266,90 @@ def row_count_by_month():
 
 
 # ---------------------------------------------------------------------------
+# 6. Source-Grain to Daily Alignment
+# ---------------------------------------------------------------------------
+
+def check_source_grain_alignment():
+    """Verify source-grain tables align with their daily aggregates."""
+    print("\n" + "=" * 60)
+    print("6. SOURCE-GRAIN TO DAILY ALIGNMENT")
+    print("=" * 60)
+
+    all_pass = True
+
+    # --- Ecommerce ---
+    print("\n  fact_ecommerce_transactions vs fact_ecommerce_daily")
+    txn = pd.read_csv(WAREHOUSE_DIR / "fact_ecommerce" / "fact_ecommerce_transactions.csv",
+                       parse_dates=["date"])
+    daily_ecom = pd.read_csv(WAREHOUSE_DIR / "fact_ecommerce" / "fact_ecommerce_daily.csv",
+                              parse_dates=["date"])
+
+    # Revenue reconciliation
+    txn_rev = txn["line_revenue"].sum()
+    daily_rev = daily_ecom["gross_revenue"].sum()
+    rev_match = abs(txn_rev - daily_rev) <= TOLERANCE
+    print(f"    Revenue: txn ${txn_rev:,.2f} vs daily ${daily_rev:,.2f} — {'PASS' if rev_match else 'FAIL'}")
+    if not rev_match:
+        all_pass = False
+
+    # Line item count by date
+    txn_by_date = txn.groupby("date").size()
+    daily_items = daily_ecom.groupby("date")["line_items"].sum()
+    items_match = (txn_by_date == daily_items).all()
+    print(f"    Line items by date: {'PASS' if items_match else 'FAIL'}")
+    if not items_match:
+        all_pass = False
+
+    # Quantity
+    txn_qty = txn["quantity"].sum()
+    daily_qty = daily_ecom["total_quantity"].sum()
+    qty_match = txn_qty == daily_qty
+    print(f"    Quantity: txn {txn_qty:,} vs daily {daily_qty:,} — {'PASS' if qty_match else 'FAIL'}")
+    if not qty_match:
+        all_pass = False
+
+    # Date range
+    ecom_range = txn["date"].min() == daily_ecom["date"].min() and txn["date"].max() == daily_ecom["date"].max()
+    print(f"    Date range match: {'PASS' if ecom_range else 'FAIL'}")
+    if not ecom_range:
+        all_pass = False
+
+    # --- Web Analytics ---
+    print("\n  fact_web_analytics_events vs fact_web_analytics_daily")
+    evt = pd.read_csv(WAREHOUSE_DIR / "fact_web_analytics" / "fact_web_analytics_events.csv",
+                       parse_dates=["date"])
+    daily_web = pd.read_csv(WAREHOUSE_DIR / "fact_web_analytics" / "fact_web_analytics_daily.csv",
+                             parse_dates=["date"])
+
+    # Pageview count
+    evt_count = len(evt)
+    daily_pv = daily_web["pageviews"].sum()
+    pv_match = evt_count == daily_pv
+    print(f"    Pageviews: events {evt_count:,} vs daily SUM {daily_pv:,} — {'PASS' if pv_match else 'FAIL'}")
+    if not pv_match:
+        all_pass = False
+
+    # Date range
+    web_range = evt["date"].min() == daily_web["date"].min() and evt["date"].max() == daily_web["date"].max()
+    print(f"    Date range match: {'PASS' if web_range else 'FAIL'}")
+    if not web_range:
+        all_pass = False
+
+    # Expected row counts
+    evt_expected = 51234
+    txn_expected = 17106
+    evt_ok = len(evt) == evt_expected
+    txn_ok = len(txn) == txn_expected
+    print(f"\n  Expected row counts")
+    print(f"    Ecommerce transactions: {len(txn):,} (expected {txn_expected:,}) — {'PASS' if txn_ok else 'FAIL'}")
+    print(f"    Web analytics events:   {len(evt):,} (expected {evt_expected:,}) — {'PASS' if evt_ok else 'FAIL'}")
+    if not evt_ok or not txn_ok:
+        all_pass = False
+
+    return all_pass
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -282,6 +366,7 @@ def main():
     results["grain_uniqueness"] = check_grain_uniqueness()
     results["web_dedup"] = check_web_dedup()
     results["date_ranges"] = check_date_ranges()
+    results["source_grain_alignment"] = check_source_grain_alignment()
     row_count_by_month()
 
     # Final summary

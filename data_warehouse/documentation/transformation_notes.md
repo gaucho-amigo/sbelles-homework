@@ -35,7 +35,9 @@ file (`sBelles_web_traffic_2023_Q3_Q4.csv`).
 
 All rows where `event_datetime` falls in December 2023 are dropped
 from the Q1 2024 file before concatenation. The Q3Q4 2023 file is
-treated as the authoritative source for Dec 2023 data.
+treated as authoritative because it was generated for the period that
+includes December, whereas the Q1 2024 file's December rows appear
+to be a data extraction overlap.
 
 ### Row counts
 
@@ -117,7 +119,8 @@ Below are the specifics for each.
 
 The raw file `sBelles_ooh_airport_weekly.csv` has one row per
 (week_start_date, airport_code, format, audience_segment) with weekly
-totals for spend, impressions, and placements.
+totals for spend, impressions, and placements. Each `week_start_date`
+is a Monday, and the week runs through the following Sunday.
 
 ### Expansion logic
 
