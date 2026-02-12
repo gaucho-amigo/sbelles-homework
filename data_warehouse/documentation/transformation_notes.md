@@ -196,3 +196,46 @@ occurred. Rationale:
    "zero impressions" event; it's a non-event.
 3. Downstream analysis can LEFT JOIN from `dim_date` if a complete
    calendar spine is needed.
+
+---
+
+## 8. Source-Grain Preservation
+
+### Rationale
+
+Two data streams — ecommerce and web analytics — have analytically
+valuable sub-daily granularity that is lost during daily aggregation.
+The pipeline produces both:
+
+1. **Daily aggregate tables** (`fact_ecommerce_daily`,
+   `fact_web_analytics_daily`) — satisfy the assignment requirement
+   for daily analytic granularity and feed cross-channel analysis.
+2. **Source-grain tables** (`fact_ecommerce_transactions`,
+   `fact_web_analytics_events`) — preserve the cleaned,
+   schema-standardized, deduplicated source data at its original
+   granularity.
+
+### What the source-grain tables enable
+
+| Table | Grain | Analyses unlocked |
+|-------|-------|-------------------|
+| `fact_ecommerce_transactions` | One row per line item | Discount distribution analysis, basket composition (multi-item orders), user-level purchase behavior, unit economics by product/size |
+| `fact_web_analytics_events` | One row per pageview event | Session-level web pathing, device-level traffic patterns, user journey analysis, page-level engagement |
+
+### Why only these two streams
+
+| Stream | Source-grain table? | Reason |
+|--------|---------------------|--------|
+| Ecommerce | Yes | Line-item detail (discount, basket, user) is analytically rich |
+| Web analytics | Yes | Event-level detail (session, page, user) is analytically rich |
+| Paid social | No | Already at daily grain in source — no sub-daily detail exists |
+| OOH | No | Expanded from weekly — daily rows are synthetic, not source-grain |
+| Organic social | No | Post-level grain is sparse (~25 posts/month); daily rollup preserves all useful signal |
+| Podcast | No | Mention-level grain is very sparse (85 rows total); daily rollup already near 1:1 with source |
+
+### Implementation
+
+Both source-grain tables are written from the same transform function,
+after cleaning and dedup but before the daily aggregation step. No
+additional file reads are required — the cleaned DataFrame is simply
+written to a second output path before groupby.

@@ -1,4 +1,4 @@
-"""Transform ecommerce transaction data: aggregate line-items to daily grain."""
+"""Transform ecommerce transaction data: write transaction-level and daily grain."""
 
 import pandas as pd
 from src.transforms.utils import (
@@ -22,6 +22,19 @@ def transform_ecommerce():
     # Log negative revenue rows
     neg_rev = df[df["line_revenue"] < 0]
     print(f"    [data quality] {len(neg_rev)} rows with negative line_revenue (preserved)")
+
+    # --- Write transaction-level fact table (pre-aggregation) ---
+    txn_cols = ["date", "order_id", "user_id", "dma_name", "state", "zip_code",
+                "product_category", "size", "quantity", "unit_price", "unit_cost",
+                "discount_per_unit", "line_revenue", "promo_flag"]
+    txn = df[txn_cols].sort_values(["date", "order_id"]).reset_index(drop=True)
+    txn_out = WAREHOUSE_DIR / "fact_ecommerce" / "fact_ecommerce_transactions.csv"
+    txn.to_csv(txn_out, index=False)
+    txn_mn, txn_mx = txn["date"].min(), txn["date"].max()
+    log_step("fact_ecommerce_transactions", rows_in, len(txn),
+             actions=[f"all {len(txn):,} line items preserved (no aggregation)",
+                      f"negative revenue rows: {len(neg_rev)}"],
+             date_range=(str(txn_mn.date()), str(txn_mx.date())))
 
     # Compute derived columns for aggregation
     df["discount_x_qty"] = df["discount_per_unit"] * df["quantity"]

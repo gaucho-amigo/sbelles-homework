@@ -33,6 +33,8 @@ def validate_outputs():
         "fact_organic_social_daily": WAREHOUSE_DIR / "fact_organic_social" / "fact_organic_social_daily.csv",
         "fact_podcast_daily": WAREHOUSE_DIR / "fact_podcast" / "fact_podcast_daily.csv",
         "fact_ooh_daily": WAREHOUSE_DIR / "fact_ooh" / "fact_ooh_daily.csv",
+        "fact_ecommerce_transactions": WAREHOUSE_DIR / "fact_ecommerce" / "fact_ecommerce_transactions.csv",
+        "fact_web_analytics_events": WAREHOUSE_DIR / "fact_web_analytics" / "fact_web_analytics_events.csv",
     }
 
     # Date columns in each fact table
@@ -44,6 +46,8 @@ def validate_outputs():
         "fact_organic_social_daily": "date",
         "fact_podcast_daily": "date",
         "fact_ooh_daily": "date",
+        "fact_ecommerce_transactions": "date",
+        "fact_web_analytics_events": "date",
     }
 
     for name, path in outputs.items():

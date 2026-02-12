@@ -1,4 +1,4 @@
-"""Transform web analytics data: dedup, aggregate events to daily grain."""
+"""Transform web analytics data: dedup, write event-level and daily grain."""
 
 import pandas as pd
 from src.transforms.utils import (
@@ -36,6 +36,22 @@ def transform_web_analytics():
 
     # Derive date
     df["date"] = df["event_datetime"].dt.normalize()
+
+    # --- Write event-level fact table (pre-aggregation) ---
+    evt_cols = ["date", "event_datetime", "user_id", "session_id", "page_url",
+                "traffic_source", "traffic_medium", "campaign", "device_category",
+                "dma_name", "state", "zip_code"]
+    evt = df[evt_cols].sort_values(["date", "event_datetime"]).reset_index(drop=True)
+    evt_out = WAREHOUSE_DIR / "fact_web_analytics" / "fact_web_analytics_events.csv"
+    evt.to_csv(evt_out, index=False)
+    evt_mn, evt_mx = evt["date"].min(), evt["date"].max()
+    null_campaign = evt["campaign"].isna().sum()
+    null_pct = null_campaign / len(evt) * 100
+    log_step("fact_web_analytics_events", rows_in, len(evt),
+             actions=[f"dropped {dec_dropped} Dec 2023 rows from Q1 2024 file",
+                      f"all {len(evt):,} events preserved (no aggregation)",
+                      f"null campaign: {null_campaign:,} ({null_pct:.1f}%)"],
+             date_range=(str(evt_mn.date()), str(evt_mx.date())))
 
     # Aggregate to daily grain
     groupby_cols = ["date", "traffic_source", "traffic_medium", "campaign",
