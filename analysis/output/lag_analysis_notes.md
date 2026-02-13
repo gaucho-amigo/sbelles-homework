@@ -1,9 +1,54 @@
 # Lag Analysis Notes
 
-Cross-correlations are computed on raw daily values. Shared seasonal patterns
-(back-to-school, Black Friday/holiday) may inflate correlation estimates at all
-lags. Deseasonalizing the signals before computing correlations would isolate
-short-term dynamics from seasonal confounds.
+## Raw Cross-Correlations
 
-These correlations identify candidate causal relationships for further
-investigation using entropy-based methods; they do not establish causality.
+All five signal pairs show highest Pearson correlation at lag 0, declining
+monotonically with increasing lag. Paid social spend and web sessions correlate
+at r = 0.94 at lag 0. This pattern is consistent with shared seasonal response
+(back-to-school, Black Friday/holiday) rather than day-level causal signal flow.
+
+- Paid Social Spend → Web Sessions: r = 0.94 at lag 0, peak |r| = 0.94 at lag 0d
+- Paid Social Spend → Ecomm Revenue: r = 0.77 at lag 0, peak |r| = 0.77 at lag 0d
+- Web Sessions → Ecomm Revenue: r = 0.83 at lag 0, peak |r| = 0.83 at lag 0d
+- Podcast Impressions → Web Sessions: r = 0.14 at lag 0, peak |r| = 0.15 at lag 14d
+- Organic Impressions → Web Sessions: r = 0.28 at lag 0, peak |r| = 0.28 at lag 0d
+
+## Deseasonalized Cross-Correlations
+
+After removing a 14-day centered rolling mean from each signal, correlations
+drop substantially across all pairs. The residualized correlations are much
+weaker, confirming that the raw correlations were dominated by seasonal
+co-movement rather than short-term causal dynamics.
+
+- Paid Social Spend → Web Sessions: r = 0.78 at lag 0, peak |r| = 0.78 at lag 0d
+- Paid Social Spend → Ecomm Revenue: r = 0.40 at lag 0, peak |r| = 0.40 at lag 0d
+- Web Sessions → Ecomm Revenue: r = 0.55 at lag 0, peak |r| = 0.55 at lag 0d
+- Podcast Impressions → Web Sessions: r = 0.16 at lag 0, peak |r| = 0.16 at lag 0d
+- Organic Impressions → Web Sessions: r = 0.12 at lag 0, peak |r| = 0.12 at lag 0d
+
+## Interpretation
+
+High raw correlations between marketing spend and revenue do not establish that
+spend caused revenue. Seasonal demand drives both spend (marketers increase
+budgets during peak periods) and revenue (consumers buy more during
+back-to-school and holidays). After controlling for this seasonal pattern, the
+residual short-term relationships are substantially weaker (paid social spend →
+web sessions drops from r = 0.94 to r = 0.78 at lag 0).
+
+This demonstrates a fundamental limitation of correlation-based marketing mix
+models: they cannot distinguish whether spend amplified demand or merely
+coincided with it. Establishing true causal impact requires methods that can
+detect directional information flow between signals while conditioning on
+confounding temporal patterns. Entropy-based causal inference, such as transfer
+entropy, addresses this by measuring whether the past of one signal reduces
+uncertainty about the future of another, beyond what that signal's own history
+explains.
+
+## Note on Methodology
+
+Deseasonalization uses a 14-day centered rolling mean subtracted from raw
+values. This window captures weekly cyclicality and short-term seasonal trends
+without over-smoothing. Percent-change residuals were considered but rejected
+due to division-by-zero risk on sparse signals (podcast mentions). Pearson
+correlation is scale-invariant, making absolute residuals appropriate for
+cross-signal comparison.

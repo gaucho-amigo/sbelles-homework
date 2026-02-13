@@ -170,14 +170,141 @@ def chart_web_traffic_sources(summary):
     _save(fig, "chart_web_traffic_sources.png")
 
 
+def chart_web_traffic_grouped(summary):
+    """Web sessions by grouped channel (paid social, search, non-paid)."""
+    wa = _read(WAREHOUSE / "fact_web_analytics" / "fact_web_analytics_daily.csv")
+
+    groups = {
+        "Paid Social": ["instagram", "tiktok", "facebook"],
+        "Search (Google)": ["google"],
+        "Non-Paid (Direct + Email)": ["direct", "email"],
+    }
+    group_colors = {
+        "Paid Social": COLORS["coral"],
+        "Search (Google)": COLORS["amber"],
+        "Non-Paid (Direct + Email)": COLORS["steel_blue"],
+    }
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+    for group_name, sources in groups.items():
+        daily = (wa[wa["traffic_source"].isin(sources)]
+                 .groupby("date", as_index=False)["sessions"].sum()
+                 .set_index("date").sort_index())
+        rolled = daily["sessions"].rolling(7, min_periods=1).mean()
+        ax.plot(rolled.index, rolled.values, linewidth=2, label=group_name,
+                color=group_colors[group_name])
+
+    _setup_ax(ax, "Web Sessions by Channel Group (7-Day Rolling Avg)", "Sessions")
+    ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"{x:,.0f}"))
+    ax.legend(fontsize=9, loc="upper right", framealpha=0.9)
+    _save(fig, "chart_web_traffic_grouped.png")
+
+
+def chart_seasonal_efficiency(summary):
+    """Grouped bar chart: spend, revenue, and efficiency by season."""
+    season_labels = {
+        "regular": "Regular",
+        "back_to_school": "Back-to-School",
+        "black_friday_holiday": "Black Friday / Holiday",
+    }
+
+    stats = []
+    for flag in ["regular", "back_to_school", "black_friday_holiday"]:
+        sub = summary[summary["season_flag"] == flag]
+        if len(sub) == 0:
+            continue
+        avg_spend = sub["paid_social_spend"].mean()
+        avg_rev = sub["ecomm_revenue"].mean()
+        efficiency = avg_rev / avg_spend if avg_spend > 0 else 0
+        avg_sessions = sub["web_sessions"].mean()
+        stats.append({
+            "season": season_labels[flag],
+            "avg_daily_spend": avg_spend,
+            "avg_daily_revenue": avg_rev,
+            "revenue_per_spend_dollar": efficiency,
+            "avg_daily_sessions": avg_sessions,
+        })
+
+    sdf = pd.DataFrame(stats)
+
+    fig, ax1 = plt.subplots(figsize=(12, 6))
+    x = range(len(sdf))
+    width = 0.3
+
+    bars1 = ax1.bar([i - width / 2 for i in x], sdf["avg_daily_spend"],
+                    width, label="Avg Daily Spend", color=COLORS["coral"])
+    bars2 = ax1.bar([i + width / 2 for i in x], sdf["avg_daily_revenue"],
+                    width, label="Avg Daily Revenue", color=COLORS["steel_blue"])
+
+    ax1.set_ylabel("Dollars ($)", fontsize=FONT_LABEL)
+    ax1.set_xticks(list(x))
+    ax1.set_xticklabels(sdf["season"], fontsize=FONT_LABEL)
+    ax1.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"${v:,.0f}"))
+    ax1.spines["top"].set_visible(False)
+    ax1.grid(False)
+
+    ax2 = ax1.twinx()
+    ax2.plot(list(x), sdf["revenue_per_spend_dollar"], marker="D", markersize=8,
+             linewidth=2, color=COLORS["sage"], label="Revenue / Spend $", zorder=5)
+    ax2.set_ylabel("Revenue per Spend Dollar ($)", fontsize=FONT_LABEL)
+    ax2.spines["top"].set_visible(False)
+    ax2.grid(False)
+
+    lines1, labels1 = ax1.get_legend_handles_labels()
+    lines2, labels2 = ax2.get_legend_handles_labels()
+    ax1.legend(lines1 + lines2, labels1 + labels2, fontsize=9, loc="upper left", framealpha=0.9)
+
+    ax1.set_title("Seasonal Marketing Efficiency: Spend, Revenue, and ROI by Period",
+                  fontsize=FONT_TITLE, fontweight="bold", pad=10)
+    _save(fig, "chart_seasonal_efficiency.png")
+
+
+def chart_spend_vs_sessions_scatter(summary):
+    """Scatter plot of paid social spend vs web sessions, colored by season."""
+    season_colors = {
+        "regular": COLORS["steel_blue"],
+        "back_to_school": COLORS["amber"],
+        "black_friday_holiday": COLORS["coral"],
+    }
+    season_labels = {
+        "regular": "Regular",
+        "back_to_school": "Back-to-School",
+        "black_friday_holiday": "Black Friday / Holiday",
+    }
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+    for flag in ["regular", "back_to_school", "black_friday_holiday"]:
+        sub = summary[summary["season_flag"] == flag]
+        if len(sub) == 0:
+            continue
+        ax.scatter(sub["paid_social_spend"], sub["web_sessions"],
+                   c=season_colors[flag], label=season_labels[flag],
+                   alpha=0.5, s=20, edgecolors="none")
+
+    ax.set_title("Paid Social Spend vs. Web Sessions by Season",
+                 fontsize=FONT_TITLE, fontweight="bold", pad=10)
+    ax.set_xlabel("Paid Social Spend ($)", fontsize=FONT_LABEL)
+    ax.set_ylabel("Web Sessions", fontsize=FONT_LABEL)
+    ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"${v:,.0f}"))
+    ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    ax.grid(False)
+    ax.legend(fontsize=9, loc="upper left", framealpha=0.9)
+    _save(fig, "chart_spend_vs_sessions_scatter.png")
+
+
 def generate_all():
-    """Generate all four charts."""
+    """Generate all charts."""
     summary = _read(OUTPUT / "cross_channel_daily.csv")
     print("Generating charts...")
     chart_revenue_seasonal(summary)
     chart_spend_vs_revenue(summary)
     chart_paid_by_platform(summary)
     chart_web_traffic_sources(summary)
+    chart_web_traffic_grouped(summary)
+    chart_seasonal_efficiency(summary)
+    chart_spend_vs_sessions_scatter(summary)
     print("All charts generated.")
 
 
