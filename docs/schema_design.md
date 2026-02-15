@@ -373,6 +373,66 @@ Daily out-of-home airport advertising metrics expanded from weekly source data.
 
 ---
 
+### 2.7 fact_ecommerce_transactions
+
+Transaction-level (line-item) ecommerce data preserving full source granularity. Cleaned and date-standardized but not aggregated. Complements `fact_ecommerce_daily` for analyses requiring individual transaction detail.
+
+**Grain:** One row per line item (one row per product within an order)
+
+**Source files:** 3 files — transactions_2023_Q1_Q2, transactions_2023_Q3_Q4, transactions_2024_Q1_Q2
+
+**Derivation:** Concatenated from 3 source files. Date derived from `order_datetime`. No aggregation, no rows removed (including negative revenue rows).
+
+| Column | Data Type | Description | Derivation |
+|---|---|---|---|
+| date | DATE | Order date (FK to dim_date) | Extracted from `order_datetime` (date portion) |
+| order_id | VARCHAR | Order identifier | Direct from source `order_id` |
+| user_id | VARCHAR | Customer identifier | Direct from source `user_id` |
+| dma_name | VARCHAR | Designated Market Area (FK to dim_geography via lookup) | Direct from source `dma_name` |
+| state | VARCHAR | State abbreviation | Direct from source `state` |
+| zip_code | VARCHAR | Customer ZIP code | Direct from source `zip_code` |
+| product_category | VARCHAR | Product category (Girls Bottoms, Girls Dresses, Girls Tops) | Direct from source `product_category` |
+| size | VARCHAR | Product size (XS, S, M, L) | Direct from source `size` |
+| quantity | INT | Units purchased | Direct from source `quantity` |
+| unit_price | FLOAT | Price per unit | Direct from source `unit_price` |
+| unit_cost | FLOAT | Cost per unit | Direct from source `unit_cost` |
+| discount_per_unit | FLOAT | Discount applied per unit | Direct from source `discount_per_unit` |
+| line_revenue | FLOAT | Total line revenue (may be negative when discount > price) | Direct from source `line_revenue` |
+| promo_flag | INT | Whether a promotion was applied (0/1) | Direct from source `promo_flag` |
+
+**Relationship to daily table:** `fact_ecommerce_daily` is the daily rollup of this table, grouped by (date, dma_name, state, product_category, size, promo_flag). SUM(line_revenue) here equals SUM(gross_revenue) in the daily table.
+
+---
+
+### 2.8 fact_web_analytics_events
+
+Event-level (pageview) web analytics data preserving full source granularity. Cleaned, deduplicated (Dec 2023 overlap removed), and date-standardized but not aggregated. Complements `fact_web_analytics_daily` for analyses requiring individual event detail.
+
+**Grain:** One row per pageview event
+
+**Source files:** 4 files — web_traffic_2023_Q1_Q2, web_traffic_2023_Q3_Q4, web_traffic_2024_Q1, web_traffic_2024_Q2
+
+**Derivation:** Concatenated from 4 source files. December 2023 rows dropped from Q1 2024 file to resolve overlap. Date derived from `event_datetime`. No aggregation.
+
+| Column | Data Type | Description | Derivation |
+|---|---|---|---|
+| date | DATE | Event date (FK to dim_date) | Extracted from `event_datetime` (date portion) |
+| event_datetime | DATETIME | Full event timestamp | Direct from source `event_datetime` |
+| user_id | VARCHAR | User identifier | Direct from source `user_id` |
+| session_id | VARCHAR | Session identifier | Direct from source `session_id` |
+| page_url | VARCHAR | Page URL visited | Direct from source `page_url` |
+| traffic_source | VARCHAR | Traffic source (google, instagram, etc.) | Direct from source `traffic_source` |
+| traffic_medium | VARCHAR | Traffic medium (cpc, paid_social, etc.) | Direct from source `traffic_medium` |
+| campaign | VARCHAR (nullable) | Campaign tag; null for direct/organic traffic | Direct from source `campaign` |
+| device_category | VARCHAR | Device type (desktop, mobile, tablet) | Direct from source `device_category` |
+| dma_name | VARCHAR | Designated Market Area (FK to dim_geography via lookup) | Direct from source `dma_name` |
+| state | VARCHAR | State abbreviation | Direct from source `state` |
+| zip_code | VARCHAR | Visitor ZIP code | Direct from source `zip_code` |
+
+**Relationship to daily table:** `fact_web_analytics_daily` is the daily rollup of this table, grouped by (date, traffic_source, traffic_medium, campaign, device_category, dma_name, state). COUNT(*) here per group equals `pageviews` in the daily table.
+
+---
+
 ## 3. Design Decisions
 
 ### 1. Why Kimball star schema
@@ -407,6 +467,10 @@ The source OOH data is weekly with no day-of-week signal (no indication that wee
 
 The digital and ecommerce streams operate exclusively within Georgia (5 DMAs, all in GA). The OOH stream covers 20 airports across the US — a national footprint. The `geo_scope` column in dim_geography distinguishes these tiers: "local" for GA digital/ecommerce, "national" for OOH airports, and "inferred" for podcast geography (derived from podcast names). This allows analysts to filter or segment by geographic scope when combining streams, avoiding misleading aggregations that mix local and national metrics.
 
-### 9. Cross-channel join pattern
+### 9. Why source-grain fact tables for ecommerce and web analytics
+
+Daily aggregation is lossy. Discount distributions, basket composition, individual session behavior, and user-level patterns cannot be recovered from daily rollups. Two streams — ecommerce and web analytics — have analytically valuable sub-daily granularity. The pipeline produces both daily aggregates (for cross-channel analysis) and cleaned source-grain tables (for deeper investigation). The other four streams do not warrant source-grain preservation: paid social is already at daily grain, OOH is expanded from weekly (synthetic daily rows), and organic social and podcast are too sparse to justify a separate detail table.
+
+### 10. Cross-channel join pattern
 
 Any combination of fact tables can be joined through dim_date (all facts have a `date` column) and dim_geography (all facts reference a geographic entity that maps to dim_geography). For example, to analyze whether paid social spend in Atlanta correlates with ecommerce revenue in Atlanta, join fact_paid_social_daily and fact_ecommerce_daily on date and dma_name, filtering dim_geography to geo_scope = "local". The dim_campaign_initiative bridge enables further alignment by campaign theme across paid social and web analytics.

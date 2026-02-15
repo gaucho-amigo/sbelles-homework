@@ -1,0 +1,76 @@
+signal_pair,lag_days,pearson_r
+Paid Social Spend → Web Sessions,0,0.938332
+Paid Social Spend → Web Sessions,1,0.840248
+Paid Social Spend → Web Sessions,2,0.732053
+Paid Social Spend → Web Sessions,3,0.689094
+Paid Social Spend → Web Sessions,4,0.661097
+Paid Social Spend → Web Sessions,5,0.625917
+Paid Social Spend → Web Sessions,6,0.662482
+Paid Social Spend → Web Sessions,7,0.712686
+Paid Social Spend → Web Sessions,8,0.608456
+Paid Social Spend → Web Sessions,9,0.503731
+Paid Social Spend → Web Sessions,10,0.46376
+Paid Social Spend → Web Sessions,11,0.428327
+Paid Social Spend → Web Sessions,12,0.393072
+Paid Social Spend → Web Sessions,13,0.423485
+Paid Social Spend → Web Sessions,14,0.479283
+Paid Social Spend → Ecomm Revenue,0,0.768349
+Paid Social Spend → Ecomm Revenue,1,0.691354
+Paid Social Spend → Ecomm Revenue,2,0.602728
+Paid Social Spend → Ecomm Revenue,3,0.590044
+Paid Social Spend → Ecomm Revenue,4,0.591318
+Paid Social Spend → Ecomm Revenue,5,0.545239
+Paid Social Spend → Ecomm Revenue,6,0.594068
+Paid Social Spend → Ecomm Revenue,7,0.610646
+Paid Social Spend → Ecomm Revenue,8,0.52931
+Paid Social Spend → Ecomm Revenue,9,0.436877
+Paid Social Spend → Ecomm Revenue,10,0.411392
+Paid Social Spend → Ecomm Revenue,11,0.382508
+Paid Social Spend → Ecomm Revenue,12,0.353287
+Paid Social Spend → Ecomm Revenue,13,0.374138
+Paid Social Spend → Ecomm Revenue,14,0.397257
+Web Sessions → Ecomm Revenue,0,0.830018
+Web Sessions → Ecomm Revenue,1,0.724723
+Web Sessions → Ecomm Revenue,2,0.64404
+Web Sessions → Ecomm Revenue,3,0.630605
+Web Sessions → Ecomm Revenue,4,0.611105
+Web Sessions → Ecomm Revenue,5,0.575305
+Web Sessions → Ecomm Revenue,6,0.642833
+Web Sessions → Ecomm Revenue,7,0.670179
+Web Sessions → Ecomm Revenue,8,0.563101
+Web Sessions → Ecomm Revenue,9,0.478532
+Web Sessions → Ecomm Revenue,10,0.455714
+Web Sessions → Ecomm Revenue,11,0.413367
+Web Sessions → Ecomm Revenue,12,0.383449
+Web Sessions → Ecomm Revenue,13,0.427762
+Web Sessions → Ecomm Revenue,14,0.451793
+Podcast Impressions → Web Sessions,0,0.142668
+Podcast Impressions → Web Sessions,1,0.084753
+Podcast Impressions → Web Sessions,2,0.074725
+Podcast Impressions → Web Sessions,3,0.078476
+Podcast Impressions → Web Sessions,4,0.079833
+Podcast Impressions → Web Sessions,5,0.094412
+Podcast Impressions → Web Sessions,6,0.077247
+Podcast Impressions → Web Sessions,7,0.132249
+Podcast Impressions → Web Sessions,8,0.098505
+Podcast Impressions → Web Sessions,9,0.079425
+Podcast Impressions → Web Sessions,10,0.079936
+Podcast Impressions → Web Sessions,11,0.067134
+Podcast Impressions → Web Sessions,12,0.067233
+Podcast Impressions → Web Sessions,13,0.090839
+Podcast Impressions → Web Sessions,14,0.14611
+Organic Impressions → Web Sessions,0,0.28383
+Organic Impressions → Web Sessions,1,0.234238
+Organic Impressions → Web Sessions,2,0.219253
+Organic Impressions → Web Sessions,3,0.249109
+Organic Impressions → Web Sessions,4,0.238413
+Organic Impressions → Web Sessions,5,0.23923
+Organic Impressions → Web Sessions,6,0.241681
+Organic Impressions → Web Sessions,7,0.23453
+Organic Impressions → Web Sessions,8,0.208834
+Organic Impressions → Web Sessions,9,0.166487
+Organic Impressions → Web Sessions,10,0.198449
+Organic Impressions → Web Sessions,11,0.18789
+Organic Impressions → Web Sessions,12,0.206906
+Organic Impressions → Web Sessions,13,0.22432
+Organic Impressions → Web Sessions,14,0.191511

@@ -1,0 +1,6 @@
+signal_pair,raw_r,residual_r,percent_reduction
+Organic Impressions → Web Sessions,0.28383,0.124986,0.559644857837438
+Paid Social Spend → Ecomm Revenue,0.768349,0.39989,0.4795464040429544
+Web Sessions → Ecomm Revenue,0.830018,0.545205,0.34314075116443254
+Paid Social Spend → Web Sessions,0.938332,0.784591,0.1638449930301855
+Podcast Impressions → Web Sessions,0.142668,0.162221,-0.13705245745366876
