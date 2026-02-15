@@ -1,0 +1,2 @@
+simple_corr,partial_corr,interpretation
+0.39989,-0.033249,"After removing 14-day trends and controlling for residual web sessions, the paid spend to revenue relationship remains negative but is meaningfully weaker after conditioning on sessions."

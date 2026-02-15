@@ -7,6 +7,8 @@ lag_analysis_notes.md, and four correlogram charts (raw + residualized).
 import pathlib
 import numpy as np
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 

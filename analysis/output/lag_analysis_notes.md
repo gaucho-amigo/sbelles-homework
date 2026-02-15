@@ -52,3 +52,10 @@ without over-smoothing. Percent-change residuals were considered but rejected
 due to division-by-zero risk on sparse signals (podcast mentions). Pearson
 correlation is scale-invariant, making absolute residuals appropriate for
 cross-signal comparison.
+
+## Executive Addendum
+
+- Seasonal inflation: At lag 0, raw correlations are materially inflated by shared seasonality. Mean reduction from raw to residualized r is 28.2%.
+- Residual correlation readout: The largest reduction is for Organic Impressions → Web Sessions (56.0%), while the smallest reduction is for Podcast Impressions → Web Sessions (-13.7%).
+- Partial correlation readout: Simple residualized paid-to-revenue correlation is r = 0.40; controlling for residual web sessions yields partial r = -0.03. After removing 14-day trends and controlling for residual web sessions, the paid spend to revenue relationship remains negative but is meaningfully weaker after conditioning on sessions.
+- Limits of correlation: Correlation (including partial correlation) indicates association, not causal lift. Causal impact still requires an explicit identification strategy.

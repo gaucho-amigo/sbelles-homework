@@ -5,6 +5,8 @@ Charts saved as PNGs at 300 DPI to analysis/output/.
 
 import pathlib
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import matplotlib.ticker as mticker
@@ -175,13 +177,13 @@ def chart_web_traffic_grouped(summary):
     wa = _read(WAREHOUSE / "fact_web_analytics" / "fact_web_analytics_daily.csv")
 
     groups = {
-        "Paid Social": ["instagram", "tiktok", "facebook"],
-        "Search (Google)": ["google"],
+        "Paid Social": ["instagram", "tiktok", "facebook", "pinterest"],
+        "Search": ["google", "bing", "yahoo"],
         "Non-Paid (Direct + Email)": ["direct", "email"],
     }
     group_colors = {
         "Paid Social": COLORS["coral"],
-        "Search (Google)": COLORS["amber"],
+        "Search": COLORS["amber"],
         "Non-Paid (Direct + Email)": COLORS["steel_blue"],
     }
 
@@ -197,7 +199,7 @@ def chart_web_traffic_grouped(summary):
     _setup_ax(ax, "Web Sessions by Channel Group (7-Day Rolling Avg)", "Sessions")
     ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"{x:,.0f}"))
     ax.legend(fontsize=9, loc="upper right", framealpha=0.9)
-    _save(fig, "chart_web_traffic_grouped.png")
+    _save(fig, "chart_web_traffic_grouped_clean.png")
 
 
 def chart_seasonal_efficiency(summary):
