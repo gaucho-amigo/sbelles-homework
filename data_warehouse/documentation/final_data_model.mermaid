@@ -1,0 +1,184 @@
+erDiagram
+    dim_date {
+        date date PK
+        string day_of_week
+        int day_of_week_num
+        date week_start_date
+        int month
+        string month_name
+        int quarter
+        int year
+        boolean is_weekend
+        string season_flag
+    }
+
+    dim_geography {
+        int geo_key PK
+        string dma_name
+        string state
+        string zip_code
+        string airport_code
+        string airport_name
+        string geo_scope
+    }
+
+    dim_channel {
+        int channel_key PK
+        string channel_name
+        string channel_group
+        boolean is_paid
+    }
+
+    dim_campaign_initiative {
+        int initiative_key PK
+        string initiative_name
+        string paid_social_campaign_pattern
+        string web_analytics_campaign_value
+        string notes
+    }
+
+    dim_podcast {
+        int podcast_key PK
+        string podcast_name
+        string geo_inferred
+        string geo_state
+    }
+
+    fact_paid_social_daily {
+        date date FK
+        string channel FK
+        string campaign_name
+        string campaign_id
+        string dma_name FK
+        string state
+        float spend
+        int impressions
+        int clicks
+        int video_views
+        int video_25pct
+        int video_50pct
+        int video_75pct
+        int video_completes
+        string optimization_goal
+        string age_target
+        string audience_segment
+    }
+
+    fact_web_analytics_daily {
+        date date FK
+        string traffic_source
+        string traffic_medium
+        string campaign
+        string device_category
+        string dma_name FK
+        int pageviews
+        int sessions
+        int users
+    }
+
+    fact_ecommerce_daily {
+        date date FK
+        string dma_name FK
+        string product_category
+        string size
+        int promo_flag
+        int orders
+        int line_items
+        int total_quantity
+        float gross_revenue
+        float total_discount
+        float total_cost
+        float avg_unit_price
+    }
+
+    fact_organic_social_daily {
+        date date FK
+        int posts
+        int followers_eod
+        int impressions
+        int video_views
+        int video_completes
+        int likes
+        int comments
+        int shares
+        int clicks
+        int saves
+    }
+
+    fact_podcast_daily {
+        date date FK
+        string podcast_name FK
+        string episode_title
+        string host_name
+        int mentions_brand
+        int mentions_founder
+        string sentiment
+        int estimated_impressions
+        float episode_rating
+        int mentions
+    }
+
+    fact_ooh_daily {
+        date date FK
+        string airport_code FK
+        string airport_name
+        string format
+        string audience_segment
+        float spend
+        float impressions
+        int placements
+    }
+
+    fact_ecommerce_transactions {
+        date date FK
+        string order_id
+        string user_id
+        string dma_name FK
+        string state
+        string zip_code
+        string product_category
+        string size
+        int quantity
+        float unit_price
+        float unit_cost
+        float discount_per_unit
+        float line_revenue
+        int promo_flag
+    }
+
+    fact_web_analytics_events {
+        date date FK
+        string event_datetime
+        string user_id
+        string session_id
+        string page_url
+        string traffic_source
+        string traffic_medium
+        string campaign
+        string device_category
+        string dma_name FK
+        string state
+        string zip_code
+    }
+
+    dim_date ||--o{ fact_paid_social_daily : "date"
+    dim_date ||--o{ fact_web_analytics_daily : "date"
+    dim_date ||--o{ fact_ecommerce_daily : "date"
+    dim_date ||--o{ fact_organic_social_daily : "date"
+    dim_date ||--o{ fact_podcast_daily : "date"
+    dim_date ||--o{ fact_ooh_daily : "date"
+    dim_date ||--o{ fact_ecommerce_transactions : "date"
+    dim_date ||--o{ fact_web_analytics_events : "date"
+
+    dim_geography ||--o{ fact_paid_social_daily : "dma_name"
+    dim_geography ||--o{ fact_web_analytics_daily : "dma_name"
+    dim_geography ||--o{ fact_ecommerce_daily : "dma_name"
+    dim_geography ||--o{ fact_ooh_daily : "airport_code"
+    dim_geography ||--o{ fact_ecommerce_transactions : "dma_name"
+    dim_geography ||--o{ fact_web_analytics_events : "dma_name"
+
+    dim_channel ||--o{ fact_paid_social_daily : "channel"
+    dim_podcast ||--o{ fact_podcast_daily : "podcast_name"
+
+    dim_campaign_initiative ||--o{ fact_paid_social_daily : "campaign_name (semantic)"
+    dim_campaign_initiative ||--o{ fact_web_analytics_daily : "campaign (semantic)"

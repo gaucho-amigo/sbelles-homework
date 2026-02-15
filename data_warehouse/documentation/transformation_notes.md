@@ -1,7 +1,6 @@
 # S'Belles Data Warehouse — Transformation Notes
 
-> Phase 2 pipeline documentation. Covers every transformation decision
-> so a reader can understand the data warehouse without opening the code.
+This document describes every transformation applied to raw source data to produce the data warehouse tables. Each section covers a specific transformation decision — what was observed in the source data, what action was taken, and why. A reader should be able to understand every decision made during the ETL pipeline without opening the code.
 
 ---
 
@@ -139,6 +138,14 @@ The last `week_start_date` in the raw data is 2024-06-24. Expanding 7
 days forward produces dates through 2024-06-30, which stays within the
 warehouse boundary. The `validate_date_range` check in the pipeline
 confirms no dates exceed 2024-06-30.
+
+### Airport state enrichment
+
+Each OOH row is enriched with a `state` column by joining
+`airport_code` to `reference/airport_lookup.csv` (sourced from the
+OurAirports open dataset). All 20 airports match successfully. This
+enables geographic analysis alongside local (GA) streams via
+`dim_geography`.
 
 ### Scale
 
