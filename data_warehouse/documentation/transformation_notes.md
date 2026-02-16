@@ -142,7 +142,7 @@ confirms no dates exceed 2024-06-30.
 ### Airport state enrichment
 
 Each OOH row is enriched with a `state` column by joining
-`airport_code` to `reference/airport_lookup.csv` (sourced from the
+`airport_code` to `reference_data/airport_lookup.csv` (sourced from the
 OurAirports open dataset). All 20 airports match successfully. This
 enables geographic analysis alongside local (GA) streams via
 `dim_geography`.

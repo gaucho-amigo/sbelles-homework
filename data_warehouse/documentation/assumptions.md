@@ -44,9 +44,9 @@ Every judgment call made during the design, transformation, and analysis of the 
 
 ## Geographic Assumptions
 
-14. **Digital marketing (paid social, web analytics, ecommerce) covers Georgia only** across 5 DMAs: Albany GA, Atlanta GA, Augusta-Aiken, Macon GA, Savannah GA.
+14. **Digital marketing (paid social, web analytics, ecommerce) covers Georgia only** across 5 DMAs: Atlanta GA, Augusta GA, Columbus GA, Macon GA, Savannah GA.
 
-15. **OOH covers 20 national airports.** Airport-to-state mapping sourced from OurAirports open dataset via `reference/airport_lookup.csv`. All 20 airports matched successfully.
+15. **OOH covers 20 national airports.** Airport-to-state mapping sourced from OurAirports open dataset via `reference_data/airport_lookup.csv`. All 20 airports matched successfully.
 
 16. **Podcast geography inferred from podcast names:** 3 podcasts tagged "explicit" Georgia reference (Carpool Chronicles GA, Mom Life in the ATL, Peach State Parenting), 2 tagged "unknown" (Suburban Style Chats, Teen Trend Watch). Founder mention presence does not differentiate geography — all 5 podcasts have founder mentions.
 

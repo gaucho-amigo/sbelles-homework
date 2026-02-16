@@ -18,7 +18,7 @@
 
 - **Unique DMAs per stream:** 5 in each (paid_social, web_traffic, transactions)
 - **Near-match/formatting issues:** None detected
-- **Schema implication:** `dma_name` can be used as a direct join key across streams with no transformation. A `dim_dma` table is straightforward.
+- **Schema implication:** `dma_name` can be used as a direct join key across streams with no transformation. In the implemented model, these values roll into `dim_geography` rather than a separate `dim_dma` table.
 
 ---
 

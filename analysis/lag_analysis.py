@@ -172,19 +172,20 @@ def _build_notes(raw_df, resid_df):
 
 ## Raw Cross-Correlations
 
-All five signal pairs show highest Pearson correlation at lag 0, declining
-monotonically with increasing lag. Paid social spend and web sessions correlate
-at r = {raw_ps_ws:.2f} at lag 0. This pattern is consistent with shared seasonal response
-(back-to-school, Black Friday/holiday) rather than day-level causal signal flow.
+Most signal pairs peak at lag 0, but not all patterns are monotonic with lag.
+Paid social spend and web sessions correlate at r = {raw_ps_ws:.2f} at lag 0.
+This pattern is consistent with strong shared seasonal response
+(back-to-school, Black Friday/holiday) plus additional noise in weaker channels.
 
 {chr(10).join(raw_lines)}
 
 ## Deseasonalized Cross-Correlations
 
 After removing a 14-day centered rolling mean from each signal, correlations
-drop substantially across all pairs. The residualized correlations are much
-weaker, confirming that the raw correlations were dominated by seasonal
-co-movement rather than short-term causal dynamics.
+drop for most pairs. Residualized relationships are generally weaker, though
+some weak pairs can move slightly higher at lag 0 after residualization.
+Overall, this supports that raw correlations were heavily influenced by
+seasonal co-movement rather than short-term causal dynamics.
 
 {chr(10).join(resid_lines)}
 

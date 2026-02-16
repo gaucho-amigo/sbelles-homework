@@ -50,11 +50,11 @@
 | campaign | campaign | Group-by key | Nullable; ~16% null = direct/organic traffic; preserved as-is |
 | device_category | device_category | Group-by key | Values: desktop, mobile, tablet |
 | dma_name | dma_name | Group-by key | 5 GA DMAs |
+| state | state | Group-by key | Always "GA" in this dataset; retained for schema consistency |
 | *(all rows)* | pageviews | Aggregate: COUNT(*) | Count of event rows per group |
 | session_id | sessions | Aggregate: COUNT(DISTINCT) | Distinct sessions per group |
 | user_id | users | Aggregate: COUNT(DISTINCT) | Distinct users per group |
-| state | *(not in target)* | Dropped | Always "GA"; redundant with dma_name for this dataset |
-| zip_code | *(not in target)* | Dropped | Available in dim_geography via dma_name lookup if needed |
+| zip_code | *(not in target)* | Dropped | Not included in daily grain; preserved in `fact_web_analytics_events` |
 | page_url | *(not in target)* | Dropped | Aggregated away; page-level detail not in daily grain |
 
 **Deduplication detail:** The Q3Q4 2023 file covers through 2023-12-31 and the Q1 2024 file starts at 2023-12-01. All 3,072 December 2023 rows in the Q1 2024 file are exact duplicates of rows in the Q3Q4 file. Drop December 2023 rows from the Q1 2024 file before concatenation.
@@ -71,6 +71,7 @@
 |---|---|---|---|
 | order_datetime | date | Extract date portion | Cast datetime to DATE for grouping |
 | dma_name | dma_name | Group-by key | 5 GA DMAs |
+| state | state | Group-by key | Always "GA" in this dataset; retained for schema consistency |
 | product_category | product_category | Group-by key | Values: Girls Bottoms, Girls Dresses, Girls Tops |
 | size | size | Group-by key | Values: XS (4-5), S (6-7), M (8-10), L (12-14) |
 | promo_flag | promo_flag | Group-by key | Values: 0, 1 |
@@ -81,8 +82,7 @@
 | discount_per_unit, quantity | total_discount | Aggregate: SUM(discount_per_unit * quantity) | Total discount dollars per group |
 | unit_cost, quantity | total_cost | Aggregate: SUM(unit_cost * quantity) | Total product cost per group |
 | unit_price | avg_unit_price | Aggregate: MEAN | Average selling price per group |
-| state | *(not in target)* | Dropped | Always "GA"; redundant |
-| zip_code | *(not in target)* | Dropped | Available in dim_geography if needed |
+| zip_code | *(not in target)* | Dropped | Not included in daily grain; preserved in `fact_ecommerce_transactions` |
 | user_id | *(not in target)* | Dropped | Aggregated away; user-level detail not in daily grain |
 
 **Data quality note:** 105 rows (0.6%) have negative `line_revenue` where `discount_per_unit` ($20) exceeds `unit_price` ($19). These flow into `gross_revenue` as-is. The `promo_flag` and `discount_per_unit > 0` have perfect 1:1 correlation — both columns are retained.

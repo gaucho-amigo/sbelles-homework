@@ -30,21 +30,21 @@ Standard date dimension spanning the full analysis period with no gaps.
 | Value | Date Range | Rationale |
 |---|---|---|
 | back_to_school | July 15 – September 15 (inclusive) | Aligns with BTS campaign timing in paid social data |
-| black_friday_holiday | November 15 – December 7 (inclusive) | Covers Black Friday through early December holiday push |
+| black_friday_holiday | November 15 – December 10 (inclusive) | Covers Black Friday through early December holiday push |
 | regular | All other dates | Default non-seasonal period |
 
 ---
 
 ### 1.2 dim_geography
 
-Conformed geography dimension consolidating all unique geographic entities across all six data streams. Uses a surrogate key because no single natural key spans all streams.
+Conformed geography dimension consolidating unique geographic entities across geography-bearing streams (paid social, web analytics, ecommerce, podcast, and OOH). Uses a surrogate key because no single natural key spans all streams.
 
 | Column | Data Type | Description | Derivation |
 |---|---|---|---|
 | geo_key | INT | Primary key (surrogate, auto-increment) | Generated during ETL |
 | dma_name | VARCHAR (nullable) | Designated Market Area name | Direct from paid_social, web_analytics, ecommerce `dma_name` column |
-| state | VARCHAR (nullable) | Two-letter state abbreviation | Direct from paid_social, web_analytics, ecommerce `state` column; hardcoded lookup for OOH airports |
-| zip_code | VARCHAR (nullable) | ZIP code (web/ecommerce only) | Direct from web_analytics and ecommerce `zip_code` column; null for all other streams |
+| state | VARCHAR (nullable) | Two-letter state abbreviation | Direct from paid_social, web_analytics, ecommerce `state` column; airport lookup join for OOH airports |
+| zip_code | VARCHAR (nullable) | ZIP code (reserved for finer geographic granularity) | Column retained in schema but currently null for all rows in this deliverable |
 | airport_code | VARCHAR (nullable) | IATA airport code (OOH only) | Direct from OOH `airport_code` column; null for all other streams |
 | airport_name | VARCHAR (nullable) | Full airport name (OOH only) | Direct from OOH `airport_name` column; null for all other streams |
 | geo_scope | VARCHAR | Geographic scope classification | Rule-based (see below) |
@@ -57,7 +57,7 @@ Conformed geography dimension consolidating all unique geographic entities acros
 | national | OOH airport rows | 20 airports across the US; national campaign footprint |
 | inferred | Podcast rows | Geography inferred from podcast name; see dim_podcast |
 
-**OOH airport-to-state hardcoded mapping:**
+**OOH airport-to-state lookup mapping:**
 
 | airport_code | airport_name | state |
 |---|---|---|
@@ -215,7 +215,7 @@ Daily paid social advertising metrics across Instagram, Pinterest, and TikTok.
 
 Daily web traffic metrics aggregated from event-level pageview data.
 
-**Grain:** One row per (date, traffic_source, traffic_medium, campaign, device_category, dma_name)
+**Grain:** One row per (date, traffic_source, traffic_medium, campaign, device_category, dma_name, state)
 
 **Source files:** 4 files — web_traffic_2023_Q1_Q2, web_traffic_2023_Q3_Q4, web_traffic_2024_Q1, web_traffic_2024_Q2
 
@@ -229,6 +229,7 @@ Daily web traffic metrics aggregated from event-level pageview data.
 | campaign | VARCHAR (nullable) | Campaign tag | Direct from source `campaign`; null for ~16% of traffic (direct/organic) |
 | device_category | VARCHAR | Device type (desktop, mobile, tablet) | Direct from source `device_category` |
 | dma_name | VARCHAR | Designated Market Area (FK to dim_geography via lookup) | Direct from source `dma_name` |
+| state | VARCHAR | State abbreviation | Direct from source `state` |
 | pageviews | INT | Count of pageview events | COUNT(*) of events in group |
 | sessions | INT | Distinct sessions | COUNT(DISTINCT session_id) in group |
 | users | INT | Distinct users | COUNT(DISTINCT user_id) in group |
@@ -246,7 +247,7 @@ Daily web traffic metrics aggregated from event-level pageview data.
 
 Daily e-commerce transaction metrics aggregated from line-item-level data.
 
-**Grain:** One row per (date, dma_name, product_category, size, promo_flag)
+**Grain:** One row per (date, dma_name, state, product_category, size, promo_flag)
 
 **Source files:** 3 files — transactions_2023_Q1_Q2, transactions_2023_Q3_Q4, transactions_2024_Q1_Q2
 
@@ -256,6 +257,7 @@ Daily e-commerce transaction metrics aggregated from line-item-level data.
 |---|---|---|---|
 | date | DATE | Order date (FK to dim_date) | Extracted from `order_datetime` (date portion) |
 | dma_name | VARCHAR | Designated Market Area (FK to dim_geography via lookup) | Direct from source `dma_name` |
+| state | VARCHAR | State abbreviation | Direct from source `state` |
 | product_category | VARCHAR | Product category (Girls Bottoms, Girls Dresses, Girls Tops) | Direct from source `product_category` |
 | size | VARCHAR | Product size (XS, S, M, L) | Direct from source `size` |
 | promo_flag | INT | Whether a promotion was applied (0/1) | Direct from source `promo_flag` |

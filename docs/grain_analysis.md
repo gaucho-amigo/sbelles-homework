@@ -53,7 +53,7 @@ Each row represents a single pageview event. The key `(event_datetime, user_id, 
 | Q3Q4 2023 ↔ Q1 2024 | **3,072 rows** (December 2023 — 31 days) |
 | All other file pairs | 0 |
 
-The Q3Q4 2023 file covers 2023-07-01 to 2023-12-31. The Q1 2024 file covers **2023-12-01** to 2024-03-31 — it starts a month early. 2,534 of the 3,072 overlapping rows are byte-identical. The remaining 538 rows share the same key but may differ in other columns. **Deduplication required during ETL.**
+The Q3Q4 2023 file covers 2023-07-01 to 2023-12-31. The Q1 2024 file covers **2023-12-01** to 2024-03-31 — it starts a month early. All 3,072 overlapping December rows are byte-identical across all columns. **Deduplication required during ETL.**
 
 **Session/user volume (sample days):**
 

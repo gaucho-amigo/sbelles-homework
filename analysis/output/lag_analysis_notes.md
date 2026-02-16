@@ -2,10 +2,11 @@
 
 ## Raw Cross-Correlations
 
-All five signal pairs show highest Pearson correlation at lag 0, declining
-monotonically with increasing lag. Paid social spend and web sessions correlate
-at r = 0.94 at lag 0. This pattern is consistent with shared seasonal response
-(back-to-school, Black Friday/holiday) rather than day-level causal signal flow.
+Most signal pairs peak at lag 0, but not all patterns are monotonic with lag.
+Paid social spend and web sessions correlate at r = 0.94 at lag 0, while the
+podcast-impressions pair peaks at lag 14 in the raw view. This is consistent
+with strong shared seasonal response (back-to-school, Black Friday/holiday)
+plus additional noise in weaker channels.
 
 - Paid Social Spend → Web Sessions: r = 0.94 at lag 0, peak |r| = 0.94 at lag 0d
 - Paid Social Spend → Ecomm Revenue: r = 0.77 at lag 0, peak |r| = 0.77 at lag 0d
@@ -16,9 +17,10 @@ at r = 0.94 at lag 0. This pattern is consistent with shared seasonal response
 ## Deseasonalized Cross-Correlations
 
 After removing a 14-day centered rolling mean from each signal, correlations
-drop substantially across all pairs. The residualized correlations are much
-weaker, confirming that the raw correlations were dominated by seasonal
-co-movement rather than short-term causal dynamics.
+drop for most pairs. Residualized relationships are generally weaker, though
+podcast-impressions vs web-sessions is slightly higher at lag 0 after
+residualization. Overall, this supports the view that raw correlations were
+heavily influenced by seasonal co-movement.
 
 - Paid Social Spend → Web Sessions: r = 0.78 at lag 0, peak |r| = 0.78 at lag 0d
 - Paid Social Spend → Ecomm Revenue: r = 0.40 at lag 0, peak |r| = 0.40 at lag 0d

@@ -19,7 +19,7 @@ This document is the primary reference for anyone consuming the S'Belles marketi
 | quarter | integer | Quarter number (1–4) | No | derived |
 | year | integer | Four-digit year | No | derived |
 | is_weekend | boolean | True if Saturday or Sunday | No | derived |
-| season_flag | string | Seasonal marketing period: back_to_school (Jul 15–Sep 15), black_friday_holiday (Nov 15–Dec 7), or regular | No | derived |
+| season_flag | string | Seasonal marketing period: back_to_school (Jul 15–Sep 15), black_friday_holiday (Nov 15–Dec 10), or regular | No | derived |
 
 **Grain:** One row per calendar date.
 
@@ -38,7 +38,7 @@ This document is the primary reference for anyone consuming the S'Belles marketi
 | *(generated)* | quarter | Derived from month |
 | *(generated)* | year | Extracted from date |
 | *(generated)* | is_weekend | Derived from day_of_week_num (6 or 7 = True) |
-| *(generated)* | season_flag | Rule-based: Jul 15–Sep 15 = back_to_school, Nov 15–Dec 7 = black_friday_holiday, else regular |
+| *(generated)* | season_flag | Rule-based: Jul 15–Sep 15 = back_to_school, Nov 15–Dec 10 = black_friday_holiday, else regular |
 
 **Data quality notes:** No issues. Complete 547-day date spine with no gaps.
 
@@ -51,14 +51,14 @@ This document is the primary reference for anyone consuming the S'Belles marketi
 | geo_key | integer | Surrogate primary key | No | generated |
 | dma_name | string | Designated Market Area name | Yes — null for OOH and podcast rows which have no DMA | raw |
 | state | string | Two-letter state abbreviation | Yes — null for 2 podcasts with unknown geography | reference |
-| zip_code | string | ZIP code | Yes — only populated for web/ecommerce rows | raw |
+| zip_code | string | ZIP code (reserved for finer geographic granularity) | Yes — currently null for all rows in this deliverable | raw |
 | airport_code | string | IATA airport code | Yes — only populated for OOH rows | raw |
 | airport_name | string | Full airport name | Yes — only populated for OOH rows | raw |
 | geo_scope | string | Geographic scope: local (GA digital/ecommerce), national (OOH airports), or inferred (podcast) | No | derived |
 
 **Grain:** One row per unique geographic entity across all data streams.
 
-**Source files:** All 21 source CSVs contribute geographic entities. OOH airport-to-state mapping from `reference/airport_lookup.csv` (OurAirports open dataset).
+**Source files:** Geography-bearing source CSVs (paid social, web analytics, ecommerce, podcast, OOH) contribute entities. OOH airport-to-state mapping from `reference_data/airport_lookup.csv` (OurAirports open dataset).
 
 **Source-to-Target Field Mapping:**
 
@@ -66,8 +66,8 @@ This document is the primary reference for anyone consuming the S'Belles marketi
 |---|---|---|
 | *(generated)* | geo_key | Auto-increment surrogate key |
 | dma_name | dma_name | Direct from paid_social, web_analytics, ecommerce sources; null for OOH and podcast |
-| state | state | Direct from paid_social, web_analytics, ecommerce; hardcoded lookup for OOH airports; inferred from podcast name for podcast |
-| zip_code | zip_code | Direct from web_analytics and ecommerce; null for all other streams |
+| state | state | Direct from paid_social, web_analytics, ecommerce; airport lookup join for OOH airports; inferred from podcast name for podcast |
+| zip_code | zip_code | Column retained for future ZIP-level integration; currently null for all rows |
 | airport_code | airport_code | Direct from OOH source; null for all other streams |
 | airport_name | airport_name | Direct from OOH source; null for all other streams |
 | *(derived)* | geo_scope | Rule-based: "local" for GA digital/ecommerce rows, "national" for OOH airport rows, "inferred" for podcast rows |
@@ -224,11 +224,12 @@ This document is the primary reference for anyone consuming the S'Belles marketi
 | campaign | string | Campaign tag | Yes — null for ~16% of traffic representing direct/organic with no campaign attribution | raw |
 | device_category | string | Device type (desktop, mobile, tablet) | No | raw |
 | dma_name | string | Designated Market Area | No | raw |
+| state | string | State abbreviation (always GA in this dataset) | No | raw |
 | pageviews | integer | Count of pageview events | No | aggregated |
 | sessions | integer | Count of distinct sessions | No | aggregated |
 | users | integer | Count of distinct users | No | aggregated |
 
-**Grain:** One row per (date, traffic_source, traffic_medium, campaign, device_category, dma_name).
+**Grain:** One row per (date, traffic_source, traffic_medium, campaign, device_category, dma_name, state).
 
 **Source files:** `sBelles_web_traffic_2023_Q1_Q2.csv`, `sBelles_web_traffic_2023_Q3_Q4.csv`, `sBelles_web_traffic_2024_Q1.csv`, `sBelles_web_traffic_2024_Q2.csv`
 
@@ -242,10 +243,10 @@ This document is the primary reference for anyone consuming the S'Belles marketi
 | campaign | campaign | Group-by key, pass-through; null values preserved as-is |
 | device_category | device_category | Group-by key, pass-through |
 | dma_name | dma_name | Group-by key, pass-through |
+| state | state | Group-by key, pass-through |
 | *(all rows)* | pageviews | COUNT(*) of events per group |
 | session_id | sessions | COUNT(DISTINCT session_id) per group |
 | user_id | users | COUNT(DISTINCT user_id) per group |
-| state | *(dropped)* | Always "GA"; redundant with dma_name |
 | zip_code | *(dropped)* | Aggregated away; available in dim_geography |
 | page_url | *(dropped)* | Aggregated away; page-level detail not in daily grain |
 
@@ -259,6 +260,7 @@ This document is the primary reference for anyone consuming the S'Belles marketi
 |---|---|---|---|---|
 | date | date | Order date | No | derived |
 | dma_name | string | Designated Market Area | No | raw |
+| state | string | State abbreviation (always GA in this dataset) | No | raw |
 | product_category | string | Product category (Girls Bottoms, Girls Dresses, Girls Tops) | No | raw |
 | size | string | Product size (XS, S, M, L) | No | raw |
 | promo_flag | integer | Whether a promotion was applied (0/1) | No | raw |
@@ -270,7 +272,7 @@ This document is the primary reference for anyone consuming the S'Belles marketi
 | total_cost | float | Total product cost | No | aggregated |
 | avg_unit_price | float | Average unit selling price (unweighted mean across line items) | No | aggregated |
 
-**Grain:** One row per (date, dma_name, product_category, size, promo_flag).
+**Grain:** One row per (date, dma_name, state, product_category, size, promo_flag).
 
 **Source files:** `sBelles_transactions_2023_Q1_Q2.csv`, `sBelles_transactions_2023_Q3_Q4.csv`, `sBelles_transactions_2024_Q1_Q2.csv`
 
@@ -280,6 +282,7 @@ This document is the primary reference for anyone consuming the S'Belles marketi
 |---|---|---|
 | order_datetime | date | Extracted date portion from order_datetime, truncated to DATE |
 | dma_name | dma_name | Group-by key, pass-through |
+| state | state | Group-by key, pass-through |
 | product_category | product_category | Group-by key, pass-through |
 | size | size | Group-by key, pass-through |
 | promo_flag | promo_flag | Group-by key, pass-through |
@@ -290,7 +293,6 @@ This document is the primary reference for anyone consuming the S'Belles marketi
 | discount_per_unit, quantity | total_discount | SUM(discount_per_unit * quantity) per group |
 | unit_cost, quantity | total_cost | SUM(unit_cost * quantity) per group |
 | unit_price | avg_unit_price | MEAN(unit_price) per group (unweighted) |
-| state | *(dropped)* | Always "GA"; redundant |
 | zip_code | *(dropped)* | Aggregated away; available in dim_geography |
 | user_id | *(dropped)* | Aggregated away; user-level detail not in daily grain |
 
