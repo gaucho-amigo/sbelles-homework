@@ -81,3 +81,5 @@ Decisions about cross-channel linkage and statistical methods.
 24. **Deseasonalization uses simple subtraction, not percent change.** Observed value minus 14-day centered rolling mean trend. Subtraction avoids division-by-zero on sparse signals like podcast (many days with zero impressions).
 
 25. **Correlations identify association, not causation.** Establishing causal impact requires entropy-based or structural causal methods (e.g., Granger causality, do-calculus) beyond the scope of this analysis. The lag correlations are signal candidates for a proper causal model, not causal claims.
+
+26. **Geographic scope mismatch between spend and revenue.** Revenue data represents Georgia DMA ecommerce activity only. OOH spend represents national airport advertising across 20 states. No geographic normalization was applied to reconcile scope differences. The assignment required daily temporal normalization but did not require regional spend reconciliation. Georgia-specific comparison: $6M paid social spend vs. $498K tracked revenue.
