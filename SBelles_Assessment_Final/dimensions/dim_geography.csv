@@ -1,0 +1,31 @@
+geo_key,dma_name,state,zip_code,airport_code,airport_name,geo_scope
+1,"Atlanta, GA",GA,,,,local
+2,"Augusta, GA",GA,,,,local
+3,"Columbus, GA",GA,,,,local
+4,"Macon, GA",GA,,,,local
+5,"Savannah, GA",GA,,,,local
+6,,GA,,ATL,Hartsfield–Jackson Atlanta International Airport,national
+7,,CA,,LAX,Los Angeles International Airport,national
+8,,IL,,ORD,Chicago O'Hare International Airport,national
+9,,TX,,DFW,Dallas/Fort Worth International Airport,national
+10,,CO,,DEN,Denver International Airport,national
+11,,NY,,JFK,John F. Kennedy International Airport,national
+12,,CA,,SFO,San Francisco International Airport,national
+13,,WA,,SEA,Seattle–Tacoma International Airport,national
+14,,NV,,LAS,Harry Reid International Airport,national
+15,,FL,,MCO,Orlando International Airport,national
+16,,NC,,CLT,Charlotte Douglas International Airport,national
+17,,FL,,MIA,Miami International Airport,national
+18,,AZ,,PHX,Phoenix Sky Harbor International Airport,national
+19,,TX,,IAH,George Bush Intercontinental Airport,national
+20,,MA,,BOS,Logan International Airport,national
+21,,MN,,MSP,Minneapolis–Saint Paul International Airport,national
+22,,MI,,DTW,Detroit Metropolitan Airport,national
+23,,PA,,PHL,Philadelphia International Airport,national
+24,,NY,,LGA,LaGuardia Airport,national
+25,,MD,,BWI,Baltimore/Washington International Airport,national
+26,,GA,,,,inferred
+27,,GA,,,,inferred
+28,,GA,,,,inferred
+29,,,,,,inferred
+30,,,,,,inferred
