@@ -210,6 +210,10 @@ enables geographic analysis alongside local (GA) streams via
 
 1,560 weekly rows → 10,920 daily rows (7x expansion confirmed).
 
+### Geographic scope note
+
+No geographic down-weighting or proportional allocation was applied to OOH spend relative to Georgia-only revenue. The assignment required daily normalization but did not require regional spend reconciliation. OOH spend is preserved at its full national value in fact_ooh_daily. Downstream analysis should account for the geographic scope difference when comparing OOH spend to Georgia-only ecommerce revenue.
+
 ---
 
 ## 5. Ecommerce Negative Revenue

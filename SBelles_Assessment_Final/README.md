@@ -57,3 +57,7 @@ The assignment specification suggests flat datastream folders. This submission u
 1. **Cross-channel joins**: Conformed dimensions (`dim_date`, `dim_geography`) enable cross-channel analysis that flat, isolated folders cannot express. Every fact table joins to shared dimensional keys.
 2. **Production alignment**: The structure mirrors how the data would be organized in a production analytical warehouse, making it immediately usable by downstream tools (BI platforms, causal models, MMM pipelines).
 3. **Downstream readiness**: Causal models and media mix models require channel-separated, temporally aligned inputs with shared dimensional keys — exactly what this structure provides.
+
+**Geographic Scope Note**
+
+OOH airport advertising spans 20 U.S. airports (national reach), while ecommerce and web activity are limited to Georgia DMAs. This geographic scope mismatch likely contributes to the observed spend-revenue discrepancy and limits direct attribution interpretation without regional normalization.
