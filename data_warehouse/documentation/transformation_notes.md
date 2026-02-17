@@ -4,6 +4,65 @@ This document describes every transformation applied to raw source data to produ
 
 ---
 
+## 0. End-to-End Example: Paid Social Pipeline
+
+This section walks through one complete transformation from raw files to final output, illustrating every step the pipeline applies. The paid social stream is chosen because it demonstrates schema drift resolution, union, validation, and financial reconciliation in a single pass.
+
+### Input: 9 Raw CSV Files
+
+| File | Rows | Columns | Schema Notes |
+|---|---|---|---|
+| sBelles_paid_instagram_part1.csv | 2,735 | 17 | Standard schema |
+| sBelles_paid_instagram_part2.csv | 2,735 | 17 | Standard schema |
+| sBelles_paid_instagram_part3_schema_drift.csv | 2,735 | 18 | Extra spend_currency column; spend renamed to spend_usd |
+| sBelles_paid_pinterest_part1_schema_drift.csv | 2,735 | 15 | link_clicks instead of clicks; missing video_25pct and video_50pct |
+| sBelles_paid_pinterest_part2.csv | 2,735 | 17 | Standard schema |
+| sBelles_paid_pinterest_part3.csv | 2,735 | 17 | Standard schema |
+| sBelles_paid_tiktok_part1.csv | 2,735 | 17 | Standard schema |
+| sBelles_paid_tiktok_part2_schema_drift.csv | 2,735 | 16 | views instead of video_views; missing optimization_goal |
+| sBelles_paid_tiktok_part3.csv | 2,735 | 17 | Standard schema |
+
+**Total input:** 24,615 rows across 9 files.
+
+### Step 1: Schema Drift Resolution
+
+Three files have non-standard schemas. The pipeline detects the filename and applies targeted fixes:
+
+| File | Issue | Resolution | Result |
+|---|---|---|---|
+| instagram_part3 | `spend_usd` instead of `spend`; extra `spend_currency` column (all values "USD") | Rename `spend_usd` → `spend`; drop `spend_currency` | 17 columns matching standard schema |
+| pinterest_part1 | `link_clicks` instead of `clicks`; missing `video_25pct` and `video_50pct` | Rename `link_clicks` → `clicks`; add `video_25pct` and `video_50pct` as NULL | 17 columns matching standard schema |
+| tiktok_part2 | `views` instead of `video_views`; missing `optimization_goal` | Rename `views` → `video_views`; add `optimization_goal` as NULL | 17 columns matching standard schema |
+
+After resolution, all 9 files share an identical 17-column schema.
+
+### Step 2: Union
+
+Concatenate all 9 DataFrames in sequence.
+
+- **Result:** 24,615 rows, 17 columns.
+- No aggregation — source grain (one row per date × channel × campaign_id × DMA) equals the target grain.
+
+### Step 3: Validation
+
+Three checks confirm correctness:
+
+1. **Grain uniqueness:** Every row is unique on (date, channel, campaign_id, dma_name). Zero duplicates found.
+2. **Date range:** All dates fall within 2023-01-01 to 2024-06-30. Within bounds.
+3. **Financial reconciliation:** Total spend in the output ($5,986,609.08) matches the sum of spend across all 9 raw source files to the penny.
+
+### Step 4: Output
+
+- **Written to:** `SBelles_Assessment_Final/paid_social/fact_paid_social_daily.csv`
+- **Shape:** 24,615 rows, 17 columns
+- **Nullable columns from schema drift:**
+  - `video_25pct` — 2,735 nulls from Pinterest part1 (column absent from source)
+  - `video_50pct` — 2,735 nulls from Pinterest part1 (column absent from source)
+  - `optimization_goal` — 2,735 nulls from TikTok part2 (column absent from source)
+- **All other columns:** Fully populated, no nulls.
+
+---
+
 ## 1. Schema Drift Resolution
 
 Three of the nine paid social source files had non-standard schemas.
